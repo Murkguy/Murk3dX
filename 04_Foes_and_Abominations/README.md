@@ -1,58 +1,23 @@
-# CHAPTER 4: FOES & ABOMINATIONS
+# ADVERSARY RULES
 
-> "If it speaks, shoot it until it stops speaking. If it screams, burn it until it stops screaming." 
-> — Field Manual, 4th Legion
+Enemies in *The Murk* are classified by Threat Tier, not just HP.
 
-In *The Murk*, enemies are divided into two distinct categories:
-1.  **FOES:** Humanoid combatants, rival scavengers, and soldiers. They fight with tactics, use cover, and can be broken psychologically.
-2.  **ABOMINATIONS:** Creatures of the Murk, undead, and cosmic horrors. They ignore pain, break physics, and cause Stress just by existing.
+## TIER 1: THE MOB (Minions)
+* **Examples:** Zombies, Conscripts, Murk-Rats.
+* **Health:** 1 Hit (Mob Size). Any successful attack kills one.
+* **Turn Order:** Always act Last (The Slow Slot).
+* **Swarm Rule:** They auto-hit if they swarm a target. The player must roll an Avoidance Save (DR 12) or take damage.
 
----
+## TIER 2: THE ELITE (Standard)
+* **Examples:** House Guards, Murk-Beasts, Assassins.
+* **Health:** Relies on Injury Rolls.
+* **Rule of One:** If they fail an Injury Roll, they are taken out immediately. They do not have a full Suffering track.
+* **Tactics:** They use Cover and specialized abilities.
 
-## CLASSIFICATION (THREAT LEVELS)
-
-### 1. MINIONS (d4)
-*Cannon fodder. Individually weak, dangerous in groups.*
-* **Health:** 1 Hit (Any successful attack kills them).
-* **Damage:** 1 Damage (Fixed).
-* **Tactic:** They swarm. If 3+ Minions attack the same target, they roll with **Advantage**.
-
-### 2. ELITES (d8)
-*Professional soldiers or large beasts. The standard combatant.*
-* **Health:** 3 Hits (Requires 3 successful attacks to kill).
-* **Damage:** d6 Damage.
-* **Armor:** Usually 1-2 Hardness.
-* **Tactic:** They use Cover and special abilities.
-
-### 3. BOSSES (d12)
-*Apex predators or Warlords. A scene-ending threat.*
-* **Health:** Special (10+ or Segmented Health Bars).
-* **Damage:** d8 or d10 Damage.
-* **Actions:** 2 Actions per Turn.
-* **Weakness:** Usually immune to standard damage unless a specific Weakness is exploited (e.g., Fire, Holy Light, Explosives).
-
----
-
-## READING A STAT BLOCK
-
-**NAME [TYPE]**
-* **Threat:** [Minion / Elite / Boss]
-* **Dice Pool:** [Dice Size] (Used for Attacks and Defense)
-* **Armor:** [Hardness Rating]
-* **Move:** [Zone Speed]
-
-**ATTACKS**
-* **Weapon Name:** (Range) [Damage Formula]
-* *Special Effect:* (e.g., "On a hit, target is Knocked Down")
-
-**ABILITIES**
-* **Ability Name:** Passive or Active effect.
-* *Example: "Terrifying - Characters must make a Spirit Save to enter Near Range."*
-
----
-
-## INDEX
-
-* **[The Human Factions](foes.md)** - Guilders, The Imperial Remnant, Scavengers.
-* **[The Murk-Born](abominations.md)** - Husks, Shriekers, The Hollow.
-* **[The Cosmic](horrors.md)** - Entities that defy classification.
+## TIER 3: THE VILLAIN (Boss)
+* **Examples:** The Fallen Prince, The Lich, The Apex Predator.
+* **Health:** Full Stress Track & Suffering Ranks (Just like a Player).
+* **Villain Points:** They have a pool of points equal to the number of Players.
+    * *Interrupt:* Act out of turn.
+    * *Reroll:* Reroll a failed save.
+    * *Escape:* Automatically flee the scene to survive.
