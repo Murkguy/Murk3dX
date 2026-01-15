@@ -7,9 +7,36 @@
     <link rel="stylesheet" href="https://pages-themes.github.io/slate/assets/css/style.css">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ '/favicon.png' | relative_url }}">
     <title>{{ page.title | default: site.title }}</title>
+    
+    <style>
+      body, p, li, ul, ol, td, th {
+        color: #e6e6e6 !important; /* Forces almost-white text */
+      }
+      h1, h2, h3, h4, h5, h6 {
+        color: #b5e853 !important; /* Forces the Slate Green for headers */
+        font-weight: bold;
+      }
+      a {
+        color: #b5e853 !important; /* Green links */
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      blockquote {
+        color: #ccc !important;
+        border-left: 4px solid #b5e853 !important;
+      }
+      strong, b {
+        color: #fff !important; /* Bright white for bold text */
+      }
+      code {
+        background-color: #333 !important;
+        color: #f8f8f2 !important;
+      }
+    </style>
   </head>
- <body>
-    <h1 style="color: red; background: yellow; z-index: 9999;">TEST: CAN YOU SEE ME?</h1>
+  <body>
     <div class="wrapper">
       <header>
         <h1><a href="{{ '/' | relative_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
@@ -53,3 +80,4 @@
     </div>
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
   </body>
+</html>
