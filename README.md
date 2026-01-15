@@ -45,27 +45,25 @@ You have a single health bar called **Stress**. It measures physical damage, but
 
 ## BOOK I: CORE RULES
 * [Chapter 1: The World That Remains](01_Core_Rules/README.md)
-* [Chapter 2: The Economy of Survival (Potential)](01_Core_Rules/chapter_2_economy.md)
-* [Chapter 3: Conflict & Hazards](01_Core_Rules/chapter_3_conflict.md)
-* [Chapter 4: Health & Suffering](01_Core_Rules/chapter_4_health.md)
-* [Chapter 5: Social Dynamics](01_Core_Rules/chapter_6_social.md)
+* [Chapter 3: Conflict & Hazards](11_Conflict and Hazards/README.md)
+* [Chapter 4: Health & Suffering](11_Conflict and Hazards/HAZARDS.md)
+* [Chapter 5: Social Dynamics](11_Conflict and Hazards/SOCIAL_RULES.md)
 
 ## BOOK II: CHARACTER CREATION
-* [Step-by-Step Guide](02_Character_Creation/01_creation_steps.md)
+* [Step-by-Step Guide](02_Character_Creation/README.md)
 * **Archetypes:**
-    * [The Soldier](02_Character_Creation/02_archetype_soldier.md)
-    * [The Esoterist](02_Character_Creation/03_archetype_esoterist.md)
-    * [The Acolyte](02_Character_Creation/04_archetype_acolyte.md)
-    * [The Ruffian](02_Character_Creation/05_archetype_ruffian.md)
-* [Species (The Divergent)](02_Character_Creation/06_species.md)
-* [Talents](02_Character_Creation/07_talents.md)
-* [Boons & Burdens](02_Character_Creation/08_boons_and_burdens.md)
-* [Skills](02_Character_Creation/09_skills.md)
+    * [The Soldier](02_Character_Creation/01_Archetypes/SOLDIER.MD)
+    * [The Esoterist](02_Character_Creation/01_Archetypes/ESOTERIST.md)
+    * [The Acolyte](02_Character_Creation/01_Archetypes/ACOLYTE.md)
+    * [The Ruffian](02_Character_Creation/01_Archetypes/RUFFIAN.md)
+* [Divergences](02_Character_Creation/Divergences/DIVERGENCES.md)
+* [Talents, Boons, and Burdens](13_Talents_Boons_and_Flaws/README.md)
+* [Skills](12_Skills/README.md)
 
 ## BOOK III: ECONOMY & MAGIC
-* [Economy & Gear](03_Economy_and_Gear/economy_and_gear.md)
-* [Esoteria (Magic Rules)](03_Magic_and_Miracles/magic_rules.md)
-* [Faith & Miracles](03_Magic_and_Miracles/divine_miracles.md)
+* [Economy & Gear](09_Equipment/README.mdd)
+* [Esoteria (Magic Rules)](03_Esoteria/README.md)
+* [Faith & Miracles](08_Faith/README.md)
 
 ## BOOK IV: THE WORLD OF TELLUS
 * [The Nations & Cultures](05_The_Lands_of_Tellus/nations_and_cultures.md)
@@ -74,5 +72,5 @@ You have a single health bar called **Stress**. It measures physical damage, but
 * [The Pantheon (Gods)](07_The_Pantheon/00_pantheon_index.md) *(You may need to create a simple index for the god files, or link them individually here)*
 
 ## QUICK REFERENCE
-* [Character Creation Quicksheet](00_Quick_Reference/character_creation_sheet.md)
-* [Gameplay Cheatsheet](00_Quick_Reference/gameplay_cheatsheet.md)
+* [Character Creation Quicksheet](14_Quick_Characters/README.md)
+* [Gameplay Cheatsheet](15_Cheatsheet/README.md)
