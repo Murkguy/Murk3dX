@@ -73,10 +73,10 @@ You have a single health bar called **Stress**. It measures physical damage, but
         * [Pyrthia](05_The_Lands_of_Tellus/01_Lands_Near/PYRTHIA.md)
         * [Doria](05_The_Lands_of_Tellus/01_Lands_Near/DORIA.md)
     * [The Lands Far]
-        * [Beithar](05_The_Lands_of_Tellus/02)_Lands_Far/BEITHAR.md)
-        * [Kemet](05_The_Lands_of_Tellus/02)_Lands_Far/KHEMET.md)
-        * [The Suomi](05_The_Lands_of_Tellus/02)_Lands_Far/SUOMI.md)
-        * [Turcia](05_The_Lands_of_Tellus/02)_Lands_Far/TURCIA.md)
+        * [Beithar](05_The_Lands_of_Tellus/02_Lands_Far/BEITHAR.md)
+        * [Kemet](05_The_Lands_of_Tellus/02_Lands_Far/KHEMET.md)
+        * [The Suomi](05_The_Lands_of_Tellus/02_Lands_Far/SUOMI.md)
+        * [Turcia](05_The_Lands_of_Tellus/02_Lands_Far/TURCIA.md)
 * [City Lore: Novemgrod](06_Novemgrod/README.md)
 * [The Pantheon]
     * [Apatur] (07_The_Pantheon/APATUR.md)
