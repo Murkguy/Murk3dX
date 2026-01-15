@@ -44,7 +44,7 @@ In other games, combat is the sport. In *The Murk*, combat is what happens when 
 You have a single health bar called **Stress**. It measures physical damage, but also terror, exhaustion, and magical corruption. A monster might miss you with its claws, but the sheer horror of its presence can fill your Stress track just as fast. When you **Break**, you don't just fall unconscious; you change. You develop phobias, tremors, and addictions. You leave pieces of yourself in the dark.
 
 ## BOOK I: CORE RULES
-* [Chapter 1: The World That Remains](01_Core_Rules/chapter_1_introduction.md)
+* [Chapter 1: The World That Remains](01_Core_Rules/README.md)
 * [Chapter 2: The Economy of Survival (Potential)](01_Core_Rules/chapter_2_economy.md)
 * [Chapter 3: Conflict & Hazards](01_Core_Rules/chapter_3_conflict.md)
 * [Chapter 4: Health & Suffering](01_Core_Rules/chapter_4_health.md)
