@@ -72,20 +72,20 @@ You have a single health bar called **Stress**. It measures physical damage, but
 * [Faith & Miracles](08_Faith/README.md)
 
 ## BOOK IV: THE WORLD OF TELLUS
-* [Lands of Tellus](05_The_Lands_of_Tellus/README.md)
-    * [The Lands Near]
+* ###[Lands of Tellus](05_The_Lands_of_Tellus/README.md)
+    * ####The Lands Near
         * [Ruthenia](05_The_Lands_of_Tellus/01_Lands_Near/RUTHENIA.md)
         * [Caranthia](05_The_Lands_of_Tellus/01_Lands_Near/CARANTHIA.md)
         * [Pyrthia](05_The_Lands_of_Tellus/01_Lands_Near/PYRTHIA.md)
         * [Doria](05_The_Lands_of_Tellus/01_Lands_Near/DORIA.md)
-    * [The Lands Far]
+    * ####The Lands Far
         * [Beithar](05_The_Lands_of_Tellus/02_Lands_Far/BEITHAR.md)
         * [Kemet](05_The_Lands_of_Tellus/02_Lands_Far/KHEMET.md)
         * [The Suomi](05_The_Lands_of_Tellus/02_Lands_Far/SUOMI.md)
         * [Turcia](05_The_Lands_of_Tellus/02_Lands_Far/TURCIA.md)
 * [City Lore: Novemgrod](06_Novemgrod/README.md)
 * [The Pantheon]
-    * [Apatur] (07_The_Pantheon/APATUR.md)
+    * [Apatur](07_The_Pantheon/APATUR.md)
     * [Larantane](07_The_Pantheon/LARANTANE.md)
     * [Makru](07_The_Pantheon/MAKRU.md)
     * [The Charred One](07_The_Pantheon/THE_CHARRED_ONE.md)
