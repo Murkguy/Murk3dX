@@ -89,7 +89,7 @@ Potential is the currency of heroism. It represents adrenaline, divine favor, lu
 
 ---
 
-## 1. THE CAPACITY (THE RESERVOIR)
+## 1. POTENTIAL CAP
 You can hold a significant amount of luck, but the pressure is high. Your **Maximum Potential** is determined by your Rank.
 
 ### THE HARD CAP
