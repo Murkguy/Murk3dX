@@ -1,3 +1,8 @@
+---
+layout: default
+title: Core Rules
+---
+
 # BOOK I: THE RULES
 
 > "The fog doesn't just hide things. It changes them. It takes the familiar—a dog, a rifle, a memory—and twists it until it fits the shape of the Murk."

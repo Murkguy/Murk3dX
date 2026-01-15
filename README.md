@@ -1,3 +1,8 @@
+---
+layout: default
+title: Main Page
+---
+
 # Murk3dX# CHAPTER 1: THE WORLD THAT REMAINS
 
 ## THE BLACK DAY (0 AC)

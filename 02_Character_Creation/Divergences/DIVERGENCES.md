@@ -1,3 +1,8 @@
+---
+layout: default
+title: Divergences
+---
+
 # CHAPTER 3: THE DIVERGENT (SPECIES)
 
 In the years since the Calamity, humanity has branched. Some have remained pure, clinging to the old ways. Others have been changed by the fog, the factories, or the forbidden blood of the wild.
