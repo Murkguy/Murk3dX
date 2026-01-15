@@ -72,13 +72,13 @@ You have a single health bar called **Stress**. It measures physical damage, but
 * [Faith & Miracles](08_Faith/README.md)
 
 ## BOOK IV: THE WORLD OF TELLUS
-* ###[Lands of Tellus](05_The_Lands_of_Tellus/README.md)
-    * ####The Lands Near
+* ### [Lands of Tellus](05_The_Lands_of_Tellus/README.md)
+    #### The Lands Near
         * [Ruthenia](05_The_Lands_of_Tellus/01_Lands_Near/RUTHENIA.md)
         * [Caranthia](05_The_Lands_of_Tellus/01_Lands_Near/CARANTHIA.md)
         * [Pyrthia](05_The_Lands_of_Tellus/01_Lands_Near/PYRTHIA.md)
         * [Doria](05_The_Lands_of_Tellus/01_Lands_Near/DORIA.md)
-    * ####The Lands Far
+    * #### The Lands Far
         * [Beithar](05_The_Lands_of_Tellus/02_Lands_Far/BEITHAR.md)
         * [Kemet](05_The_Lands_of_Tellus/02_Lands_Far/KHEMET.md)
         * [The Suomi](05_The_Lands_of_Tellus/02_Lands_Far/SUOMI.md)
