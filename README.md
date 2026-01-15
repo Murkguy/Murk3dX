@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Main Page
+permalink: /
 ---
 
 # Murk3dX# CHAPTER 1: THE WORLD THAT REMAINS
