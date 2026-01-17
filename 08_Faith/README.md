@@ -1,43 +1,70 @@
-# FAITH (THE COVENANT)
+---
+layout: default
+title: Faith and Miracles
+---
 
-Faith in *The Murk* is not a weapon; it is a shield. While Esoterists tear the world apart with alien calculations, **Acolytes** hold it together with sheer Will.
+# FAITH: THE COVENANT
+**"The silence of the Gods is not an absence. It is a test."**
 
-Your power does not manifest as fireballs or lightning. It manifests as **Providence**. The bullet misses; the wound closes; the shadow retreats. You are a vessel for the Divine, and your power is directly tied to the purity of your conduct.
+Faith in *The Murk* is not a weapon; it is a shield. While Esoterists tear the world apart with alien calculations, Acolytes hold it together with sheer Will. Your power does not manifest as fireballs. It manifests as **Providence**. The bullet misses; the wound closes; the shadow retreats.
 
 ---
 
 ## 1. THE DEVOTION DIE
-As an Acolyte, you possess a Unique Attribute called **DEVOTION**.
-* **Function:** It represents the maximum capacity of your vessel.
-* **Starting Value:** d6.
-* **Progression:** Can be stepped up (d8, d10, d12) through XP.
+Your connection to the Divine is measured by your **DEVOTION DIE**.
+* **Starting Value:** **d6**.
+* **Progression:** You can step this up (d8, d10, d12) by spending Potential (XP).
+* **Function:** This determines your Maximum Favor cap and the size of the dice you roll when praying.
 
 ---
 
 ## 2. THE HOLY BAROMETER (FAVOR)
-Favor is the measure of your alignment with your Patron. It is a living resource that fluctuates based on your behavior in the moment.
+Favor is a living resource. It fluctuates based on your conduct.
 
-### STARTING FAVOR (THE MORNING PRAYER)
+### A. THE MORNING PRAYER (STARTING FAVOR)
 At the start of every Episode (or after a long downtime), roll your **DEVOTION DIE**.
-* **The Result:** This is your Starting Favor for the session.
-* **Context:** A low roll implies a spiritual distance or a "dark night of the soul." A high roll implies you are filled with holy purpose.
+* **The Result:** This is your **Starting Favor** for the session.
+* **Interpretation:** A low roll implies a spiritual distance ("The Silence"). A high roll implies you are filled with holy purpose.
 
-### GAINING FAVOR (THE TENETS)
+### B. THE TENETS (GAINING FAVOR)
 You regenerate Favor by acting in accordance with your Patron's nature.
 * **Trigger:** Whenever you fulfill a Tenet of your God in a significant, risky, or dramatic way.
 * **Effect:** Gain **+1 Favor**.
-* **Cap:** Your Favor can never exceed your Devotion Die Size.
+* **Cap:** Your Favor can never exceed the max value of your Devotion Die (e.g., 6 for a d6).
 
-### LOSING FAVOR (THE SINS)
-* **Trigger:** Whenever you commit a Transgression against your Patron.
+### C. THE TRANSGRESSIONS (LOSING FAVOR)
+* **Trigger:** Whenever you violate the nature of your Patron (Cowardice, Greed, Cruelty—depending on the God).
 * **Effect:** Lose **1 Favor** immediately.
 
-### EMPTY VESSEL (THE DANGER)
-When your Favor drops to **0**, you are "Hollow." You feel cold and alone.
-* **Sinning while Hollow:** If you commit a Transgression while at 0 Favor, you break the Covenant.
-* **Penalty:** You take **d6 Stress (Guilt)**.
-* **Condition:** You become **Forsaken**. You cannot gain Favor or use Miracles until you perform an Atonement.
+### D. THE HOLLOW STATE
+When your Favor drops to **0**, you are **Hollow**.
+* **The Risk:** If you commit a Transgression while at 0 Favor, you break the Covenant.
+* **The Penalty:** You take **d6 Stress (Guilt)** immediately.
+* **The Condition:** You become **Forsaken**. You cannot gain Favor or use Miracles until you perform a significant Atonement (a narrative quest or sacrifice).
 
+---
+
+## 3. THE PETITION (THE MECHANIC)
+Miracles are not guaranteed. You must ask, and the Gods must choose to answer.
+
+**THE LAW OF AMBIGUITY:**
+A Petition must always be explainable as luck, fate, or coincidence. If you ask for physics to break (e.g., "I want to fly"), the Petition fails automatically.
+
+### HOW TO PETITION
+**Step 1: State your Intent.** ("I want the guard to look away," "I want this door to be unlocked.")
+**Step 2: The Director sets the Threshold.** (How improbable is this?)
+**Step 3: The Offering.** Spend **X Favor**.
+**Step 4: The Roll.** Roll **X Devotion Dice** (Equal to the Favor spent).
+**Step 5: The Outcome.** Sum the total.
+
+| INTENT DIFFICULTY | THRESHOLD (TN) | EXAMPLE |
+| :--- | :--- | :--- |
+| **The Nudge** | **5+** | A rusty lock breaks; a guard gets distracted; you find ammo. |
+| **The Stroke of Luck** | **10+** | A beam collapses on an enemy; a disease goes into remission; a beast ignores you. |
+| **The Intervention** | **15+** | You survive a lethal fall; an entire squad panics; a sudden storm covers your escape. |
+
+* **Success:** The Miracle occurs. You narrate how it looks like a coincidence.
+* **Failure:** The Silence. The Favor is lost, and nothing happens.
 ---
 
 ## 3. THE PATRONS
