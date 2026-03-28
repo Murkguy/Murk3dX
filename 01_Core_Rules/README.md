@@ -455,7 +455,134 @@ Suffering does not reset at the end of the night. You remove **1 Rank of Sufferi
 
 ---
 
-# WHAT COMES NEXT
+# CHAPTER 4: THE DISASTER TRACK
+
+<div class="flavor-box" markdown="1">
+*"The fog does not attack in a straight line. It circles. It waits. And the moment you stop paying attention to how much of it has gotten inside — that is the moment it wins."*
+</div>
+
+---
+
+Not every failure is a failed roll. Some failures are architectural. A plan collapses, a key ally is lost, someone makes a choice that cannot be undone. These moments do not just hurt the characters — they damage the mission. They narrow the possible futures.
+
+The **Disaster Track** is the Director's measure of how much that narrowing has occurred. It is a number from **1 to 10**, tracked openly at the table on a piece of paper, a die, or a dedicated marker. Everyone can see it. That is intentional.
+
+At low numbers, it is a warning. At high numbers, it is a clock. At 10, the clock runs out.
+
+---
+
+## 1. THE TRACK
+
+<div class="rule-box" markdown="1">
+
+| Track | Tier | Mechanical Effect |
+|:--|:--|:--|
+| **1–3** | Deteriorating | Narrative pressure only. No mechanical penalty yet. |
+| **4–5** | Compromised | +1 to all DRs. One backup option or escape route closes. |
+| **6–7** | Dire | +2 to all DRs. Max Potential reduced by 2 for all characters. Reinforcements are not coming. |
+| **8–9** | Critical | +3 to all DRs. At the end of each Scene, every character takes **1d4 Stress** from accumulated pressure. |
+| **10** | The Reckoning | See below. |
+
+</div>
+
+The DR penalty is cumulative within a tier but does not carry over between them. At Track 4, all DRs are 1 higher than normal. At Track 6, they are 2 higher. At Track 8, they are 3 higher. These are not additive — the Track tells you the current penalty, not a stacking total.
+
+---
+
+## 2. ADVANCING THE TRACK
+
+The Director advances the Track. It is not automatic; it requires judgment. The Track represents *meaningful* compounding failure, not every bad roll.
+
+### ADVANCE BY +1 WHEN:
+
+* A player **Botches** a mission-critical roll — one where the outcome directly affects the objective, not a peripheral skill check.
+* The players make a **grievous decision** with foreseeable consequences, and those consequences arrive. *(The Director should telegraph the risk before the choice is made. The Track is not a punishment for being surprised — it is a consequence of being warned and proceeding anyway.)*
+* A **primary objective** is partially compromised — a witness escapes, a route is burned, a cache is emptied before the players arrive.
+* The players **fail a Reckoning Save** at the end of a Critical Scene (Director's discretion for high-stakes setpiece moments).
+
+### ADVANCE BY +2 WHEN:
+
+* Two or more Botches occur **in the same Scene**.
+* An **irreversible catastrophe** occurs — the hostage is dead, the artifact is destroyed, the ship goes down with the only map aboard.
+* The party **breaks formation** in a way that directly causes a teammate's capture or death.
+
+### THE DIRECTOR'S RESTRAINT
+
+The Disaster Track is a tool, not a punishment engine. Advancing it too freely removes its dramatic weight. A single session should rarely see more than 3–4 advances under normal play. Reserve +2 advances for moments the whole table will remember. If the Track hits 8 by the second scene, the game stops being tense and starts being hopeless — which is a different, worse experience.
+
+---
+
+## 3. REDUCING THE TRACK
+
+The Disaster Track can be reduced. The mission is not simply a slide toward failure — competent professionals who respond to crisis can claw back the margin.
+
+<div class="rule-box" markdown="1">
+
+| Method | Reduction |
+|:--|:--|
+| Complete a **primary mission objective** | −1 |
+| Players collectively spend **5 Potential** at the table (distributed as they choose) | −1 |
+| **Acolyte Petition** (Threshold 10, costs 2 Favor) | −1 |
+| A significant **downtime** between missions | Resets to 0 |
+
+</div>
+
+**Collective Potential spend** requires the group to agree and is one of the few mechanics that explicitly rewards cooperation over individual optimization. Spending 5 Potential to reduce the Track by 1 is often a poor exchange mathematically — but math is not always the point.
+
+**Objective completion** is the primary intended reduction. Missions should be structured so that completing secondary objectives — rescuing the witness, securing the exit route, finding the secondary cache — naturally reduce the Track. This gives players agency over the pressure they are under.
+
+---
+
+## 4. THE RECKONING (TRACK = 10)
+
+When the Track reaches 10, the Director calls The Reckoning.
+
+The Reckoning is not the end of the session. It is the end of the mission's clean version of success. The players have reached a point where the margin is gone — where the fog has gotten all the way inside, and now the question is how much of themselves they can carry out.
+
+### THE RECKONING ROLL
+
+The Director rolls **1d10** openly.
+
+<div class="rule-box" markdown="1">
+
+| Roll | Outcome |
+|:--|:--|
+| **1–2** | **Total Failure.** The mission fails. The objective is lost. The characters may survive — beaten, empty-handed, haunted — but what they came for is gone. |
+| **3–5** | **Costly Failure.** The group may salvage **one** objective. The Director names what is available. Everything else is forfeit. |
+| **6–8** | **Desperate Salvation.** Success is achievable — but the Director names a price before the group decides whether to pay it. *(A character is captured. A key resource is destroyed. Someone has to stay behind.)* |
+| **9–10** | **Against All Odds.** They make it. The Director describes exactly how little margin remained — and the table should believe it. |
+
+</div>
+
+### PLAYER INPUT AT THE RECKONING
+
+After the Director rolls but **before** the outcome is resolved, the players may spend Potential one final time:
+
+* Spending **5 Potential** shifts the roll result **+1** (a 2 becomes a 3, a 5 becomes a 6, etc.).
+* This can only be done **once**, from a single character's pool.
+* It cannot shift the result above 10.
+
+This gives the players a slim but real mechanical lever at the worst possible moment — which is, again, the point.
+
+---
+
+## 5. THE DISASTER TRACK AND THE GRAND RITE
+
+The Esoterist talent **The Grand Rite** (Tier 3) references an internal Disaster Track for catastrophic ritual magic. When casting the Grand Rite, failed Arcana rolls advance **the session's Disaster Track** directly — not a separate internal counter. Each failed check during the Rite advances the Track by +1.
+
+This is by design. The Grand Rite is the most dangerous spell in the game. Its failure is not just personal — it damages the mission. An Esoterist who attempts the Grand Rite under pressure is betting the entire table on their Arcana die.
+
+---
+
+## 6. STARTING THE TRACK
+
+The Disaster Track begins at **0** at the start of every Episode. It has no mechanical effect at 0 — the first advance to 1 signals that the mission's margin has begun to erode.
+
+Directors may choose to begin certain high-stakes Episodes at 1, 2, or 3 to represent a mission already under duress — a rescue that started late, a job where the client withheld information, a dive into a sector the last crew never came back from.
+
+*Starting the Track above 0 should be communicated to players upfront. They should know the hole they are already in.*
+
+---
 
 Book I covers the engine. Every other chapter builds on it.
 
@@ -463,5 +590,5 @@ Book I covers the engine. Every other chapter builds on it.
 * **[Health & Suffering](../11_Conflict and Hazards/HAZARDS.md)** — The complete Stress, Suffering, and Recovery system.
 * **[Character Creation](../02_Character_Creation/README.md)** — Building your Archetype, selecting Talents, and calculating your stats.
 * **[Economy & Gear](../09_Equipment/README.md)** — Barter, inventory, weapons, and armor.
-* **[Esoteria](../03_Esoteria/README.md)** — The full magic system.
+* **[Esoteria](../03_Esoteria/README.md)** — The full magic system, including The Grand Rite and its Disaster Track interactions.
 * **[Faith & Miracles](../08_Faith/README.md)** — The Petition system and the Patrons.

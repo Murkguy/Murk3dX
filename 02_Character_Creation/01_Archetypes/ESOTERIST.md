@@ -86,8 +86,8 @@ Your mind is categorized and reinforced. When making a **Mind Save** against Men
     **The Mechanic:**
     1.  Describe the impossible feat.
     2.  The Director assigns a **Success Threshold** (e.g., 5 Successes).
-    3.  You roll Arcana checks. Each success adds to the total. Each failure adds **d6 Stress** to you and advances a "Disaster Track."
-    4.  If you hit the Threshold, reality breaks in your favor. If you Stress Out first, the energy detonates catastrophically.
+    3.  You roll Arcana checks. Each success adds to the total. Each failure adds **d6 Stress** to you and advances the **Disaster Track by +1** (see Core Rules, Chapter 4).
+    4.  If you hit the Threshold, reality breaks in your favor. If you Stress Out first, the energy detonates catastrophically — and the Track keeps the record of what you did to the mission trying.
 * **DAEMONOLOGIST (Summoning):**
     **The Ritual:** You learn the **Rite of Volition**. You can summon Minor, Major, and Prime Daemons.
     **The Benefit:** You treat all Daemons as having **+1 Favor** when summoned (Total 4).
