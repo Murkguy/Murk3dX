@@ -48,7 +48,7 @@ People feel a supernatural compulsion to unburden themselves to you.
 * **UNSHAKABLE (Steadfastness):**
     **Passive:** You are immune to **Fear**. When an ally within sight fails a Fear save, you can take 1 Stress to allow them to succeed instead.
 * **DIVINE CLARITY (Truth):**
-    **Petition (TN 5):** You ask for the truth to be revealed.
+    **Petition (Threshold 5):** You ask for the truth to be revealed.
     **Effect:** You can instantly spot a lie, a disguise, or an illusion. The "tell" is subtle—a nervous twitch, a flicker of light, or a drop in temperature.
 * **MARTYR'S BLOOD:**
     **Reaction:** When an ally takes Physical Damage, you can choose to take it instead.
@@ -56,12 +56,12 @@ People feel a supernatural compulsion to unburden themselves to you.
 
 ### TIER 3: THE SAINT (6 Potential Each)
 * **INTERCESSION (The Miracle of Life):**
-    **Petition (TN 15):** You pray for a life to be spared.
+    **Petition (Threshold 15):** You pray for a life to be spared.
     **Effect:** An ally who has just died (or taken fatal damage) stabilizes instantly at 1 HP.
     **The Ambiguity:** The bullet hit a flask; the blade missed the artery; they gasp for air just as you check their pulse.
 * **WRATH OF THE JUST:**
     **Passive:** If you have **Full Favor**, your attacks deal **+1d6 Damage**. Your conviction makes your strikes heavier.
 * **ABSOLUTION (Mental Healing):**
-    **Petition (TN 10):** You wash away the sin and trauma of an ally.
+    **Petition (Threshold 10):** You wash away the sin and trauma of an ally.
     **Effect:** Remove one **Rank of Suffering (Mental)** instantly from a target. They are no longer Broken.
     **The Ambiguity:** They find a moment of perfect clarity; the panic attack subsides; they remember why they are fighting.

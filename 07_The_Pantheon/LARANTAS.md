@@ -1,23 +1,23 @@
-# LONGEAVA (THE GREAT TREE)
+# LARANTAS (THE GREAT TREE)
 
 **Status:** Active / Living Deity
 **Domains:** Nature, Life, Cycles
 **Region:** The Elder Forest (Southern Shelf)
 
-Longeava is the name given to the Great Tree, a colossal botanical entity worshipped by the Annirad, an ancient tribe residing in the forested south. For centuries, they communed with the Tree in isolation, learning from its longevity.
+Larantas is the name given to the Great Tree, a colossal botanical entity worshipped by the Annirad, an ancient tribe residing in the forested south. For centuries, they communed with the Tree in isolation, learning from its longevity.
 
 ---
 
 ## THE WAR OF ROOTS
 Two hundred years ago, adventurers from the Vardan Empire encountered the forest. Seeing it as a resource, they attempted to colonize it, sparking a brief but brutal war with the Annirad.
 
-* **The Peace:** The Empire was rebuked by the forest itself. A peace treaty was signed, and word of Longeava spread. Today, it has adherents in lush jungles, deserts, and even the greenhouses of Novemgrod.
-* **The Pilgrimage:** Those who follow Longeava are compelled to make a pilgrimage to the Great Tree to be baptized in its nectar.
+* **The Peace:** The Empire was rebuked by the forest itself. A peace treaty was signed, and word of Larantas spread. Today, it has adherents in lush jungles, deserts, and even the greenhouses of Novemgrod.
+* **The Pilgrimage:** Those who follow Larantas are compelled to make a pilgrimage to the Great Tree to be baptized in its nectar.
 
 ---
 
 ## THE TENETS OF GROWTH
-Longeava is not benevolent; it is vital. It views morality as a human invention that does not apply to biology.
+Larantas is not benevolent; it is vital. It views morality as a human invention that does not apply to biology.
 
 * **The Wind:** "Allow the wind to pass where it may. We watch it, but rarely attempt to change its intent."
 * **The Imperative:** "Life must find a way, else nothing matters."

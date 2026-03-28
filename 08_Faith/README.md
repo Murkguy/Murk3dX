@@ -50,21 +50,23 @@ Miracles are not guaranteed. You must ask, and the Gods must choose to answer.
 **THE LAW OF AMBIGUITY:**
 A Petition must always be explainable as luck, fate, or coincidence. If you ask for physics to break (e.g., "I want to fly"), the Petition fails automatically.
 
-### HOW TO PETITION
-**Step 1: State your Intent.** ("I want the guard to look away," "I want this door to be unlocked.")
-**Step 2: The Director sets the Threshold.** (How improbable is this?)
-**Step 3: The Offering.** Spend **X Favor**.
-**Step 4: The Roll.** Roll **X Devotion Dice** (Equal to the Favor spent).
-**Step 5: The Outcome.** Sum the total.
+<div class="rule-box" markdown="1">
 
-| INTENT DIFFICULTY | THRESHOLD (TN) | EXAMPLE |
-| :--- | :--- | :--- |
-| **The Nudge** | **5+** | A rusty lock breaks; a guard gets distracted; you find ammo. |
-| **The Stroke of Luck** | **10+** | A beam collapses on an enemy; a disease goes into remission; a beast ignores you. |
-| **The Intervention** | **15+** | You survive a lethal fall; an entire squad panics; a sudden storm covers your escape. |
+1. **State your Intent.** ("I want the guard to look away," "I want this door to be unlocked.")
+2. **Director sets the Threshold.** How improbable is this?
+3. **Spend X Favor.**
+4. **Roll X Devotion Dice** (equal to Favor spent). Sum the total.
 
-* **Success:** The Miracle occurs. You narrate how it looks like a coincidence.
-* **Failure:** The Silence. The Favor is lost, and nothing happens.
+| Difficulty | Threshold | Example |
+|:--|:--|:--|
+| **The Nudge** | 5+ | A rusty lock breaks; a guard gets distracted; you find ammo. |
+| **The Stroke of Luck** | 10+ | A beam collapses on an enemy; a disease remits; a beast ignores you. |
+| **The Intervention** | 15+ | You survive a lethal fall; an entire squad panics; a storm covers your escape. |
+
+- **Success:** The Miracle occurs. You narrate how it looks like a coincidence.
+- **Failure:** The Silence. The Favor is spent, and nothing happens.
+
+</div>
 ---
 
 ## 3. THE PATRONS

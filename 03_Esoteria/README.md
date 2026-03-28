@@ -16,16 +16,19 @@ Magic is fueled by the caster's life force. The universe resists being rewritten
 To cast a spell is to invite a seizure. It is to feel your blood boil and your synapses fire all at once.
 
 ### THE MECHANIC
+
 To cast a Principle, you do not check to see if the spell works. **The spell always works.** The question is whether you survive the pain.
 
-1.  **Declare:** Choose the Principle (School) and the Magnitude (1, 2, or 3).
-2.  **Pay the Cost:** Roll **1d4 Stress per Magnitude**.
-    * **Mag 1:** 1d4 Stress.
-    * **Mag 2:** 2d4 Stress.
-    * **Mag 3:** 3d4 Stress.
-3.  **The Save:** Add the cost to your Stress Track. Immediately roll a **Mind Save**.
-    * **Success:** You channel the **Agony** safely. The spell takes effect.
-    * **Failure:** You take a **Rank of Suffering (Mental)**. The spell still goes off, but you are bleeding from the nose, shaking, or hallucinating from the sheer pain.
+<div class="rule-box" markdown="1">
+
+1. **Declare** the Principle (School) and the Magnitude (1, 2, or 3).
+2. **Pay the Cost** — roll **1d4 Stress per Magnitude** and add it to your Stress Track.
+   - Mag 1: 1d4 Stress &nbsp;|&nbsp; Mag 2: 2d4 Stress &nbsp;|&nbsp; Mag 3: 3d4 Stress
+3. **Make a Mind Save.**
+   - **Success:** You channel the Agony safely. The spell takes effect.
+   - **Failure:** You take a **Rank of Suffering (Mental)**. The spell still goes off — you're bleeding from the nose or hallucinating, but the formula executes.
+
+</div>
 
 ---
 
@@ -93,7 +96,6 @@ You don't have to be an Esoterist to use magic, provided you find a **Relic**—
     * *Mag 2 Item:* 4 Stress.
 
 ---
-(Existing Content...)
 
 ## 5. THE RITE OF VOLITION (DAEMON SUMMONING)
 **"It is not a spirit. It has no soul. It is my will, given teeth."**

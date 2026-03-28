@@ -1,5 +1,5 @@
 
-## 2. THE ESOTERIST
+# THE ESOTERIST
 **The Researcher. The Occultist. The Volatile.**
 
 Magic is not a miracle; it is a science that humanity has simply forgotten how to control. While the world cowers from the supernatural, you dissect it. You are a student of "Esoteria"—the dangerous intersection of ancient Vardan rituals and modern industrial theory. You might be a disgraced academic from the Palatine colleges or a field researcher clutching a book of geometries that shouldn't exist. You understand that the laws of physics are merely suggestions, and with the right formula, you can rewrite them. But be warned: the energy you channel is older than the cities you defend, and it does not like to be tamed.

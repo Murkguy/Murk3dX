@@ -19,11 +19,11 @@ Distribute the following dice to **Body**, **Mind**, and **Spirit**:
     3.  **Bandolier:** Spend 1 CP to reveal a specific combat consumable (Grenade/Ammo).
 
 ### B. THE ESOTERIST (Arcana d8)
-* **Resource:** Resonance (Accrued Stress).
+* **Resource:** Agony (Accrued Stress).
 * **Perks:**
     1.  **The Sight:** Detect magic/murk automatically.
     2.  **Mental Fortress:** Roll 4 Dice on Mind Saves.
-    3.  **The Conduit:** Cast Spells for Stress. Vent Resonance to heal Stress (deals AoE dmg).
+    3.  **The Conduit:** Cast Spells for Stress. Vent Agony to heal Stress (deals AoE dmg).
 
 ### C. THE ACOLYTE (Devotion d8)
 * **Resource:** Favor (Start with d8 roll).

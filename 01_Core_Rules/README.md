@@ -43,14 +43,18 @@ When the outcome is uncertain, you build a pool of three dice to determine your 
 * **The Skill:** 1 Attribute Die (d4, d6, d8, d10, or d12). This represents your training and talent.
 
 ### THE FORMULA
-$$Result = 2d6 + Attribute Die + Modifiers$$
+
+<div class="rule-box" markdown="1">
+**Result = 2d6 + Attribute Die + Modifiers**
 
 Compare your Result to the **Difficulty Rating (DR)** set by the Director.
 
-### THE DIFFICULTY RATINGS
-* **DR 10 (Standard):** Challenging but expected. Shooting a moving target, climbing a wet wall, decoding a cipher under time pressure.
-* **DR 15 (Hard):** A feat of expertise. Shooting a target in heavy fog, picking a guild-vault lock, resisting a magical compulsion.
-* **DR 20 (Impossible):** A feat of legend. Surviving a fall from a tower, convincing a Murk-beast to hesitate, holding a door against a horde.
+| DR | Name | Description |
+|:--|:--|:--|
+| **10** | Standard | Challenging but expected. Shooting a moving target, climbing a wet wall. |
+| **15** | Hard | A feat of expertise. Picking a guild-vault lock, resisting a magical compulsion. |
+| **20** | Impossible | A feat of legend. Surviving a fall from a tower, holding a door against a horde. |
+</div>
 
 ---
 
@@ -140,25 +144,16 @@ You gain Potential in four specific ways. Note that you can **never** exceed you
 ## 3. SPENDING POTENTIAL (THE COST OF HEROISM)
 You may spend Potential at any time, even on another player's turn (if it makes narrative sense).
 
-### BOOST (+1)
-* **Cost:** 2 Potential.
-* **Effect:** Add **+1** to your Result.
-* **Rule:** You can spend as much as you want. Spending 10 Potential adds +5 to the roll. This allows for massive, "Nova" style moments.
+<div class="rule-box" markdown="1">
 
-### ACTIVATE (The Resource Swap)
-* **Cost:** 5 Potential.
-* **Effect:** Regain **1 Class Resource** (Command Point, Favor, Resonance, or Token).
-* **Context:** You dig deep into your reserves to find one last prayer or one last magazine.
+| Spend | Cost | Effect |
+|:--|:--|:--|
+| **BOOST** | 2 Potential | Add +1 to your Result. Stackable — 10 Potential = +5. |
+| **ACTIVATE** | 5 Potential | Regain 1 Class Resource (Command Point, Favor, Agony, or Token). |
+| **MITIGATE** | 1 Potential | Reduce incoming Stress or Magical Backlash by 1. |
+| **NEGATE BOTCH** | 5 Potential | Turn a Botch into a standard Failure. |
 
-### MITIGATE (The Dampener)
-* **Cost:** 1 Potential.
-* **Effect:** Reduce incoming **Stress** or **Magical Backlash** by 1.
-* **Example:** You fail a Save and are about to take 4 Stress. You spend 4 Potential to reduce the damage to 0. You are exhausted, but unharmed.
-
-### NEGATE BOTCH (The Save)
-* **Cost:** 5 Potential.
-* **Effect:** Turn a **Botch** (Catastrophic Failure) into a standard Failure.
-* **Narrative:** You stop the gun from jamming, or catch the ledge at the last second. You still fail the climb, but you don't fall to your death.
+</div>
 
 ---
 
