@@ -26,11 +26,11 @@ Distribute the following dice to **Body**, **Mind**, and **Spirit**:
     3.  **The Conduit:** Cast Spells for Stress. Vent Agony to heal Stress (deals AoE dmg).
 
 ### C. THE ACOLYTE (Devotion d8)
-* **Resource:** Favor (Start with d8 roll).
+* **Resource:** Favor (Roll Devotion Die at session start).
 * **Perks:**
-    1.  **Iron Soul:** Roll 4 Dice on Spirit Saves.
-    2.  **Sanctified:** +1 Die vs Spirits/Undead/Murkborn.
-    3.  **The Tithe:** Free food/lodging at faithful institutions.
+    1.  **The Covenant:** Only Acolytes can generate Favor and use the Petition system.
+    2.  **Shepherd of the Lost:** Free lodging at faithful institutions. +1d6 on social checks to de-escalate violence.
+    3.  **Confessor:** Talk to an NPC for a Scene → Director reveals one Secret, Fear, or Regret.
 
 ### D. THE RUFFIAN (Guile d8)
 * **Resource:** Trick Tokens.
@@ -64,11 +64,11 @@ Distribute the following dice to **Body**, **Mind**, and **Spirit**:
 * **Tinkerer:** +2 to Repair/Pick Lock.
 * **Light Sleeper:** Never Surprised at camp; Act first.
 
-### ARCHETYPE (Pick 1)
-* **Soldier:** Suppressing Fire, Overwatch, Old Guard, Quartermaster, Combat Drill.
-* **Esoterist:** Kinetics, Entropy, Luminescence, Ritualist, Artificer.
-* **Acolyte:** Sanctuary, Confessor, Bear Witness, Rite of Censer, Exorcism.
-* **Ruffian:** Pocket Sand, The Shiv, Sticky Fingers, Gutter Runner, Sucker Punch.
+### ARCHETYPE (Pick 1 from Tier 1 only at creation)
+* **Soldier (Tier 1):** Suppressing Fire, Quartermaster, Sentry.
+* **Esoterist (Tier 1):** Ritualist, Artificer, Soul Sight.
+* **Acolyte (Tier 1):** Soothing Words, Guidance, Sanctuary.
+* **Ruffian (Tier 1):** Pocket Sand, Gutter Runner, Sticky Fingers.
 
 ---
 

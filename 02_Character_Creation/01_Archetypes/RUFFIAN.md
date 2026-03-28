@@ -59,7 +59,7 @@ You always have the right tool for the crime.
 ### TIER 1: THE GUTTER RAT (3 Potential Each)
 * **POCKET SAND (1 Token):**
     **Action:** You throw dust, ash, or grit into an enemy's eyes (Close Range).
-    **Effect:** Target is **Blinded** (Blind Fire only, Disadvantage on Defense) until they spend an Action to clear their eyes.
+    **Effect:** Target is **Blinded** (Blind Fire only, -2 to Defense) until they spend an Action to clear their eyes.
 * **GUTTER RUNNER (Passive):**
     You move like water through trash.
     **Effect:** You climb at full speed. You suffer no movement penalties for squeezing through tight spaces, moving through crowds, or traversing difficult terrain (rubble/mud).
@@ -76,7 +76,7 @@ You always have the right tool for the crime.
     **Effect:** If this attack hits, the target is **Stunned** (misses their first turn).
 * **SILVER TONGUE (Passive):**
     You can lie to anyone, even yourself.
-    **Effect:** You have **Advantage** on Guile checks to lie, disguise yourself, or forge documents. If you fail a social check, you can spend **1 Token** to change the outcome to a "Success at a Cost."
+    **Effect:** Gain **+1d6** on Guile checks to lie, disguise yourself, or forge documents. If you fail a social check, you can spend **1 Token** to change the outcome to a "Success at a Cost."
 
 ### TIER 3: THE MASTERMIND (9 Potential Each)
 * **THE MASTER PLAN (Flashback):**

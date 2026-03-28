@@ -37,7 +37,7 @@ Your mind is categorized and reinforced. When making a **Mind Save** against Men
 
 ### PRINCIPLE OF ENTROPY (Decay & Time)
 * **Mag 1:** **Rust.** Instantly jam a gun, age a lock to dust, or rot food.
-* **Mag 2:** **Wither.** 3d4 Damage + Target is **Weakened** (Disadvantage on Physical Checks).
+* **Mag 2:** **Wither.** 3d4 Damage + Target is **Weakened** (-2 to all Physical Checks).
 * **Mag 3:** **Decay.** 3d8 Damage. If this kills the target, they turn to ash instantly.
 
 ### PRINCIPLE OF LUMINESCENCE (Light & Energy)
@@ -91,4 +91,4 @@ Your mind is categorized and reinforced. When making a **Mind Save** against Men
 * **DAEMONOLOGIST (Summoning):**
     **The Ritual:** You learn the **Rite of Volition**. You can summon Minor, Major, and Prime Daemons.
     **The Benefit:** You treat all Daemons as having **+1 Favor** when summoned (Total 4).
-    **The Passive:** You can identify Rogue Daemons on sight and have Advantage on checks to Banish or Bind them.
+    **The Passive:** You can identify Rogue Daemons on sight and gain **+1d6** on checks to Banish or Bind them.

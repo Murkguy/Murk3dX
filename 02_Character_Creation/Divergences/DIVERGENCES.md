@@ -14,7 +14,7 @@ In the years since the Calamity, humanity has branched. Some have remained pure,
 
 Humans are the baseline of Tellus. They are the refugees of Ruthenia, the factory workers of Carantha, and the nomads of the Steppe. They lack the thick hide of the Chimera or the iron skin of the Anthroparion, but they possess a terrifying adaptability. They are the only species that refuses to accept that the world has ended.
 
-* **THE SPARK (Ambition):** Humans push themselves harder than any other kin. You gain **+1 to your Maximum Resource Cap** (Command Points, Resonance, Favor, or Tokens).
+* **THE SPARK (Ambition):** Humans push themselves harder than any other kin. You gain **+1 to your Maximum Resource Cap** (Command Points, Agony, Favor, or Tokens).
 
 ---
 

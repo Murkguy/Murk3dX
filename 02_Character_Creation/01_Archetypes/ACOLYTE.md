@@ -22,7 +22,7 @@ You possess **The Spark**. You are the only Archetype capable of generating Favo
 ### 2. SHEPHERD OF THE LOST
 To the common folk of the Shelf, you are holy.
 * **Sanctuary:** You can expect free lodging and food in any settlement that follows your faith.
-* **The Cloth:** Baselines are reluctant to attack you. You have **Advantage** on social checks to de-escalate violence before it starts. (Does not work on monsters or fanatics).
+* **The Cloth:** Baselines are reluctant to attack you. Gain **+1d6** on social checks to de-escalate violence before it starts. (Does not work on monsters or fanatics).
 
 ### 3. CONFESSOR (Passive Perception)
 People feel a supernatural compulsion to unburden themselves to you.

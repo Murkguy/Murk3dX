@@ -62,10 +62,10 @@ You do not have a "Reaction Action" by default. However, you may spend **Potenti
 ## 3. RANGES (THE GEOMETRY OF FOG)
 Precise grids do not exist in the Murk. Distance is measured by clarity.
 
-* **CLOSE (Melee):** Arm’s reach. You can touch them. Ranged weapons have **Disadvantage** here (unless Pistol/CQB).
+* **CLOSE (Melee):** Arm’s reach. You can touch them. Ranged weapons suffer **-2** here (unless Pistol/CQB).
 * **NEAR (Thrown):** The width of a large room or a street. You can throw a grenade or shout a command. Visibility is usually clear.
 * **FAR (Rifle):** Shouting distance. The edge of visibility.
-    * **The Murk Rule:** In heavy fog, Far Range is effectively blind. Attacks are made at **Disadvantage** or are impossible without thermal/magical aid.
+    * **The Murk Rule:** In heavy fog, Far Range is effectively blind. Attacks suffer **-2** or are impossible without thermal/magical aid.
 
 ---
 

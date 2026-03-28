@@ -18,7 +18,7 @@ When you enter a settlement or encounter a neutral faction, the **Lead Character
 * **Success (Neutral):** They see you as travelers.
     * *Effect:* Standard prices. They will trade information for Barter.
 * **Success by 5+ (Friendly):** They see you as allies or saviors.
-    * *Effect:* Prices are Standard. You gain **Advantage** on the first Parley Check you make. A local may offer a free safehouse.
+    * *Effect:* Prices are Standard. Gain **+1d6** on the first Parley Check you make. A local may offer a free safehouse.
 
 ---
 

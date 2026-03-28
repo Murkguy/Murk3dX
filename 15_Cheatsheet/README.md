@@ -75,7 +75,7 @@
 **Disposition:** Spirit Check upon meeting.
 * **Fail:** Hostile (+25% Prices).
 * **Success:** Neutral.
-* **Success +5:** Friendly (Advantage on Parley).
+* **Success +5:** Friendly (+1d6 on Parley).
 
 **Barter Levels:**
 * **Level 1 (Scrap):** Food, Water, Basic Ammo.

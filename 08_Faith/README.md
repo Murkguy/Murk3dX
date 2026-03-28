@@ -196,7 +196,7 @@ Miracles are not spells. They are not formulas of physics. They are Intervention
 
 ### MAJOR MIRACLES (COST: 2 FAVOR)
 * **RITE OF SANCTUARY:** Create a circle that lesser Murk-beasts cannot cross for 1 Night.
-* **RITE OF PURIFICATION:** Target makes a Body Save with Advantage to cure **Poison, Disease, Blindness, or Paralysis**.
+* **RITE OF PURIFICATION:** Target makes a Body Save with **+1d6** to cure **Poison, Disease, Blindness, or Paralysis**.
 * **RITE OF THE VIGIL:** Target cannot be **Surprised** and acts first in Initiative for the Scene.
 
 ### GRAND MIRACLES (COST: 3 FAVOR)

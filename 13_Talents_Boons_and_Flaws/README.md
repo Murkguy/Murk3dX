@@ -30,7 +30,7 @@ At Character Creation, you choose **1 Generic Talent** and **1 Archetype Talent*
 2.  **NOBLE REGALIA:** You have a title (or a convincing forgery). Authorities must grant you an audience and cannot "ignore" you (only refuse).
 3.  **THE FIXER:** Re-Roll Barter checks (Keep second). Trade scrap for secrets at equal value.
 4.  **LEGENDARY REPUTATION:** Make a Spirit Check upon entering a settlement. Success = Recognition, free drinks, thugs won't fight you.
-5.  **SILVER TONGUE (Articulate):** You can lie without rolling against Baselines. You have Advantage on Persuasion attempts when you have time to talk.
+5.  **SILVER TONGUE (Articulate):** You can lie without rolling against Baselines. Gain **+1d6** on Persuasion attempts when you have time to talk.
 6.  **OLD MONEY (Wealthy):** You start with **5 extra Resources**. You can stay in the High Districts for free (High standard of living) without paying upkeep.
 
 ### SURVIVAL & GRIT
@@ -39,14 +39,14 @@ At Character Creation, you choose **1 Generic Talent** and **1 Archetype Talent*
 9.  **GHOST IN THE MACHINE:** Touch Old Tech to ask the Director one truthful question about it.
 10. **BEAST WHISPERER:** Animals treat you as kin. You can give simple commands to them automatically.
 11. **SIXTH SENSE (Perceptive):** The Director rolls secret Perception checks for you. You are never Surprised by ambushes.
-12. **SCHOLAR:** You have a library in your head. You have Advantage on checks to recall history, identify monsters, or decipher pre-war text.
+12. **SCHOLAR:** You have a library in your head. Gain **+1d6** on checks to recall history, identify monsters, or decipher pre-war text.
 
 ### ACTION & COMBAT
 13. **LIGHTFOOT:** Never roll for balance. Take 0 Stress from falls of 2 stories or less.
 14. **DIE HARD:** If you break (Rank of Suffering), ignore "Unconscious" for one final round. You stay standing to act.
 15. **DIRTY FIGHTING:** Improvised weapons deal d6 Damage. Deal **+1d6 Damage** to unaware targets.
 16. **LINGUIST:** Speak Trade Tongue, High Dorian, and Old Vardan. Read ancient runes/ciphers.
-17. **HEAVY LIFTER (Strong):** Your Inventory slots increase by +3. You have Advantage on Strength checks to break doors or lift debris.
+17. **HEAVY LIFTER (Strong):** Your Inventory slots increase by +3. Gain **+1d6** on Physique checks to break doors or lift debris.
 18. **DEVIL'S LUCK:** Once per session, you may flip a failed roll to a success. Describe how a miraculous coincidence saved you.
 
 ---
@@ -70,7 +70,7 @@ At Character Creation, you choose **1 Generic Talent** and **1 Archetype Talent*
 11. **INFAMOUS:** -3 Penalty to Barter/Scrounge. Honest folk won't trade with you.
 12. **BLEEDING HEART:** You cannot ignore a plea for help without passing a Spirit Save (DR 15).
 13. **ILLITERATE:** You cannot read or write. Auto-Fail checks to decipher text.
-14. **MONOCULAR (Missing Eye):** You have Disadvantage on ranged attacks beyond Close range.
+14. **MONOCULAR (Missing Eye):** You suffer **-2** on ranged attacks beyond Close range.
 15. **HOT HEADED (Impulsive):** If you are insulted or challenged, you must make a Spirit Save to avoid attacking immediately.
 16. **GOLD FEVER (Greedy):** You cannot leave visible treasure behind. If you try, you take d6 Stress per round until you take it.
-17. **LOUD (Clumsy):** You have Disadvantage on all Stealth and Agility checks.
+17. **LOUD (Clumsy):** You suffer **-2** on all Stealth and Agility checks.
