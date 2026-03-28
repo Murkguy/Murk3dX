@@ -1,3 +1,8 @@
+---
+layout: default
+title: The Midnight Lady
+permalink: /07_The_Pantheon/THE_MIDNIGHT_LADY/
+---
 
 # THE MIDNIGHT LADY (THE SHADOW OF TURCIA)
 

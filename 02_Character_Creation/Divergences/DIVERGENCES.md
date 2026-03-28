@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Divergences
+permalink: /02_Character_Creation/Divergences/DIVERGENCES/
 ---
 
 # CHAPTER 3: THE DIVERGENT (SPECIES)

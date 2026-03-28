@@ -1,3 +1,9 @@
+---
+layout: default
+title: Beithar
+permalink: /05_The_Lands_of_Tellus/02_Lands_Far/BEITHAR/
+---
+
 ## 4. BEITHAR (THE ENDLESS PLAINS)
 **Status:** Active / Unifying Nomadic Horde.
 

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: The Acolyte
+permalink: /02_Character_Creation/01_Archetypes/ACOLYTE/
 ---
 
 # THE ACOLYTE

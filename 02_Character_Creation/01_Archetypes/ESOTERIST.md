@@ -1,3 +1,8 @@
+---
+layout: default
+title: The Esoterist
+permalink: /02_Character_Creation/01_Archetypes/ESOTERIST/
+---
 
 # THE ESOTERIST
 **The Researcher. The Occultist. The Volatile.**

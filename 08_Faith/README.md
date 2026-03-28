@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Faith and Miracles
+permalink: /08_Faith/
 ---
 
 # FAITH: THE COVENANT

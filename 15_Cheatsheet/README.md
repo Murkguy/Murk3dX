@@ -1,3 +1,9 @@
+---
+layout: default
+title: Gameplay Cheatsheet
+permalink: /15_Cheatsheet/
+---
+
 # THE MURK: GAMEPLAY CHEATSHEET
 
 ## THE CORE MECHANIC

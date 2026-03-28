@@ -1,6 +1,7 @@
 ---
 layout: default
 title: The Soldier
+permalink: /02_Character_Creation/01_Archetypes/SOLDIER/
 ---
 
 # THE SOLDIER

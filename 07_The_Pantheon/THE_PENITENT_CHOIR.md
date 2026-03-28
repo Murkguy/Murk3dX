@@ -1,3 +1,9 @@
+---
+layout: default
+title: The Penitent Choir
+permalink: /07_The_Pantheon/THE_PENITENT_CHOIR/
+---
+
 # THE PENITENT CHOIR (THE ORPHANS OF LE VIDES)
 
 **Status:** Active / Schismatic Faith

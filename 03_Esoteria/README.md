@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Esoteria (Magic Rules)
+permalink: /03_Esoteria/
 ---
 
 # ESOTERIA: THE FORBIDDEN SCIENCE

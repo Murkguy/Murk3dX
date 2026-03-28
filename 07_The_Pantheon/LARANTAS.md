@@ -1,3 +1,9 @@
+---
+layout: default
+title: Larantas
+permalink: /07_The_Pantheon/LARANTAS/
+---
+
 # LARANTAS (THE GREAT TREE)
 
 **Status:** Active / Living Deity

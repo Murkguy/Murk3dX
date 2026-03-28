@@ -1,3 +1,9 @@
+---
+layout: default
+title: Turcia
+permalink: /05_The_Lands_of_Tellus/02_Lands_Far/TURCIA/
+---
+
 ## 1. TURCIA (THE LAND OF LIVING GODS)
 **Status:** Active / Theocratic Empire.
 

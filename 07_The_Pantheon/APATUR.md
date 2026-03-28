@@ -1,3 +1,9 @@
+---
+layout: default
+title: Apatur
+permalink: /07_The_Pantheon/APATUR/
+---
+
 # GRIMUUS (THE DARK BROTHER)
 
 **Status:** Forbidden (in some lands) / Active

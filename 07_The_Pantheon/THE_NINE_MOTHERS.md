@@ -1,3 +1,9 @@
+---
+layout: default
+title: The Nine Mothers
+permalink: /07_The_Pantheon/THE_NINE_MOTHERS/
+---
+
 # THE NINE MOTHERS (THE WEAVERS OF ANGKREBYORN)
 
 **Status:** Active / Ancient

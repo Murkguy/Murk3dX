@@ -1,3 +1,9 @@
+---
+layout: default
+title: Skills
+permalink: /12_Skills/
+---
+
 # CHAPTER 5: SKILLS
 
 In *The Murk*, competence is the difference between breathing and rotting. Your Attributes define your raw potential, but your Skills define your training.

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Character Creation
+permalink: /02_Character_Creation/
 ---
 
 # BOOK II: THE FATED (CHARACTER CREATION)

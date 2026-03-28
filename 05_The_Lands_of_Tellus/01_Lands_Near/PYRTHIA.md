@@ -1,3 +1,9 @@
+---
+layout: default
+title: Pyrthia
+permalink: /05_The_Lands_of_Tellus/01_Lands_Near/PYRTHIA/
+---
+
 ## 4. PYTHARIS (THE GILDED WEB)
 **Status:** Active / Merchant Republic.
 

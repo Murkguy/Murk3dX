@@ -1,3 +1,9 @@
+---
+layout: default
+title: Novemgrod
+permalink: /06_Novemgrod/
+---
+
 # THE MISTCLIFFS OF NOVEMGROD
 
 **Novemgrod** is the westernmost bastion of the Eastern Shelf, the great uprising of land that was thrust skyward during the Calamity. It stands as a lonely sentinel, surrounded by the Murk on the West and the endless, scorched silence of the Arid Waste to the East.

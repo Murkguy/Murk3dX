@@ -1,3 +1,9 @@
+---
+layout: default
+title: Suomi
+permalink: /05_The_Lands_of_Tellus/02_Lands_Far/SUOMI/
+---
+
 ## 2. SUOMI (THE FROZEN NORTH)
 **Status:** Active / Tribal Confederacy.
 

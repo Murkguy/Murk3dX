@@ -1,6 +1,7 @@
 ---
 layout: default
 title: The Ruffian
+permalink: /02_Character_Creation/01_Archetypes/RUFFIAN/
 ---
 
 # THE RUFFIAN

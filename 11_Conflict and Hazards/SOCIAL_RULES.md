@@ -1,3 +1,9 @@
+---
+layout: default
+title: Social Dynamics
+permalink: /11_Conflict and Hazards/SOCIAL_RULES/
+---
+
 # CHAPTER 6: SOCIAL DYNAMICS
 
 In a world where civilization has collapsed, words are often the only thing standing between you and a shallow grave. Social interaction is handled in two phases: **Passive Disposition** (How they react to you) and **Active Influence** (What you can make them do).

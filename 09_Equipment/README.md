@@ -1,3 +1,9 @@
+---
+layout: default
+title: Economy & Gear
+permalink: /09_Equipment/
+---
+
 # ECONOMY & GEAR
 
 In *The Murk*, you cannot simply walk into a store and buy a machine gun. The factories of Carantha are stalling, and the trade routes of Kemet are choked by fog. Gold is heavy and useless; a man dying of thirst cannot drink a diamond.

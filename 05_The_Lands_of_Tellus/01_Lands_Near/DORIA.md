@@ -1,3 +1,9 @@
+---
+layout: default
+title: Doria
+permalink: /05_The_Lands_of_Tellus/01_Lands_Near/DORIA/
+---
+
 ## 1. DORIA (THE LOST HEART)
 **Status:** Fallen / Consumed by Murk.
 

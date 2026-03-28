@@ -1,3 +1,9 @@
+---
+layout: default
+title: Lands of Tellus
+permalink: /05_The_Lands_of_Tellus/
+---
+
 # THE NEAR LANDS (THE OLD EMPIRE)
 
 Beyond the immediate safety of the Mistcliffs lie the Near Lands. These are the nations that once formed the Vardan Empire. Some are destroyed, swallowed by the Murk, while others struggle to maintain sovereignty in the face of the apocalypse.

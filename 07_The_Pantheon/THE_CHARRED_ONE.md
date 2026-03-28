@@ -1,3 +1,9 @@
+---
+layout: default
+title: The Charred One
+permalink: /07_The_Pantheon/THE_CHARRED_ONE/
+---
+
 # THE CHARRED ONE
 
 **Status:** Forbidden / Active Cult

@@ -1,3 +1,9 @@
+---
+layout: default
+title: Quick Characters
+permalink: /14_Quick_Characters/
+---
+
 # CHARACTER CREATION QUICKSHEET
 
 ## 1. ASSIGN ATTRIBUTES

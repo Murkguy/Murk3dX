@@ -1,3 +1,9 @@
+---
+layout: default
+title: Xelas
+permalink: /07_The_Pantheon/XELAS/
+---
+
 # XELAS (THE SILENT WATCHER)
 
 **Status:** Active / Patron of Scholars & Esoterists

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Core Rules
+permalink: /01_Core_Rules/
 ---
 
 # BOOK I: THE RULES

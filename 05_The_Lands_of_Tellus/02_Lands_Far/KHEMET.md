@@ -1,3 +1,9 @@
+---
+layout: default
+title: Kemet
+permalink: /05_The_Lands_of_Tellus/02_Lands_Far/KHEMET/
+---
+
 ## 3. KEMET (THE BLACK RIVER)
 **Status:** Active / Occupied Apartheid State.
 

@@ -1,3 +1,9 @@
+---
+layout: default
+title: Conflict & Hazards
+permalink: /11_Conflict and Hazards/
+---
+
 # CHAPTER 3: CONFLICT & HAZARDS
 
 In *The Murk*, violence is not a duel; it is a frantic scramble in the dark. You do not trade blows; you trade opportunities to kill.

@@ -1,3 +1,9 @@
+---
+layout: default
+title: Caranthia
+permalink: /05_The_Lands_of_Tellus/01_Lands_Near/CARANTHIA/
+---
+
 ## 2. CARANTHA (THE CHAOS OF FREEDOM)
 **Status:** Active / Unstable Democracy.
 

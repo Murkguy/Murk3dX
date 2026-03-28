@@ -1,3 +1,9 @@
+---
+layout: default
+title: Ruthenia
+permalink: /05_The_Lands_of_Tellus/01_Lands_Near/RUTHENIA/
+---
+
 ## 3. RUTHENIA (THE EDGE OF OBLIVION)
 **Status:** Active / Feudal Industrial Nation.
 **Capital City:** Novemgrod (See Chapter 1).

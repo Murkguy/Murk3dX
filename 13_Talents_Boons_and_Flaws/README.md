@@ -1,3 +1,9 @@
+---
+layout: default
+title: Talents, Boons & Burdens
+permalink: /13_Talents_Boons_and_Flaws/
+---
+
 # CHAPTER 4: TALENTS, BOONS & BURDENS
 
 ## 1. TALENTS

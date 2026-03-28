@@ -1,3 +1,9 @@
+---
+layout: default
+title: Health & Suffering
+permalink: /11_Conflict and Hazards/HAZARDS/
+---
+
 ## 4. HAZARDS (THE ENVIRONMENT)
 The world is trying to kill you just as hard as the monsters are.
 
