@@ -379,7 +379,7 @@ You may spend Potential at any time — even on another player's turn, if it mak
 
 The single most important tactical question in *The Murk* is: **spend now or save for the conversion?**
 
-Unspent Potential at the end of an Episode converts to XP (see below). A character who ends the session with 12 Potential walks away with 12 XP — enough to buy a Tier 1 Talent. A character who spent everything surviving the last fight walks away with 0 XP but is still alive to spend it.
+Unspent Potential at the end of an Episode converts to XP (see below). A character who ends the session with the full 12 Potential walks away with exactly enough XP to unlock one Tier 1 Talent — if they were disciplined enough not to spend it. A character who spent everything surviving the last fight walks away with 0 XP but is still alive to try again next session.
 
 Neither approach is correct. The pressure to choose is the game.
 
@@ -407,11 +407,13 @@ XP is spent to unlock Talents from your Archetype's tree and to advance your Ski
 
 | Purchase | Cost |
 |:--|:--|
-| Tier 1 Archetype Talent | 3 XP |
-| Tier 2 Archetype Talent | 6 XP |
-| Tier 3 Archetype Talent | 9 XP |
-| Skill: Trained → Expert | 4 XP |
-| Advance Devotion Die (Acolyte only) | 5 XP |
+| Tier 1 Archetype Talent | 12 XP |
+| Tier 2 Archetype Talent | 16 XP |
+| Tier 3 Archetype Talent | 20 XP |
+| Skill: Trained → Expert | 8 XP |
+| Advance Devotion Die (Acolyte only) | 12 XP |
+
+Each cost is set to match the Potential cap at the Rank where that purchase becomes available. A Rank 1 character who converts a perfect session's worth of Potential unlocks exactly one Tier 1 Talent. A lucky session earns knowledge fast. An average one means waiting for the next.
 
 *XP thresholds for Rank advancement are set by the Director based on campaign scope. A short campaign might Rank up every 2 Episodes; a long one, every 5.*
 
