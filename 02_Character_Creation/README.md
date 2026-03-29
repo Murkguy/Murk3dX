@@ -19,7 +19,7 @@ This chapter walks you through every decision, step by step. Read it once to und
 1.  **ASSIGN ATTRIBUTES:** Distribute **d10, d8, d6** to **Body, Mind, Spirit**.
 2.  **CHOOSE ARCHETYPE:** Gain Unique Attribute (d8), Resource, and 3 Intrinsic Perks.
 3.  **CHOOSE SPECIES:** Human, Murkborn, Anthroparion, or Chimera.
-4.  **SELECT TALENTS:** Pick 1 Generic and 1 Archetype Talent. Take a **Burden** to gain a 2nd.
+4.  **SELECT TALENTS:** Pick 1 Archetype Talent from your Tier 1 tree. Take a **Burden** to also gain a Generic Talent.
 5.  **CHOOSE BOON:** Take 1 free Boon.
 6.  **CALCULATE POOLS:** Injury Pool, Defense Rating, Load Slots.
 7.  **GEAR:** Choose a Starter Package.
@@ -258,12 +258,9 @@ The Chimera's Beacon drawback is not cosmetic. In missions involving the superna
 
 Talents are trained techniques and refined instincts — the things you have learned to do that the average person cannot. At Character Creation:
 
-* **Pick 1 Generic Talent** (available to all Archetypes).
 * **Pick 1 Archetype Talent** from your Archetype's Tier 1 tree.
 
-**Generic Talents include:** Hard to Kill, Indomitable, Gunslinger, Field Chirurgeon, Danger Sense, Mule, Pugilist, Silver Tongue, Tinkerer, Light Sleeper.
-
-> Archetype Talents are listed in each Archetype's full file. You can only take Tier 1 talents at character creation. Higher tiers are unlocked with XP.
+> Generic Talents are available via XP purchase during play (8 XP each), or gained at creation by taking a Burden. Archetype Tier 2 and Tier 3 talents are unlocked with XP. You cannot take higher-tier talents at creation.
 
 ---
 
@@ -284,7 +281,7 @@ A Burden is not a penalty. It is a fuel source.
 
 Every time your Burden causes significant trouble in a scene — not minor inconvenience, but genuine, story-complicating trouble — you earn **1d6 Potential**. The game is designed to make your flaws matter, because flaws that never surface are just unread fine print. A character with a Burden and a good Director is a character who generates momentum.
 
-* **Taking a Burden** gives you a 2nd Boon or a 3rd Talent.
+* **Taking a Burden** gives you a 2nd Boon or a Generic Talent.
 * You may only hold **1 Burden** at character creation.
 
 <div class="flavor-box" markdown="1">
@@ -464,6 +461,75 @@ You go where the flock goes. Even into the dark.
 * Light Armor (Threshold 5)
 * Med-Kit (3 Uses)
 * Incense & Reliquary (Required for Rite of Sanctification rituals)
+
+---
+
+# CHAPTER 7: PROGRESSION
+
+You do not level up. You endure.
+
+Advancement in *The Murk* is a measure of what you survived, what you refused to give up on, and what the Murk taught you the hard way. There are no automatic stat bumps. There are no class features that unlock at a specific session count. There is only **Potential** — the raw energy of a character under pressure — and what you choose to do with it when the dust settles.
+
+---
+
+## POTENTIAL TO XP
+
+At the end of every Episode (a completed session or mission), any **unspent Potential** converts to **XP** at a 1:1 rate.
+
+Potential spent during the Episode is gone — used for Boosts, Resource recovery, or Botch negation. What you didn't spend becomes permanent. This means that careful, disciplined players bank more XP. Players who burn through their Potential in the heat of the moment still benefit from the play — they just advance more slowly.
+
+<div class="rule-box" markdown="1">
+
+**Potential → XP Conversion**
+Unspent Potential at Episode end = XP gained (1:1).
+
+*Example:* You ended the Episode with 7 unspent Potential. You gain 7 XP.
+
+</div>
+
+---
+
+## RANKS
+
+Your Rank is a measure of how much pressure you have survived and what you have learned under it. It is a narrative milestone — the Director awards Rank advancement when the fiction supports it, not on a fixed XP threshold. A character who has done nothing remarkable does not advance. A character who has survived a Grand Rite, brokered a ceasefire between two factions, or dragged their squad out of the deep Murk might advance at the end of that Episode.
+
+| Rank | Title | Potential Cap | Tier Unlocked |
+|:--|:--|:--|:--|
+| **1** | Neophyte / Newcomer | 12 | Tier 1 Talents |
+| **2** | Apprentice / Operative | 16 | Tier 2 Talents |
+| **3** | Journeyman / Veteran | 20 | Tier 3 Talents |
+| **4** | Master / Legend | 24 | Advanced options |
+
+The **Potential Cap** is the maximum Potential you can hold at any time. When you advance a Rank, your cap increases — meaning you can bank more per Episode and afford more expensive purchases.
+
+---
+
+## WHAT XP BUYS
+
+<div class="rule-box" markdown="1">
+
+| Purchase | XP Cost |
+|:--|:--|
+| Tier 1 Archetype Talent | 12 XP |
+| Tier 2 Archetype Talent | 16 XP |
+| Tier 3 Archetype Talent | 20 XP |
+| Generic Talent | 8 XP |
+| Skill: Trained → Expert | 8 XP |
+| Advance Devotion Die (Acolyte only) | 12 XP |
+
+Tier costs match the Potential cap at the Rank where they become available. If you're lucky and bank well, you might unlock a Tier 1 talent at the end of your first Episode. Most characters take two or three sessions.
+
+</div>
+
+You may only purchase Talents from Tiers you have unlocked via Rank. A Rank 1 character cannot buy Tier 2 talents, regardless of how much XP they have. Advancement is earned, not purchased early.
+
+---
+
+## THE DESIGN INTENT
+
+The system is deliberately asymmetric: a player who makes aggressive in-session Potential spends gets big tactical advantages but advances slowly. A player who holds back advances faster but may struggle more during the Episode. Both are correct playstyles. Neither is punished.
+
+Ranks are narrative, not numerical. There is no formula that says "at 48 XP, you are Rank 2." The Director watches for moments where advancement feels *true* — where the character has clearly become something more capable than who they were at session one. When that moment arrives, the Rank follows.
 
 ---
 

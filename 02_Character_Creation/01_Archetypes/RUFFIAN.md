@@ -9,10 +9,8 @@ permalink: /02_Character_Creation/01_Archetypes/RUFFIAN/
 
 Honor is a luxury for the rich; you prefer survival. You are the product of the streets, the lower Rungs, and the criminal underworld. You might be a thief for the Guilds, a spy for a foreign power, or simply someone who knows how to open a locked door when the air is running out. You fight dirty because there is no prize for dying fair. While the Soldier holds the line, you are the one finding the exit, securing the loot, and ensuring there is a tomorrow to worry about.
 
-* **Attribute Focus:** **GUILE (d8)** & **AGILITY (d6)**
+* **Attribute Focus:** **GUILE (d8)**
 * **Resource:** **Trick Tokens** (Luck & dirty tricks).
-* **Starting Health:** 10 + Body.
-* **Starting Stress:** 0 (Max 10).
 
 ---
 
@@ -46,7 +44,7 @@ You speak the language of the desperate. You can make a **Guile Check** to insta
 
 ### 2. SLIPPERY
 You refuse to go down.
-* **Effect:** If you fail a **Body** or **Agility Save** and are about to take Physical Damage or Stress, you may spend **1 Token** to force an immediate **Re-Roll**. You must take the second result.
+* **Effect:** If you fail a **Body Save** and are about to take Physical Damage or Stress, you may spend **1 Token** to force an immediate **Re-Roll**. You must take the second result.
 
 ### 3. DEEP POCKETS
 You always have the right tool for the crime.
@@ -55,9 +53,9 @@ You always have the right tool for the crime.
 ---
 
 ## THE TALENT TREE
-*Spend Potential (XP) to unlock these abilities. These focus on dirty fighting, mobility, and cheating fate.*
+*Spend XP to unlock these abilities. Active talents cost **Trick Tokens** to use; Passive talents are always active.*
 
-### TIER 1: THE GUTTER RAT (3 Potential Each)
+### TIER 1: THE GUTTER RAT (12 XP Each)
 * **POCKET SAND (1 Token):**
     **Action:** You throw dust, ash, or grit into an enemy's eyes (Close Range).
     **Effect:** Target is **Blinded** (Blind Fire only, -2 to Defense) until they spend an Action to clear their eyes.
@@ -65,10 +63,12 @@ You always have the right tool for the crime.
     You move like water through trash.
     **Effect:** You climb at full speed. You suffer no movement penalties for squeezing through tight spaces, moving through crowds, or traversing difficult terrain (rubble/mud).
 * **STICKY FINGERS (Passive):**
-    You loot while you fight.
-    **Effect:** When you loot a body or container, you find **+1 Random Item** and **+1 Trick Token** (up to your Cap).
+    Your hands know what's worth taking before your brain does.
+    **Effect:** When you loot a body or container, make a **Guile Check (DR 12)**.
+    * **Failure:** You find the standard loot.
+    * **Success:** You find one additional useful item AND recover **+1 Token** (up to your Cap).
 
-### TIER 2: THE SCOUNDREL (6 Potential Each)
+### TIER 2: THE SCOUNDREL (16 XP Each)
 * **THE SHIV (2 Tokens):**
     **Action:** You attack a target that has not acted yet this turn, or is unaware of you.
     **Effect:** Deal **Weapon Damage + 2d6**. If you roll a "6" on any of the damage dice, they explode (roll again and add).
@@ -79,7 +79,7 @@ You always have the right tool for the crime.
     You can lie to anyone, even yourself.
     **Effect:** Gain **+1d6** on Guile checks to lie, disguise yourself, or forge documents. If you fail a social check, you can spend **1 Token** to change the outcome to a "Success at a Cost."
 
-### TIER 3: THE MASTERMIND (9 Potential Each)
+### TIER 3: THE MASTERMIND (20 XP Each)
 * **THE MASTER PLAN (Flashback):**
     **Action:** You reveal that you prepared for this exact situation hours ago.
     **Effect:** Spend **3 Tokens**. You may narrate a "Flashback" where you set a trap, bribed a guard, unlocked this specific door, or planted an item. The Director determines the limits, but it effectively solves the current puzzle instantly.

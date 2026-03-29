@@ -39,9 +39,9 @@ You are never unarmed.
 ---
 
 ## THE TALENT TREE
-*Spend [Potential (XP)](/01_Core_Rules/#chapter-2-the-economy-of-survival-potential) to unlock these abilities. These mix raw firepower with the survival skills needed to endure the Wastes.*
+*Spend [XP](/01_Core_Rules/#chapter-2-the-economy-of-survival-potential) to unlock these abilities. Active talents cost **Command Points (CP)** to use; Passive talents are always active.*
 
-### TIER 1: THE VANGUARD (3 Potential Each)
+### TIER 1: THE VANGUARD (12 XP Each)
 * **SUPPRESSING FIRE (1 CP):**
     **Action:** You empty a magazine into a specific Zone to keep heads down.
     **Effect:** Enemies in that Zone make a Body Save.
@@ -54,7 +54,7 @@ You are never unarmed.
     You sleep with one eye open.
     **Effect:** You (and your group) cannot be **Surprised** by ambushes while resting. You automatically wake up moments before an attack begins.
 
-### TIER 2: THE COMMANDER (6 Potential Each)
+### TIER 2: THE COMMANDER (16 XP Each)
 * **OVERWATCH (1 CP):**
     **Reaction:** You set up a kill-zone.
     **Effect:** Interrupt an enemy who moves or attacks within your range. You make an immediate **Free Attack**. If you hit, their action is cancelled (they flinch/stumble).
@@ -65,7 +65,7 @@ You are never unarmed.
     You can read the story of a fight before you see it.
     **Effect:** You can track targets through city ruins or the Murk. You can determine how many enemies there were, what weapons they used, and how long ago they passed by analyzing shell casings, footprints, and blood splatter.
 
-### TIER 3: THE VETERAN (9 Potential Each)
+### TIER 3: THE VETERAN (20 XP Each)
 * **THE OLD GUARD (Storytelling):**
     **Action:** You take a moment during a Scene (Combat or Rest) to tell a war story relevant to the situation.
     **Effect:** All allies gains **Inspiration** (+1d6 to a single roll in the *next* Scene). You may do this once per session.

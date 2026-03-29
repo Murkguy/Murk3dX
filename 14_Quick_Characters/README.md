@@ -56,7 +56,7 @@ Distribute the following dice to **Body**, **Mind**, and **Spirit**:
 ---
 
 ## 4. SELECT TALENTS
-*Choose 1 Generic and 1 Archetype Talent. ([Full details: Talents, Boons & Burdens](/13_Talents_Boons_and_Flaws/))*
+*Choose 1 Archetype Talent from your Tier 1 list. Generic Talents are purchased with XP or gained via Burden. ([Full details: Talents, Boons & Burdens](/13_Talents_Boons_and_Flaws/))*
 
 ### GENERIC (Pick 1)
 * **Hard to Kill:** +3 Injury Pool.
