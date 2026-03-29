@@ -39,7 +39,7 @@ You are never unarmed.
 ---
 
 ## THE TALENT TREE
-*Spend Potential (XP) to unlock these abilities. These mix raw firepower with the survival skills needed to endure the Wastes.*
+*Spend [Potential (XP)](/01_Core_Rules/#chapter-2-the-economy-of-survival-potential) to unlock these abilities. These mix raw firepower with the survival skills needed to endure the Wastes.*
 
 ### TIER 1: THE VANGUARD (3 Potential Each)
 * **SUPPRESSING FIRE (1 CP):**

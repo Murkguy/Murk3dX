@@ -45,7 +45,7 @@ permalink: /15_Cheatsheet/
 **3. SUFFERING:**
     * **Effect:** Cumulative **-1 Penalty** to ALL rolls per Rank.
     * **Manifestation:** Roll on *Table A (Rank 1-2)* or *Table B (Rank 3)* for specific injury.
-    * **Breakdown:** Upon taking a Rank, roll `1d6 per Rank`. If Sum > 20, Character **Breaks**.
+    * **[Breakdown](/11_Conflict%20and%20Hazards/HAZARDS/):** Upon taking a Rank, roll `1d6 per Rank`. If Sum > 20, Character **Breaks**.
 
 ---
 
@@ -69,7 +69,7 @@ permalink: /15_Cheatsheet/
 ---
 
 ## CONDITIONS & HAZARDS
-* **Murk Exposure:** Body Save (DR 12) or Lung Rot (Suffering).
+* **[Murk Exposure](/11_Conflict%20and%20Hazards/HAZARDS/):** Body Save (DR 12) or Lung Rot (Suffering).
 * **The Whisper:** Mind Save (DR 12) or d4 Stress.
 * **Falling:** Short (6 Stress), Long (12 Stress). Body Save for half.
 * **Fire:** 4 Stress/turn until extinguished.

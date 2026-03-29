@@ -17,28 +17,28 @@ Distribute the following dice to **Body**, **Mind**, and **Spirit**:
 ## 2. CHOOSE ARCHETYPE
 *Gain Unique Attribute (d8), Resource, and 3 Intrinsic Perks.*
 
-### A. THE SOLDIER (Tactics d8)
+### A. [THE SOLDIER](/02_Character_Creation/01_Archetypes/SOLDIER/) (Tactics d8)
 * **Resource:** Command Points (CP).
 * **Perks:**
     1.  **Standard Issue:** Ignore "Clumsy" on Heavy Armor/Weapons.
     2.  **Grit:** Roll 4 Dice on Body Saves.
     3.  **Bandolier:** Spend 1 CP to reveal a specific combat consumable (Grenade/Ammo).
 
-### B. THE ESOTERIST (Arcana d8)
+### B. [THE ESOTERIST](/02_Character_Creation/01_Archetypes/ESOTERIST/) (Arcana d8)
 * **Resource:** Agony (Accrued Stress).
 * **Perks:**
     1.  **The Sight:** Detect magic/murk automatically.
     2.  **Mental Fortress:** Roll 4 Dice on Mind Saves.
     3.  **The Conduit:** Cast Spells for Stress. Vent Agony to heal Stress (deals AoE dmg).
 
-### C. THE ACOLYTE (Devotion d8)
+### C. [THE ACOLYTE](/02_Character_Creation/01_Archetypes/ACOLYTE/) (Devotion d8)
 * **Resource:** Favor (Roll Devotion Die at session start).
 * **Perks:**
     1.  **The Covenant:** Only Acolytes can generate Favor and use the Petition system.
     2.  **Shepherd of the Lost:** Free lodging at faithful institutions. +1d6 on social checks to de-escalate violence.
     3.  **Confessor:** Talk to an NPC for a Scene → Director reveals one Secret, Fear, or Regret.
 
-### D. THE RUFFIAN (Guile d8)
+### D. [THE RUFFIAN](/02_Character_Creation/01_Archetypes/RUFFIAN/) (Guile d8)
 * **Resource:** Trick Tokens.
 * **Perks:**
     1.  **Streetwise:** Locate black markets/fences instantly.
@@ -48,15 +48,15 @@ Distribute the following dice to **Body**, **Mind**, and **Spirit**:
 ---
 
 ## 3. CHOOSE SPECIES
-* **HUMAN:** **The Spark.** +1 to Max Resource Cap.
-* **MURKBORN:** **Fog-Lung.** Immune to Murk Toxicity/Lung Rot. **Stigma:** +2 Difficulty on Social checks vs Civilized.
-* **ANTHROPARION:** **Plating.** Natural Armor 1. **Inorganic:** Med-kits fail; require Repair Kits.
-* **CHIMERA:** **Beast Blood.** Choose: *Claws (d6 Unarmed)*, *Night-Eyes*, or *Thick Hide (Climate ignore)*. **Beacon:** Magic/Spirits target you first.
+* **[HUMAN](/02_Character_Creation/Divergences/DIVERGENCES/):** **The Spark.** +1 to Max Resource Cap.
+* **[MURKBORN](/02_Character_Creation/Divergences/DIVERGENCES/):** **Fog-Lung.** Immune to Murk Toxicity/Lung Rot. **Stigma:** +2 Difficulty on Social checks vs Civilized.
+* **[ANTHROPARION](/02_Character_Creation/Divergences/DIVERGENCES/):** **Plating.** Natural Armor 1. **Inorganic:** Med-kits fail; require Repair Kits.
+* **[CHIMERA](/02_Character_Creation/Divergences/DIVERGENCES/):** **Beast Blood.** Choose: *Claws (d6 Unarmed)*, *Night-Eyes*, or *Thick Hide (Climate ignore)*. **Beacon:** Magic/Spirits target you first.
 
 ---
 
 ## 4. SELECT TALENTS
-*Choose 1 Generic and 1 Archetype Talent.*
+*Choose 1 Generic and 1 Archetype Talent. ([Full details: Talents, Boons & Burdens](/13_Talents_Boons_and_Flaws/))*
 
 ### GENERIC (Pick 1)
 * **Hard to Kill:** +3 Injury Pool.

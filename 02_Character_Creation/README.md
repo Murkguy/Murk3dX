@@ -96,7 +96,7 @@ Think of the Unique Die as the intersection of your training and your Archetype'
 
 Your Archetype is your survival strategy. Not just in combat — in every room, every conversation, every moment the Murk puts pressure on you. It defines what you are good at, how your Resource works, and what advanced abilities you can unlock.
 
-Before you pick, understand how the Stress system works — every Archetype interacts with it differently.
+Before you pick, understand how the [Stress system](/11_Conflict%20and%20Hazards/HAZARDS/) works — every Archetype interacts with it differently.
 
 ---
 
@@ -165,9 +165,9 @@ Each Archetype modifies this baseline. A Soldier rolls 4 Body Dice on Physical S
 
 * **Attributes:** Spirit (d8) + Mind (d6)
 * **Unique Attribute:** Devotion Die (d6) — Used for Petition rolls and Initiative. Steps up with XP.
-* **Resource:** **Favor** — Rolled from your Devotion Die at the start of each session. Spent to petition your Patron for Miracles. Gained by fulfilling your Patron's Tenets; lost by violating them.
+* **Resource:** **[Favor](/08_Faith/#2-the-holy-barometer-favor)** — Rolled from your Devotion Die at the start of each session. Spent to petition your [Patron](/08_Faith/#3-the-patrons) for Miracles. Gained by fulfilling your Patron's Tenets; lost by violating them.
 * **Intrinsic Perks:**
-  * **The Covenant** — Only you can generate Favor and use the Petition system. Without you, the gods are silent.
+  * **The Covenant** — Only you can generate Favor and use the [Petition system](/08_Faith/#3-the-petition-the-mechanic). Without you, the gods are silent.
   * **Shepherd of the Lost** — Free lodging at faithful institutions; +1d6 on social checks to de-escalate violence.
   * **Confessor** — Spend a Scene talking to an NPC; the Director reveals one Secret, Fear, or Regret they're hiding.
 

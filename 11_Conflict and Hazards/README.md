@@ -14,10 +14,10 @@ In *The Murk*, violence is not a duel; it is a frantic scramble in the dark. You
 Combat does not happen in a vacuum. It happens when the tension snaps. In this game, you do not roll a generic "Speed" stat. You roll the Attribute that defines how you process danger.
 
 ### THE ROLL
-* **The Soldier rolls Tactics (d8):** Reading the battlefield geometry.
-* **The Ruffian rolls Guile (d8):** Acting on gut instinct and panic.
-* **The Esoterist rolls Arcana (d8):** Sensing the shift in energy.
-* **The Acolyte rolls Devotion (d8):** Divine premonition.
+* **The [Soldier](/02_Character_Creation/01_Archetypes/SOLDIER/) rolls Tactics (d8):** Reading the battlefield geometry.
+* **The [Ruffian](/02_Character_Creation/01_Archetypes/RUFFIAN/) rolls Guile (d8):** Acting on gut instinct and panic.
+* **The [Esoterist](/02_Character_Creation/01_Archetypes/ESOTERIST/) rolls Arcana (d8):** Sensing the shift in energy.
+* **The [Acolyte](/02_Character_Creation/01_Archetypes/ACOLYTE/) rolls Devotion (d8):** Divine premonition.
 * **Universal:** If you lack a Unique Attribute (or choose not to use it), roll **MIND**.
 
 **Formula:** `2d6 + Attribute Die`
@@ -49,7 +49,7 @@ On your turn, you may **Move** and take **One Significant Action**.
     * **Melee:** Roll `2d6 + BODY`.
     * **Ranged:** Roll `2d6 + MIND` (or Body for Heavy Weapons).
     * **Target:** Compare Result vs. Enemy Defense Rating (DR).
-* **CAST (Esoterist):**
+* **CAST ([Esoteria](/03_Esoteria/)):**
     * Roll **1d4 Stress** to charge the spell. (No roll to hit unless the spell specifies otherwise).
 * **MANEUVER:**
     * Use an Archetype Ability (e.g., Soldier's Suppressing Fire, Ruffian's Pocket Sand).

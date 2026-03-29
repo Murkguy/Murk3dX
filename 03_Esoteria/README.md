@@ -172,7 +172,7 @@ Not all Esoteria is cast under fire. **Ritual Casting** is the slow, methodical 
 
 </div>
 
-**The Ritualist Talent** (Tier 1) allows an Esoterist to cast utility formulae — Silence, Message, Cleanse, Mend — for **0 Stress**, provided they take the full minute. This is the foundation of the Esoterist's non-combat toolkit.
+**[The Ritualist Talent](/13_Talents_Boons_and_Flaws/)** (Tier 1) allows an Esoterist to cast utility formulae — Silence, Message, Cleanse, Mend — for **0 Stress**, provided they take the full minute. This is the foundation of the Esoterist's non-combat toolkit.
 
 ---
 
@@ -235,7 +235,7 @@ A **Relic** is an item with a Principle formula permanently bound into its physi
 
 **What Relics Look Like:** Relics are rarely labeled. A Mag 2 Kinetics Relic might be a perfectly ordinary-looking iron rod with geometric scratches on one end. A Mag 1 Luminescence Relic might be a glass eye that heats up when squeezed. Identifying a Relic's function without activating it requires an **Arcana or Lore check (DR 12)**. Activating an unidentified Relic is how people lose fingers.
 
-**Who Makes Them:** The Artificer talent (Tier 1) allows an Esoterist to permanently bind a spell into an object at a cost of **3 Potential**. The binding process takes one Scene of uninterrupted ritual work. The resulting Relic can be given to anyone — the user takes the Agony, not the creator.
+**Who Makes Them:** The [Artificer talent](/13_Talents_Boons_and_Flaws/) (Tier 1) allows an Esoterist to permanently bind a spell into an object at a cost of **3 Potential**. The binding process takes one Scene of uninterrupted ritual work. The resulting Relic can be given to anyone — the user takes the Agony, not the creator.
 
 This is, economically, one of the most valuable skills a traveling Esoterist can have. A set of Kinetic Bullets or an Entropic Grenade is worth considerably more on the black market than the Esoterist's daily rate.
 
@@ -339,7 +339,7 @@ Simple commands: *"Kill him." "Guard this door." "Unlock that vault." "Follow he
 
 A Rogue Daemon is not dormant. It is loose, hostile, and permanent — a construct with no master, no Favors remaining as a leash, and the full survival instinct of its tier. A Rogue Minor Daemon is an annoyance and a hazard. A Rogue Eidolon is a disaster.
 
-The Daemonologist Talent (Tier 3) grants +1 Favor on all summonings (total 4) and **+1d6 on checks to Banish or Bind Rogue Daemons**. Directors are encouraged to make Rogue incidents feel consequential.
+The [Daemonologist Talent](/02_Character_Creation/01_Archetypes/ESOTERIST/#tier-3-the-high-rites-9-potential-each) (Tier 3) grants +1 Favor on all summonings (total 4) and **+1d6 on checks to Banish or Bind Rogue Daemons**. Directors are encouraged to make Rogue incidents feel consequential.
 
 </div>
 

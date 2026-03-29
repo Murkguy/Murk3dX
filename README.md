@@ -10,7 +10,7 @@ permalink: /
 
 * **You are not a farm boy destined to save the world.** The world is already destroyed.
 * **You are not a superhero.** A single bullet can kill you. A single mistake can break your mind.
-* **You are a Specialist.** You are a Soldier, an Esoterist, a Priest, or a Ruffian who has the specific skills required to descend into the fog and return with something of value.
+* **You are a Specialist.** You are a [Soldier](/02_Character_Creation/01_Archetypes/SOLDIER/), an [Esoterist](/02_Character_Creation/01_Archetypes/ESOTERIST/), an [Acolyte](/02_Character_Creation/01_Archetypes/ACOLYTE/), or a [Ruffian](/02_Character_Creation/01_Archetypes/RUFFIAN/) who has the specific skills required to descend into the fog and return with something of value.
 
 ### THE CORE LOOP
 1.  **THE PREPARE:** You are in Novemgrod, scraping together supplies, trading favors, and accepting contracts from the desperate Factions of the Shelf.
@@ -95,7 +95,7 @@ To survive in The Murk, you must understand three truths:
 There are no free lunches on the Shelf. Clean water costs barter. Bullets cost barter. Even the air you breathe in the Murk costs filter cartridges. If you sit still, you starve. You are forced to adventure not by destiny, but by debt.
 
 ### 2. COMBAT IS A FAIL STATE
-In other games, combat is the sport. In *The Murk*, combat is what happens when the plan goes wrong. Enemies are lethal, ammunition is scarce, and every wound you take adds to a death spiral of **Suffering**. If you can solve a problem by lying, stealing, or running—do it.
+In other games, combat is the sport. In *The Murk*, combat is what happens when the plan goes wrong. Enemies are lethal, ammunition is scarce, and every wound you take adds to a death spiral of **[Suffering](/11_Conflict%20and%20Hazards/HAZARDS/)**. If you can solve a problem by lying, stealing, or running—do it.
 
 ### 3. THE MIND BREAKS BEFORE THE BODY
 You have a single health bar called **Stress**. It measures physical damage, but also terror, exhaustion, and magical corruption. A monster might miss you with its claws, but the sheer horror of its presence can fill your Stress track just as fast. When you **Break**, you don't just fall unconscious; you change. You develop phobias, tremors, and addictions. You leave pieces of yourself in the dark.

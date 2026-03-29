@@ -10,7 +10,7 @@ permalink: /02_Character_Creation/01_Archetypes/ACOLYTE/
 You are not a magister. You cannot throw lightning. But while others see a chaotic, godless world, you see a design. You are the rock upon which your team stands. Whether you are a sanctioned priest of the Choir or a heretic whispering to old gods, your presence brings clarity to the madness of the Murk.
 
 * **Attribute Focus:** **SPIRIT (d8)** & **MIND (d6)**
-* **Resource:** **Favor** (Rolled at start of session).
+* **Resource:** **[Favor](/08_Faith/#2-the-holy-barometer-favor)** (Rolled at start of session).
 * **Unique Attribute:** **Devotion Die (d6)**.
 
 ---
@@ -18,7 +18,7 @@ You are not a magister. You cannot throw lightning. But while others see a chaot
 ## INTRINSIC PERKS (You start with all 3)
 
 ### 1. THE COVENANT
-You possess **The Spark**. You are the only Archetype capable of generating Favor and using the **Petition System**. Without you, the Gods are silent.
+You possess **The Spark**. You are the only Archetype capable of generating Favor and using the **[Petition System](/08_Faith/#3-the-petition-the-mechanic)**. Without you, the Gods are silent.
 
 ### 2. SHEPHERD OF THE LOST
 To the common folk of the Shelf, you are holy.
