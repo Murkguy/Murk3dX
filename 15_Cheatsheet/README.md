@@ -7,83 +7,143 @@ permalink: /15_Cheatsheet/
 # THE MURK: GAMEPLAY CHEATSHEET
 
 ## THE CORE MECHANIC
-**Roll:** `2d6 + Attribute Die` (+ Skill Bonus)
+**Roll:** `2d6 + Attribute Die` (+ Skill Bonus if Trained)
 * **Target:** Beat the Difficulty Rating (DR).
-    * **DR 10:** Standard (Under pressure).
-    * **DR 15:** Hard (Requires training/luck).
-    * **DR 20:** Impossible (Requires mastery).
+    * **DR 10:** Standard (Under pressure, untrained).
+    * **DR 15:** Hard (Requires training or luck).
+    * **DR 20:** Extreme (Requires mastery).
 * **Botch:** Natural "1" on the Attribute Die + Failure = Catastrophe.
 * **Crushing Success:** Beat DR by 10+ = Critical Effect (+1d4 Potential).
 
 ---
 
 ## COMBAT FLOW
-1.  **INITIATIVE:** Roll `2d6 + Attribute` (Tactics/Guile/Arcana/Devotion or Mind).
-    * **20+ (Blitz):** Act First.
-    * **15-19 (Fast):** Before Enemies.
-    * **10-14 (Fray):** Simultaneous with Enemies.
-    * **<10 (Slow):** Last.
-    * *Outpace Bonus:* If your Slot > Enemy Slot, **+1d6** to first Attack.
 
-2.  **THE TURN:** Move (Near) + 1 Significant Action (Attack, Cast, Recover).
-    * **Rush:** Forgo Action to Move Far.
-    * **Recover:** Action. Remove **d4 Stress** (Cannot do if in melee).
+**1. INITIATIVE:** Roll `2d6 + Unique Die` (Tactics/Guile/Arcana/Devotion) or Mind.
 
-3.  **ATTACKING:** Roll `2d6 + Body/Mind` vs Enemy Defense Rating (DR).
-    * **Damage:** Weapon Dice (e.g., 2d6).
-    * **Armor:** * If Damage $\le$ Threshold: Take **Half**.
-        * If Damage > Threshold: Take **Full**.
+| Result | Slot | Effect |
+| :--- | :--- | :--- |
+| 20+ | **Blitz** | Act first, before all enemies. |
+| 15–19 | **Fast** | Act before enemies. |
+| 10–14 | **Fray** | Act simultaneously with enemies. |
+| Below 10 | **Slow** | Act last. |
 
----
+*Outpace Bonus:* If your Slot beats the enemy's Slot, gain **+1d6** to your first Attack.
 
-## DAMAGE & STRESS (THE SAVE)
-**1. TAKE DAMAGE:** Add Damage amount to your current **Stress Track**.
-**2. THE SAVE:** Immediately Roll `Attribute Die` (Body/Mind/Spirit) vs **New Total Stress**.
-    * *Target:* Roll > Total Stress.
-    * **Success:** Safe. Stress remains high. (You are rattled).
-    * **Failure:** Take **1 Rank of Suffering**. Reset Stress to 0. (You are wounded).
-**3. SUFFERING:**
-    * **Effect:** Cumulative **-1 Penalty** to ALL rolls per Rank.
-    * **Manifestation:** Roll on *Table A (Rank 1-2)* or *Table B (Rank 3)* for specific injury.
-    * **[Breakdown](/11_Conflict%20and%20Hazards/HAZARDS/):** Upon taking a Rank, roll `1d6 per Rank`. If Sum > 20, Character **Breaks**.
+**2. YOUR TURN:** Move (Near) + 1 Significant Action.
+* **Actions:** Attack, Cast, Use Item, Petition, Recover (remove d4 Stress — not in melee).
+* **Rush:** Forgo your Action to Move Far instead.
+
+**3. ATTACKING:** Roll `2d6 + Body` (melee) or `2d6 + Mind` (ranged) vs Enemy **Defense Rating**.
+* On a hit, roll Weapon Dice for damage.
+* **Armor (Threshold):** Damage at or below Threshold = **Half Damage**. Above Threshold = **Full Damage**.
 
 ---
 
-## POTENTIAL (THE ECONOMY)
-*Max Capacity defined by Rank (Start at 12).*
+## DAMAGE & STRESS
 
-**GAINING:**
-* **The Grinder:** Fail a roll (Non-Botch) = **+1**.
-* **The Surge:** Roll Doubles on Base Dice (2d6) = Gain Face Value (Double 6s = +6).
-* **The Burden:** Flaw complicates scene = **+1d6**.
-* **The Crush:** Beat DR by 10+ = **+1d4**.
+**Step 1 — Take Damage:** Add damage to your **Stress Track**.
 
-**SPENDING:**
-* **Boost (2 Pot):** **+1** to Result. (Stackable).
-* **Activate (5 Pot):** Regain **1 Class Resource** (CP, Token, etc).
-* **Mitigate (1 Pot):** Reduce incoming Stress by **1**.
-* **Negate Botch (5 Pot):** Turn Botch into standard Failure.
+**Step 2 — The Save:** Roll your Attribute Die (Body/Mind/Spirit, whichever fits) vs your **new Stress total**.
+* Roll *above* your current Stress: you're shaken but standing.
+* Roll *equal to or below*: take **1 Rank of Suffering**, reset Stress to 0.
 
-**XP:** Any Unspent Potential at end of Episode converts to XP (1:1).
+**Step 3 — Suffering:**
+* Each Rank = **-1 penalty** to all rolls.
+* Roll on the Suffering table for a specific wound/condition.
+* **Breakdown Check:** Roll `1d6 per Rank`. If the sum exceeds 20, the character **Breaks** (removed from play).
+
+---
+
+## POTENTIAL & XP
+
+*Potential (Pot) is your in-scene resource. Unspent Pot converts to XP at episode's end (1:1).*
+
+**GAINING POTENTIAL:**
+* **The Grinder:** Fail a roll (non-Botch) = **+1 Pot**.
+* **The Surge:** Roll doubles on the 2d6 = gain the face value (double 6s = +6 Pot).
+* **The Burden:** A Flaw or Burden complicates the scene = **+1d6 Pot**.
+* **The Crush:** Beat DR by 10+ = **+1d4 Pot**.
+
+**SPENDING POTENTIAL:**
+* **Boost (2 Pot):** +1 to a result. Stackable.
+* **Activate (5 Pot):** Regain 1 Class Resource (CP, Token, Favor, etc.).
+* **Mitigate (1 Pot):** Reduce incoming Stress by 1.
+* **Negate Botch (5 Pot):** Downgrade a Botch to a standard Failure.
+
+**SPENDING XP (Between Episodes):**
+
+| Purchase | Cost |
+| :--- | :--- |
+| Generic Talent | 8 XP |
+| Archetype Tier 1 Talent | 12 XP |
+| Archetype Tier 2 Talent | 16 XP |
+| Archetype Tier 3 Talent | 20 XP |
+| Skill: Expert (+4) | 8 XP |
+
+---
+
+## ARMOR & WEAPONS (QUICK REFERENCE)
+
+| Armor | Threshold | Penalty |
+| :--- | :--- | :--- |
+| Clothing | 0 | None |
+| Light (Leather/Flak) | 6 | None |
+| Heavy (Plate/Hazmat) | 12 | Clumsy (–2 Move/Stealth) |
+| Shield | +1 DR | Occupies one hand |
+
+| Weapon | Damage | Notes |
+| :--- | :--- | :--- |
+| Unarmed | 1d4 | Non-Lethal (unless Pugilist) |
+| Knife / Shiv | 1d6 | Hidden, Thrown (Near) |
+| Club / Baton | 1d8 | Non-Lethal option |
+| Sword / Machete | 2d6 | Reliable |
+| Great-Axe / Sledge | 3d6 | 2-Handed, Breaching |
+| Pistol / Revolver | 1d8 | Quick Draw (fire in melee) |
+| Rifle / Musket | 2d8 | 2-Handed, Far |
+| Shotgun | 2d8 | Near, Blast (hits 2 targets) |
+| Machine Gun | 3d8 | Heavy, Auto-Fire |
+| Cannon / Launcher | 4d8 | Heavy, Explosive (Zone) |
 
 ---
 
 ## CONDITIONS & HAZARDS
-* **[Murk Exposure](/11_Conflict%20and%20Hazards/HAZARDS/):** Body Save (DR 12) or Lung Rot (Suffering).
-* **The Whisper:** Mind Save (DR 12) or d4 Stress.
-* **Falling:** Short (6 Stress), Long (12 Stress). Body Save for half.
-* **Fire:** 4 Stress/turn until extinguished.
-* **Suffocation:** Hold breath for *Body Die* rounds. Then **d6 Direct Stress**/round (Ignores Armor).
+
+| Hazard | Effect |
+| :--- | :--- |
+| **Murk Exposure** | Body Save (DR 12) or Lung Rot (1 Rank Suffering) |
+| **The Whisper** | Mind Save (DR 12) or d4 Stress |
+| **Falling (Short)** | 6 Stress. Body Save for half. |
+| **Falling (Long)** | 12 Stress. Body Save for half. |
+| **Fire** | 4 Stress/turn until extinguished. |
+| **Suffocation** | Hold breath for Body Die value in rounds. Then d6 Direct Stress/round (ignores armor). |
+| **Clumsy** | –2 to Move and Stealth checks. Cannot Rush. |
+| **Overburdened** | Clumsy. Cannot Rush. (Exceeding Load Slots) |
+
+---
+
+## SCROUNGING (FINDING GEAR)
+
+Roll `2d6 + Mind + Scrounge Bonus` vs the item's DR.
+
+| DR | Tier | Examples |
+| :--- | :--- | :--- |
+| **10** | Common | Food, water, ammo, bandages |
+| **15** | Specialist | Specific guns, Med-Kits, fuel, filters |
+| **20** | Relic | Old Empire tech, magic components, heavy weapons |
+
+**Modifiers:** Active settlement (no modifier) | Small outpost (+2 DR) | Ruin looting (+4 DR, free if found) | Contact in area (–2 DR) | Full Scene spent searching (–2 DR).
 
 ---
 
 ## SOCIAL & TRADE
-**Disposition:** Spirit Check upon meeting.
-* **Fail:** Hostile (+25% Prices).
-* **Success:** Neutral.
-* **Success +5:** Friendly (+1d6 on Parley).
+
+**Disposition Check:** Roll Spirit upon first meeting an NPC.
+* Fail: Hostile (+25% Prices, unwilling to help).
+* Success: Neutral.
+* Success +5: Friendly (+1d6 on Parley checks).
 
 **Barter Levels:**
-* **Level 1 (Scrap):** Food, Water, Basic Ammo.
-* **Level 2 (Goods):** Guns, Fuel, Med-Kits.
-* **Level 3 (Relics):** Old Tech, Magic, Secrets.
+* **Level 1 (Scrap):** Food, water, basic ammo, rope.
+* **Level 2 (Goods):** Guns, fuel, Med-Kits, armor, tools.
+* **Level 3 (Relics):** Old Empire tech, magical components, critical secrets.
