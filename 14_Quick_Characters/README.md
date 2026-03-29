@@ -32,7 +32,7 @@ Distribute the following dice to **Body**, **Mind**, and **Spirit**:
     3.  **The Conduit:** Cast Spells for Stress. Vent Agony to heal Stress (deals AoE dmg).
 
 ### C. [THE ACOLYTE](/02_Character_Creation/01_Archetypes/ACOLYTE/) (Devotion d8)
-* **Resource:** Favor (Roll Devotion Die at session start).
+* **Resource:** Favor (Roll Devotion Die d8 at session start).
 * **Perks:**
     1.  **The Covenant:** Only Acolytes can generate Favor and use the Petition system.
     2.  **Shepherd of the Lost:** Free lodging at faithful institutions. +1d6 on social checks to de-escalate violence.

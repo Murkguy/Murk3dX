@@ -57,8 +57,8 @@ This is a deliberate design choice. Casting a spell in The Murk is never a gambl
 **CASTING A PRINCIPLE**
 
 1. **Declare** the Principle (School) and the Magnitude (1, 2, or 3).
-2. **Pay the Agony Cost** — roll **1d4 Stress per Magnitude** and add it to your Stress Track immediately.
-   - Mag 1: roll 1d4 Stress &nbsp;|&nbsp; Mag 2: roll 2d4 Stress &nbsp;|&nbsp; Mag 3: roll 3d4 Stress
+2. **Pay the Agony Cost** — roll **1d6 Stress per Magnitude** and add it to your Stress Track immediately.
+   - Mag 1: roll 1d6 Stress &nbsp;|&nbsp; Mag 2: roll 2d6 Stress &nbsp;|&nbsp; Mag 3: roll 3d6 Stress
 3. **Make a Mind Save** against your new Stress total.
    - **Success:** You channel the Agony safely. The spell executes cleanly.
    - **Failure:** Take a **Rank of Suffering (Mental)**. Reset Stress to 0. The spell **still executes** — you're bleeding from the nose or screaming in silence, but the formula does not care about your condition.
@@ -67,7 +67,7 @@ This is a deliberate design choice. Casting a spell in The Murk is never a gambl
 
 <div class="flavor-box" markdown="1">
 
-*Vera needs to stop the guard captain from reaching the door. She declares **Principle of Kinetics, Magnitude 2** — Crush. She rolls 2d4 Stress: a 3 and a 1, total 4. Her Stress Track was already at 7. It's now at 11.*
+*Vera needs to stop the guard captain from reaching the door. She declares **Principle of Kinetics, Magnitude 2** — Crush. She rolls 2d6 Stress: a 4 and a 2, total 6. Her Stress Track was already at 5. It's now at 11.*
 
 *She makes a Mind Save, rolling 3 Mind Dice (she has d8). She rolls 4, 6, 2 — total 12. Her current Stress is 11. Success: she channels the Agony and the captain's knee buckles inward like wet paper.*
 
@@ -192,7 +192,7 @@ A licensed Esoterist carries a **Seal** — a numbered badge of rank, etched wit
 | **4** | Journeyman | Independent contractor. Research allowed. | **The Binding:** Gain the Rite of Summoning. Can conjure Daemons. |
 | **5** | Magus | True mastery. Schola contributor. | **Precision Casting:** Esoteria Skill Checks succeed on a roll of 4+ (instead of 5+). |
 | **6** | Archmagus | Leads a Chapterhouse. Shapes the field. | **Cascading Power:** Once per Scene, a successful Esoteria Check causes the die to **Explode** (roll an additional die, add it to the total). |
-| **7** | High Magister | One of Seven. Shapes the direction of magic itself. | **Perfect Mind:** Esoteria Skill Checks succeed on a roll of 3+. |
+| **7** | High Magister | One of Seven. Shapes the direction of magic itself. | **Unbreakable Conduit:** You no longer make Mind Saves against Agony from casting. Your track still accumulates — the body still burns — but your mind has been conditioned beyond fracture. Casting alone cannot cause Suffering. |
 
 ### ROGUE PRACTITIONERS
 
@@ -279,9 +279,9 @@ You cannot summon a Daemon in combat. The process requires **10 minutes**, a rit
 #### MINOR DAEMON — *The Fetch*
 *What it is:* The simplest construct. Fist-sized or smaller. Most Fetches take ambiguous forms — a shape like a bird with too many joints, a shadow that moves when yours doesn't, a mass of pale filaments that slip under doors. They are not threatening. They are *wrong*.
 
-* **Agony Cost:** 2 Stress
+* **Agony Cost:** 1d6 Stress
 * **Severity (DR):** 12
-* **Stats:** HP 6 | Damage d4
+* **Stats:** HP 10 | Damage d6
 * **Favors:** 3
 * **Capabilities:** Pass through gaps, carry messages, steal small objects, observe and report, unlock mechanisms from the inside.
 
@@ -296,9 +296,9 @@ You cannot summon a Daemon in combat. The process requires **10 minutes**, a rit
 #### MAJOR DAEMON — *The Myrmidon*
 *What it is:* A full-sized combat construct. Myrmidons are humanoid more often than not — the mind defaults to human scale when building something that needs to fight. They tend toward the featureless: a knight without heraldry, a soldier with no face, a shape that's almost a person from a distance and obviously isn't up close. The eyes, if they have any, are wrong. Too still. Too focused.
 
-* **Agony Cost:** 4 Stress
+* **Agony Cost:** 2d6 Stress
 * **Severity (DR):** 14
-* **Stats:** HP 12 | Armor 1 | Damage d8
+* **Stats:** HP 18 | Armor 2 | Damage 2d6
 * **Favors:** 3
 * **Capabilities:** Combat, heavy lifting, physical intimidation, guarding a position.
 
@@ -311,13 +311,26 @@ You cannot summon a Daemon in combat. The process requires **10 minutes**, a rit
 ---
 
 #### PRIME DAEMON — *The Eidolon*
-*What it is:* The limit of what a single mind can hold together without breaking. An Eidolon does not look human. It rarely looks like anything with a precedent. The shape shifts — not constantly, but enough that you can never fully describe it after. A report written by a Novemgrod Schola investigator on a rogue Eidolon incident described it as "approximately the size of a market stall, with a posture that suggested it was used to much smaller spaces." They never found the investigator's field notes. They found the investigator.
+*What it is:* The limit of what a single mind can hold together without breaking. An Eidolon is not a simple construct. It is nearly a fully-formed thing — a dense compression of Esoteric energy and fractured cognition that has achieved something uncomfortably close to selfhood. In its composed state, an Eidolon can hold a humanoid shape with startling fidelity. It can pass for a large human being in poor light. It can speak in approximations. It can sit at a table and wait, perfectly still, for hours.
 
-* **Agony Cost:** 6 Stress
+Its true form is something else entirely. A report written by a Novemgrod Schola investigator on a rogue Eidolon incident described it as "approximately the size of a market stall, with a posture that suggested it was used to much smaller spaces." They never found the investigator's field notes. They found the investigator.
+
+* **Agony Cost:** 3d6 Stress
 * **Severity (DR):** 16
-* **Stats:** HP 20 | Armor 2 | Damage 2d6 (Cleave — hits all adjacent targets)
+* **Stats:** HP 30 | Armor 3 | Damage 3d6 (Cleave — hits all adjacent targets)
 * **Favors:** 3
-* **Capabilities:** Siege-level combat, structural demolition, complex problem solving, holding an entire Zone.
+* **Capabilities:** Siege-level combat, structural demolition, complex problem-solving, holding an entire Zone.
+
+#### EIDOLON SPECIAL ABILITIES
+
+**HUMANOID FORM (The Mask)**
+An Eidolon can compress itself into a humanoid shape up to the size of a large human. In this form, it cannot use its Cleave attack or natural Armor — it is navigating a physical space it was not designed for, and the effort shows in subtle wrongness. Switching between humanoid and true form costs 1 Favor and takes one full Action. In humanoid form, an Eidolon can pass as a large, unusual-looking person at a distance. Up close, something is always wrong — the proportions shift when it isn't being watched, the eyes don't blink at the right times, the voice is very slightly too resonant for the chest producing it.
+
+**ESOTERIC DISCHARGE (True Form Only)**
+In its true form, an Eidolon retains enough of the caster's cognition to execute simple Esoteric formula. Once per round as a bonus action (no Favor cost), it can cast a **Principle at Magnitude 1** from any school its summoner knows. This is instinctive rather than directed — the Eidolon targets whatever it perceives as the greatest threat, which may not align with its master's priorities.
+
+**REFLECTION**
+An Eidolon is built from a fragment of its summoner's own mind. It knows things the summoner knows. It cannot be deceived by illusions that would fool the summoner, and it can communicate in the summoner's native language without being taught. The dark side of this: a skilled Esoterist or sensitive individual who makes direct mental contact with an Eidolon gets a flash of the summoner's memories, fears, and current location — whether or not the summoner intended to share them.
 
 ---
 

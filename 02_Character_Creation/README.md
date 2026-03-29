@@ -164,7 +164,7 @@ Each Archetype modifies this baseline. A Soldier rolls 4 Body Dice on Physical S
 *You cannot throw lightning. But while others see a godless world, you see a design. You are the rock upon which your team stands.*
 
 * **Attributes:** Spirit (d8) + Mind (d6)
-* **Unique Attribute:** Devotion Die (d6) — Used for Petition rolls and Initiative. Steps up with XP.
+* **Unique Attribute:** Devotion Die (d8) — Used for Petition rolls and Initiative. Steps up with XP (d10, d12).
 * **Resource:** **[Favor](/08_Faith/#2-the-holy-barometer-favor)** — Rolled from your Devotion Die at the start of each session. Spent to petition your [Patron](/08_Faith/#3-the-patrons) for Miracles. Gained by fulfilling your Patron's Tenets; lost by violating them.
 * **Intrinsic Perks:**
   * **The Covenant** — Only you can generate Favor and use the [Petition system](/08_Faith/#3-the-petition-the-mechanic). Without you, the gods are silent.

@@ -24,7 +24,7 @@ You perceive the unseen. You automatically detect active magic, curses, and deep
 Your mind is categorized and reinforced. When making a **Mind Save** against Mental Stress (Fear, Horror, or **Agony**), you roll **4 Mind Dice** (instead of the standard 3). You can withstand the psychological toll of the Murk better than anyone.
 
 ### 3. THE CONDUIT (CAST & VENT)
-* **Cast:** To cast a spell, you channel energy through your nervous system. Roll **1d4 Stress per Magnitude** of the spell. This accumulation of pain is called **Agony**.
+* **Cast:** To cast a spell, you channel energy through your nervous system. Roll **1d6 Stress per Magnitude** of the spell. This accumulation of pain is called **Agony**.
 * **Vent:** You may spend an Action to "Vent" accumulated Agony. Remove **d6 Stress** from your track.
     * **Warning:** This releases a psychic shockwave. If you Vent in combat, you deal **2 Damage** to everyone within Near Range (Ally or Enemy).
 
@@ -33,22 +33,22 @@ Your mind is categorized and reinforced. When making a **Mind Save** against Men
 ## THE SPELLBOOK (THE PRINCIPLES)
 *All Esoterists know the formulas for these three Principles. You do not need to unlock them; you simply choose which to cast.*
 
-**Agony Cost:** Mag 1 = 1d4 Stress &nbsp;|&nbsp; Mag 2 = 2d4 Stress &nbsp;|&nbsp; Mag 3 = 3d4 Stress
+**Agony Cost:** Mag 1 = 1d6 Stress &nbsp;|&nbsp; Mag 2 = 2d6 Stress &nbsp;|&nbsp; Mag 3 = 3d6 Stress
 
 ### PRINCIPLE OF KINETICS (Force & Weight)
-* **Mag 1:** **Impact.** 2d6 Damage + Push target back. *(1d4 Stress)*
-* **Mag 2:** **Crush.** Destroy an object, break a lock, or sunder Armor (reduce Rating to 0). *(2d4 Stress)*
-* **Mag 3:** **Gravity Well.** 4d6 Damage to an entire Zone. Crush everyone to the floor. *(3d4 Stress)*
+* **Mag 1:** **Impact.** 2d6 Damage + Push target back. *(1d6 Stress)*
+* **Mag 2:** **Crush.** Destroy an object, break a lock, or sunder Armor (reduce Rating to 0). *(2d6 Stress)*
+* **Mag 3:** **Gravity Well.** 4d6 Damage to an entire Zone. Crush everyone to the floor. *(3d6 Stress)*
 
 ### PRINCIPLE OF ENTROPY (Decay & Time)
-* **Mag 1:** **Rust.** Instantly jam a gun, age a lock to dust, or rot food. *(1d4 Stress)*
-* **Mag 2:** **Wither.** 3d4 Damage + Target is **Weakened** (-2 to all Physical Checks). *(2d4 Stress)*
-* **Mag 3:** **Decay.** 3d8 Damage. If this kills the target, they turn to ash instantly. *(3d4 Stress)*
+* **Mag 1:** **Rust.** Instantly jam a gun, age a lock to dust, or rot food. *(1d6 Stress)*
+* **Mag 2:** **Wither.** 3d4 Damage + Target is **Weakened** (-2 to all Physical Checks). *(2d6 Stress)*
+* **Mag 3:** **Decay.** 3d8 Damage. If this kills the target, they turn to ash instantly. *(3d6 Stress)*
 
 ### PRINCIPLE OF LUMINESCENCE (Light & Energy)
-* **Mag 1:** **Flash.** 1d6 Damage + Target is **Blinded** (Blind fire only). *(1d4 Stress)*
-* **Mag 2:** **Laser.** 3d6 Damage. This attack ignores all Armor. *(2d4 Stress)*
-* **Mag 3:** **Arc Lightning.** 3d6 Damage. Chains to 3 separate targets. *(3d4 Stress)*
+* **Mag 1:** **Flash.** 1d6 Damage + Target is **Blinded** (Blind fire only). *(1d6 Stress)*
+* **Mag 2:** **Laser.** 3d6 Damage. This attack ignores all Armor. *(2d6 Stress)*
+* **Mag 3:** **Arc Lightning.** 3d6 Damage. Chains to 3 separate targets. *(3d6 Stress)*
 
 ---
 
@@ -65,14 +65,14 @@ Your mind is categorized and reinforced. When making a **Mind Save** against Men
 
 ### TIER 2: REALITY MANIPULATION (16 XP Each)
 * **MATTER TRANSMUTATION:**
-    You can alter the physical properties of an inanimate object (Mag 2 Agony).
+    You can alter the physical properties of an inanimate object *(2d6 Agony)*.
     * *Examples:* Turn a stone wall into mud, turn a pool of water into gasoline, or turn the air in a room into heavy smoke. Lasts for 1 Scene.
 * **THE PUPPETEER:**
-    You can bend the will of a sentient being (Mag 2 Agony). The target makes a Spirit Save vs your Arcana.
+    You can bend the will of a sentient being *(2d6 Agony)*. The target makes a Spirit Save vs your Arcana.
     * *Success:* You control their body for 1 Action.
     * *Passive Bonus:* You have rerolls on Intimidation checks; people instinctively feel your psychic weight.
 * **WEIGHT OF THE WORLD:**
-    You manipulate the gravity of a specific object or person (Mag 1 Agony).
+    You manipulate the gravity of a specific object or person *(1d6 Agony)*.
     * *Effect:* Make a heavy safe light enough to carry, or make an enemy's sword too heavy to lift.
 
 ### TIER 3: THE HIGH RITES (20 XP Each)
@@ -83,7 +83,7 @@ Your mind is categorized and reinforced. When making a **Mind Save** against Men
 * **SYMPATHETIC MAGIC (Assassination):**
     **The Ritual:** Requires a biological link to the target (hair, blood) and an effigy.
     **The Effect:** You cast a Principle (Kinetics/Entropy) on the effigy. The target suffers the effect regardless of distance.
-    **The Cost:** **Double Agony.** (e.g., Mag 2 spell costs 2d4 x 2 Stress). If you fail the Mind Save, the damage reflects back onto *you* instead.
+    **The Cost:** **Double Agony.** (e.g., Mag 2 spell costs 2d6 × 2 Stress). If you fail the Mind Save, the damage reflects back onto *you* instead.
 * **THE GRAND RITE (Storytelling):**
     **The Ritual:** This allows you to attempt *anything* (Changing weather, curing a plague, collapsing a building).
     **The Mechanic:**

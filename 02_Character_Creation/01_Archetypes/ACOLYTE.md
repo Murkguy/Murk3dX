@@ -11,7 +11,7 @@ You are not a magister. You cannot throw lightning. But while others see a chaot
 
 * **Attribute Focus:** **SPIRIT (d8)** & **MIND (d6)**
 * **Resource:** **[Favor](/08_Faith/#2-the-holy-barometer-favor)** (Rolled from Devotion Die at session start).
-* **Unique Attribute:** **Devotion Die (d6)**.
+* **Unique Attribute:** **Devotion Die (d8)**.
 
 ---
 
@@ -21,7 +21,7 @@ Faith is not mana. Favor is trust — accumulated through righteous action, spen
 ### 1. GENERATION (SESSION START)
 At the start of every Session, roll your **DEVOTION DIE**.
 * **The Result:** This is your starting Favor pool.
-* **The Cap:** You cannot hold more Favor than your Devotion Die's maximum (e.g., d6 = cap 6). Favor persists between Scenes but resets each Session.
+* **The Cap:** You cannot hold more Favor than your Devotion Die's maximum (e.g., d8 = cap 8). Favor persists between Scenes but resets each Session.
 
 ### 2. EARNING FAVOR (TENETS)
 When you act in deliberate accordance with your Patron's Tenets — as recognized by the Director — gain **+1 Favor**. This requires intention, not accident.
