@@ -4,11 +4,11 @@ title: Esoteria (Magic Rules)
 permalink: /03_Esoteria/
 ---
 
-# BOOK III: ESOTERIA — THE FORBIDDEN SCIENCE
+# BOOK III: ESOTERIA — THE DIVINE THEFT
 
 <div class="flavor-box" markdown="1">
 
-*"Magic is not a miracle. A miracle is a gift. What you are doing is a theft — you are stealing energy from the structure of reality itself. The universe will notice. The universe will collect."*
+*"A miracle is a gift. What you are doing is a theft — you are reaching into the hands of the gods and taking what they wrote the world with. They will notice. They will collect."*
 
 — Archmagus Petyr Vann, address to the Schola Magisterium, Year of the Fog
 
@@ -16,17 +16,25 @@ permalink: /03_Esoteria/
 
 ---
 
-Every culture in Tellus has a word for it. The Ruthenic frontier soldiers call it *vraz* — the force that kills from the inside. The Kemet scholar-priests call it *sekhem*, the forbidden current. The people of Novemgrod just call it *the wrong kind of physics*.
+Every culture in Tellus has a word for it. The Ruthenic frontier soldiers call it *vraz* — the force that kills from the inside. The Kemet scholar-priests call it *sekhem*, the forbidden current. The Nine Mothers call it *blasphemy*. The Charred One calls it *prayer*.
 
 The Schola Magisterium calls it **Esoteria**, and they have spent four centuries trying to make it respectable.
 
 They have not succeeded.
 
-Esoteria is not a gift from the gods. It is not inherited bloodline magic. It is a **science** — specifically, the application of Vardan geometric formulae to the physical laws of the universe. The Vardan Empire discovered, sometime in the fifth century of their rule, that the laws of physics were not laws at all. They were *tendencies*. Habits. Defaults that the universe fell back on when nothing was forcing it to behave differently.
+The gods of Tellus did not simply create the world. They authored its rules. Gravity. Entropy. The speed at which light moves and rot spreads and bones break. These are not natural phenomena — they are **divine edicts**, the ongoing will of the Pantheon expressed as physical law. When you drop a stone and it falls, that is a god deciding, in that moment, that it should fall.
 
-The formulae force it to behave differently.
+The Vardan Empire discovered, sometime in the fifth century of their rule, that divine edicts could be overruled.
 
-The price is that the formulae run through the caster's nervous system. The universe's resistance — its refusal to be rewritten — manifests as raw, catastrophic pain. The Schola calls this feedback **Agony**. They use a clinical term because clinical terms make it easier to ask students to endure it.
+Not permanently. Not without cost. But with the right geometric formulae — Vardan theorists called them *the Shapes That Argue* — a practitioner could insert a counter-instruction into the fabric of reality and force the laws to yield. The stone does not fall. The man's bones do not hold. The light does not scatter.
+
+This is **Esoteria**: the systematic theft of divine authority.
+
+The price is immediate and visceral. The gods notice every violation. Their resistance — the pushback of divine will against the override — travels back through the caster's nervous system as raw, catastrophic pain. The Schola calls this feedback **Agony**. They use a clinical term because clinical terms make it easier to ask students to endure what is, theologically speaking, the wrath of every deity whose domain you just trespassed.
+
+The church does not use a clinical term. The church uses words like *profanation* and *theft* and *the reason the Murk exists*.
+
+They may not be wrong.
 
 This chapter covers everything a Director and player need to understand how magic works in The Murk — what it costs, what it can do, and what happens when it goes wrong.
 
@@ -40,7 +48,7 @@ The most important rule about casting in this system is also the most counterint
 
 There is no failed cast. There is no fizzle. When an Esoterist declares a Principle and pays the cost, the formula executes — the wall of stone moves, the man's bones begin to decay, the arc of lightning finds its target. The universe has no say in whether the effect occurs. The only question is whether the caster survives the act of forcing it.
 
-This is a deliberate design choice. Casting a spell in The Murk is never a gamble on *whether the magic fires*. It is a gamble on *whether you can stay conscious long enough to control the aftermath*. That is a different, more interesting tension — and it puts the decision entirely in the caster's hands.
+This is a deliberate design choice. Casting a spell in The Murk is never a gamble on *whether the magic fires*. It is a gamble on *whether you can survive the gods noticing*. That is a different, more interesting tension — and it puts the decision entirely in the caster's hands.
 
 <div class="rule-box" markdown="1">
 
@@ -93,11 +101,11 @@ All Esoteria is measured on a three-point scale of intensity. Magnitude is not j
 | **2 (Lethal)** | Small Group / Environment | 3d6 (Ignores Light Armor) | Several things at once, or one thing completely. |
 | **3 (Catastrophic)** | Entire Zone | 4d6 (Ignores All Armor) | You are not casting a spell. You are rewriting a room. |
 
-**Magnitude 1** is the daily language of the working Esoterist. Push a man back, flash a guard's eyes, age a lock to dust. The universe barely notices. The Agony is manageable. Field researchers cast Mag 1 a dozen times a day.
+**Magnitude 1** is the daily language of the working Esoterist. Push a man back, flash a guard's eyes, age a lock to dust. You are disputing a minor divine edict — the gods notice, but it is beneath their full attention. The Agony is manageable. Field researchers cast Mag 1 a dozen times a day, at the cost of chronic headaches and a tremor in their casting hand that never quite goes away.
 
-**Magnitude 2** is where the work gets serious. You are no longer nudging the physical world — you are breaking it. A Mag 2 cast withers a limb, crushes structural supports, fires a laser that punches through plate. The Agony bill is real. The look in your allies' eyes when you start bleeding from your ears is real.
+**Magnitude 2** is where the theological weight becomes physical. You are no longer disputing minor edicts — you are overruling them. A Mag 2 cast withers a limb, crushes structural supports, fires a focused beam of light that punches through plate. The god whose domain you are borrowing has registered the insult. The Agony bill is real. The look in your allies' eyes when you start bleeding from your ears is real.
 
-**Magnitude 3** is the option you are not supposed to use. Gravity Wells. Decay. Arc Lightning chaining across three targets simultaneously. A Mag 3 cast in an enclosed space can end a mission — or start a different one. Esoterists who cast Mag 3 often find themselves in the Director's spotlight for reasons that have nothing to do with the original plan. *The spell always works.* What it does to the room is less predictable.
+**Magnitude 3** is the option you are not supposed to use. Gravity Wells. Decay. Arc Lightning chaining across three targets simultaneously. At Magnitude 3, you are not borrowing divine authority — you are *countermanding* it, loudly, in front of witnesses. Every practitioner within range feels it. The gods feel it. The Murk, which some scholars argue *is* a god feeling it, responds. Esoterists who cast Mag 3 often find themselves in the Director's spotlight for reasons that have nothing to do with the original plan. *The spell always works.* What notices is less predictable.
 
 ---
 
@@ -132,15 +140,18 @@ Full spell lists for each Principle are detailed in the [Esoterist Archetype](..
 
 ### PRINCIPLE OF KINETICS (Force & Weight)
 *The manipulation of momentum, mass, and gravity.*
-The most intuitive Principle and the most commonly used in combat. Everything from a tactical push to a Zone-wide gravity inversion.
+*Divine domain: Apatur (Struggle, Dominion) and partially Makru (Stasis).*
+The most intuitive Principle and the most commonly used in combat. Everything from a tactical push to a Zone-wide gravity inversion. The Schola notes dryly that Apatur, who governs struggle and iron, seems relatively unbothered by practitioners borrowing his authority — possibly because the results tend to produce more struggle.
 
 ### PRINCIPLE OF ENTROPY (Decay & Time)
 *The acceleration of rot, age, and dissolution.*
-The most feared Principle by enemies and Directors alike. Entropy does not just damage — it *removes*. A target killed by Decay does not leave a body. An object struck by Rust does not leave wreckage. It was, and now it is not.
+*Divine domain: The Nine Mothers (Fate, the Cycle) and Larantas (The Rot).*
+The most feared Principle by enemies and Directors alike. Entropy does not just damage — it *removes*. A target killed by Decay does not leave a body. An object struck by Rust does not leave wreckage. It was, and now it is not. The Nine Mothers do not appreciate having their schedule accelerated.
 
 ### PRINCIPLE OF LUMINESCENCE (Light & Energy)
 *The focus and release of electromagnetic force.*
-The Principle of pure energy. Flash blinds. Laser cuts through armor like it isn't there. Arc Lightning chains — one cast, three targets, all at full Magnitude.
+*Divine domain: Xelas (Light, Creation).*
+The Principle of pure energy. Flash blinds. Laser cuts through armor like it isn't there. Arc Lightning chains — one cast, three targets, all at full Magnitude. Xelas is the god of knowledge and creation; practitioners note, with some unease, that Luminescence seems to come *easier* than the other Principles — as if Xelas is permitting it rather than resisting. No one has fully worked out whether this is reassuring.
 
 ---
 
@@ -190,13 +201,15 @@ Esoterists who practice without a Seal — or who have had their Seal revoked �
 
 A Rogue is not automatically a villain. Plenty of unlicensed Esoterists are field researchers who couldn't afford the Schola's fees, or survivors of Chapterhouse collapses who never re-registered, or people practicing the old Vardan formulae that the Schola has formally classified as Forbidden.
 
-What a Rogue is, mechanically, is **unprotected**. The Schola's training includes mental conditioning against the worst effects of Agony buildup. Rogues lack this. At the Director's discretion, a Rogue Esoterist who accumulates extreme Stress may face additional consequences on a failed Mind Save — hallucinations, identity fragmentation, or brief psychic broadcasts detectable by other practitioners.
+What a Rogue is, mechanically, is **unprotected** — and theologically, *unmediated*. The Schola's training includes mental conditioning against the worst effects of Agony: techniques for channeling divine pushback through structured mental frameworks rather than raw nerve tissue. The conditioning doesn't reduce the Agony; it gives it somewhere to go. Rogues cast without this scaffolding. At the Director's discretion, a Rogue Esoterist who accumulates extreme Stress may face additional consequences on a failed Mind Save — hallucinations, identity fragmentation, or brief involuntary psychic broadcasts detectable by other practitioners and, according to certain Acolyte traditions, by the gods themselves.
+
+The church does not arrest Rogues. The church *prays for* Rogues. The distinction matters less than it sounds.
 
 <div class="flavor-box" markdown="1">
 
 *In the old quarter of Novemgrod, unlicensed casting lights up like a flare to anyone carrying a Relic Compass. The Schola's retrieval teams call it "fishing." You walk the fog-line with a compass in one hand and a writ of arrest in the other, and you wait for someone to get desperate.*
 
-*Most Rogues don't last long. Not because the Schola catches them. Because the Agony does.*
+*Most Rogues don't last long. Not because the Schola catches them. Because the gods do.*
 
 </div>
 
@@ -335,15 +348,23 @@ The Daemonologist Talent (Tier 3) grants +1 Favor on all summonings (total 4) an
 
 # CHAPTER 8: FORBIDDEN FORMULAE
 
-The Schola Magisterium has classified certain Esoteric applications as **Forbidden** — not because they don't work, but because they work too well.
+The Schola Magisterium has classified certain Esoteric applications as **Forbidden** — not because they don't work, but because of *whose domain they steal from*.
 
-Forbidden Formulae are not included in Tier progression. They are found in the field: in sealed vaults, in the notebooks of dead Magisters, in the ruins of Vardan-era research stations. Using one draws Schola attention immediately. Being caught with the notation for one is a criminal offense.
+Every Principle sits within a divine portfolio. Kinetics borrows from the authority of gods who govern force and weight. Entropy borrows from those who govern time and decay. These are, theologically speaking, relatively *unclaimed* territories — the gods who own them are not actively watching. The Forbidden Formulae are different. They reach into domains the gods are *paying attention to*.
 
-The Director determines what Forbidden Formulae exist in their campaign. Examples:
+Forbidden Formulae are not included in Tier progression. They are found in the field: in sealed vaults, in the notebooks of dead Magisters, in the ruins of Vardan-era research stations. Using one draws Schola attention immediately — and, practitioners report, something else's attention too. Being caught with the notation for one is a criminal offense in every jurisdiction that has a Schola presence.
 
-* **SYMPATHETIC CASTING:** Casting a Principle through an effigy linked to a biological sample. Range becomes unlimited; Agony cost doubles. (Available as the Sympathetic Magic Talent, Tier 3 — even the Schola classifies this as forbidden-but-permitted-for-field-operatives-with-clearance.)
-* **MEMORY EXTRACTION:** Entropy applied to neural tissue. Destroys the target's recall of a specific period. Leaves no physical evidence. The Schola calls it "irreversible cognitive salvage."
-* **THE CONSUMPTION FORMULA:** An obscure Kinetics application that transfers Agony from one person to another. Requires physical contact. No one is sure who discovered it. Several people have tried to undiscover it.
+<div class="flavor-box" markdown="1">
+
+*The Schola's official position is that Forbidden Formulae are dangerous due to "unacceptable Agony amplification and uncontrolled secondary effects." This is accurate but incomplete. The unofficial position — discussed in senior faculty meetings and nowhere else — is that the gods who govern those domains have demonstrated, on multiple documented occasions, that they consider Forbidden casting to be a personal affront. The Murk may be the most famous demonstration of this. It is not the only one.*
+
+</div>
+
+The Director determines what Forbidden Formulae exist in their campaign. Documented examples from Schola archives:
+
+* **SYMPATHETIC CASTING:** Casting a Principle through an effigy linked to a biological sample. Range becomes unlimited; Agony cost doubles. The gods who govern the connection between a person and their physical form notice this immediately. (Available as the Sympathetic Magic Talent, Tier 3 — even the Schola classifies it as forbidden-but-permitted-for-field-operatives-with-clearance. The field operatives are not told which god they are angering.)
+* **MEMORY EXTRACTION:** Entropy applied to neural tissue. Destroys the target's recall of a specific period. Leaves no physical evidence. The Schola calls it "irreversible cognitive salvage." The Nine Mothers, whose domain includes fate and what-has-already-happened, call it something unprintable.
+* **THE CONSUMPTION FORMULA:** An obscure Kinetics application that transfers Agony from one person to another. Requires physical contact. Reroutes divine punishment onto an unconsenting recipient — the gods who authored the Agony-as-feedback system consider this a circumvention of their enforcement mechanism. No one is sure who discovered it. Several people have tried to undiscover it.
 
 ---
 
