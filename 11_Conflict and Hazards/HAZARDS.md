@@ -119,6 +119,7 @@ When you take a Rank of Suffering, the math gets harder (-1 Penalty), but the st
 *The body is a machine, and yours is breaking down.*
 
 #### TABLE A: THE HINDERANCE (Rank 1 & 2)
+
 | Roll | Debility | Narrative Constraint |
 | :--- | :--- | :--- |
 | **1** | **Concussed** | Your vision swims. You cannot read text, decipher codes, or focus on distant targets. |
@@ -129,6 +130,7 @@ When you take a Rank of Suffering, the math gets harder (-1 Penalty), but the st
 | **6** | **Swollen Eye** | You have a blind side. Enemies attacking from your Left (or Right) are effectively invisible to you until they strike. |
 
 #### TABLE B: THE CRITICAL (Rank 3+)
+
 | Roll | Debility | Narrative Constraint |
 | :--- | :--- | :--- |
 | **1** | **Useless Limb** | A bone snaps or a muscle tears. One arm or leg hangs dead. You are one-handed, or you must hop/crawl. |
@@ -142,6 +144,7 @@ When you take a Rank of Suffering, the math gets harder (-1 Penalty), but the st
 *The mind is a fortress, and the walls are crumbling.*
 
 #### TABLE A: THE HINDERANCE (Rank 1 & 2)
+
 | Roll | Debility | Narrative Constraint |
 | :--- | :--- | :--- |
 | **1** | **The Shakes** | Adrenaline overload. You cannot keep your hands steady. You cannot aim rifles or perform delicate work. |
@@ -152,6 +155,7 @@ When you take a Rank of Suffering, the math gets harder (-1 Penalty), but the st
 | **6** | **Shadow-Blight** | You see shapes in the dark. You cannot enter a dark room or unlit area alone. |
 
 #### TABLE B: THE BREAK (Rank 3+)
+
 | Roll | Debility | Narrative Constraint |
 | :--- | :--- | :--- |
 | **1** | **Death Wish** | You stop caring if you live. You refuse to retreat, take cover, or hide. You stand in the open. |

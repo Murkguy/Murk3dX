@@ -72,6 +72,7 @@ The tools of violence are varied, from rusted shivs to thunderous cannons.
 * **Magical Weapons:** If a weapon is enchanted or forged of Old World steel, add **+1 to +3 Dice** of the same type to the damage roll (e.g., A +1 Magic Sword deals 3d4).
 
 ### MELEE WEAPONS
+
 | Weapon | Damage | Tags |
 | :--- | :--- | :--- |
 | **Unarmed** | 1 | Non-Lethal (unless Pugilist). |
@@ -81,6 +82,7 @@ The tools of violence are varied, from rusted shivs to thunderous cannons.
 | **Great-Axe / Sledge** | 3d4 | 2-Handed, Breaching (Destroys doors). |
 
 ### RANGED WEAPONS
+
 | Weapon | Damage | Range | Tags |
 | :--- | :--- | :--- | :--- |
 | **Pistol / Revolver** | 1d6 | Near | Quick Draw (Can fire in melee). |
