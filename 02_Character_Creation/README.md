@@ -154,7 +154,7 @@ Each Archetype modifies this baseline. A Soldier rolls 4 Body Dice on Physical S
 
 **How the Esoterist works:** The Agony system is a risk curve. A Magnitude 1 spell costs 1d4 Stress — manageable. A Magnitude 3 spell costs 3d4 — that is up to 12 Stress in a single action, which can trigger a Save at nearly any track level. The art of playing the Esoterist is knowing *when* to Vent. Venting is free Stress reduction, but it hurts your allies as much as your enemies. A Esoterist who Vents in a crowded room has a lot of explaining to do. The Esoterist's power ceiling is higher than any other Archetype. So is their body count when things go wrong.
 
-* **Playstyle:** High-power, high-risk. You can reshape any encounter, but mismanagement ends you. Your spellbook has three starting Principles; unlocking more is a talent investment.
+* **Playstyle:** High-power, high-risk. You can reshape any encounter, but mismanagement ends you. Your spellbook has [three starting Principles](01_Archetypes/ESOTERIST/#the-spellbook-the-principles); unlocking more is a talent investment.
 
 ---
 
