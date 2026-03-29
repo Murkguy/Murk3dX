@@ -31,28 +31,34 @@ Despite the bleakness, Ruthenians produce the finest art on Tellus. They believe
 * **Architecture:** The skyline of Novemgrod is the peak of Ruthenian design—impossible spires, onion domes, and flying buttresses that defy gravity.
 
 
-## Synopsis
-Ruthenia, the second land to succumb to Doria's might and an initial partner in the formation of the Empire, boasts a multitude of vibrant and cosmopolitan cities among the Near Lands. Situated between the eastern reaches of Doria and the western expanse of Carantia, Ruthenia has long been a hotly contested region, witnessing centuries of conflict and ever-changing loyalties.
+<div class="flavor-box" markdown="1">
 
-During the War, Ruthenia adeptly played both sides, skillfully maneuvering for increased power and influence. The collective cities of Ruthenia, recognizing their strategic value, sold their mercenary forces to the highest bidder, ensuring that their ancient conquerors remained weakened and incapable of launching successful campaigns against them.
+In Novemgrod's Boiler district, a serf from the eastern provinces works a factory press twelve hours a day to pay a debt he inherited from his father, who inherited it from his grandfather. On Sundays he walks up to the First Rung to look at the spires. He cannot afford to live there. He cannot afford to leave. His Lord's crest is stamped on his work permit.
 
-However, the devastating The Black Day and the encroaching Murk took a severe toll on the eastern third of Ruthenia. The region was left in ruins, and many of the once-mighty political dynasties crumbled within a mere five years. Those who survived were thrust into a desperate struggle for stability, as they grappled with the aftermath of the catastrophe. The resilient and fiercely individualistic Ruthen people, known for their resourcefulness, brace themselves for a new era, ever watchful of the potential resurgence of their rival, Carantania.
+Three floors above him, in a townhouse on the Crown, the Lord who owns that crest hasn't been back to his estate in six years. The estate is under the Murk now. He hasn't told the serf.
 
-In the midst of this tumultuous landscape, the metropolitan cities of Ruthenia continue to shine as beacons of culture and progress, their streets teeming with diversity and intellectual pursuits. Amidst the echoes of past battles and the looming threat of a resurgent Carantania, Ruthenia stands as a testament to the resilience and adaptability of its people.
-Ruthenians at a glance
-The Ancient and the New
-Within the borders of Ruthenia, a land steeped in history and diverse influences, one finds a mesmerizing sight: the striking spired architecture that adorns its cities. Many of these architectural marvels pay homage to the original designs of the Vardan Empire, serving as a reminder of the region's glorious past. These towering structures stand as testaments to the architectural prowess and artistic ingenuity of the Ruthen people.
+</div>
 
-However, despite the grandeur of their cities, Ruthenia is not without its cultural divisions. A distinct gap exists between the rural peasantry, who toil under the vast expanse of the countryside, and the bustling industrial centers that dominate the urban landscapes. The cities are filled with factories, where the noise of machinery reverberates through the streets, creating a stark contrast to the serenity of the rural fields. This divide in lifestyles and aspirations often fuels tensions and a sense of disconnect between the two worlds.
+---
 
-Serfs and Kings
-Ruthenia's political structure is characterized by a system where the nobles, known as Korovladi, hold direct ownership of their lands under the rule of the Korvus - King. This hierarchical arrangement shapes the power dynamics within the realm, with the nobles exerting influence and control over their respective territories. The Kovus acts as the central authority, responsible for maintaining order and overseeing the affairs of the kingdom. This delicate balance of power between the monarchy and the noble class often plays a pivotal role in shaping the course of Ruthenia's history.
+## KEY FACTIONS
 
-The Grey Muses
-At the heart of Ruthen culture lies the spirit of resilience and endurance. The people are stern and resolute, weathering the trials and tribulations that life throws their way. It is through this perseverance that the Ruthen people produce great works of writing, capturing the essence of their experiences and the soul of their nation. Some notable authors within the Ruthen literary tradition, following a Slavic naming convention, include:
+* **The Korovladi Council** controls salvage licensing monopolies for the northern descent shafts and is currently funding at least three separate attempts to destabilize Prince Alexei's administration, each of which the other two factions don't know about.
+* **The Grey Muses** are Ruthenia's underground press — poets, journalists, and philosophers who publish pamphlets the Korovladi want banned and Alexei is smart enough to ignore. They know things. They will tell you, for a price.
+* **The Ruthenian Mercenary Compact** is the organizational descendant of the war-era sell-sword tradition — independent contractors who hire out to anyone, governed by a code of conduct strict enough that their contracts are honored even when their employers go bankrupt. Half the security forces in Novemgrod are Compact members.
 
-Ivana Morozova - Renowned for her introspective and evocative poetry collection, "Whispers of the Frozen Land."
-Aleksander Petrovich - A master of historical fiction, his epic novel "The Chronicles of Rus" chronicles the turbulent events of Ruthen history.
-Natalya Dragunova - Known for her thought-provoking literary essays and insightful social commentary in her book "Reflections of the Silent Steppes."
+---
 
-These authors, among many others, contribute to the rich tapestry of Ruthen literature, capturing the spirit, resilience, and deep-rooted traditions of the Ruthen people. Their works serve as a testament to the enduring cultural legacy that continues to shape the literary landscape of Ruthenia.
+## WHAT BRINGS YOU HERE
+
+To travel to Ruthenia is to travel to Novemgrod — for most purposes, they are the same destination. But the countryside between the Murk's edge and the city still exists: dying towns, abandoned estates, the last farms that haven't been claimed by fog. That land is contested between Korovladi families who legally own it and the serfs who actually live on it, and that tension produces a steady stream of work for people who are willing to operate in the grey space between law and desperation.
+
+---
+
+## ADVENTURE HOOKS
+
+1. The Korovladi family of Ostrova has lost its estate title records — the documents that prove their legal ownership of two northern descent shafts currently generating significant income. A Diver found them three weeks ago and hasn't come forward. The family wants the records back. The Diver is holding out because the records show the title is forged.
+
+2. A Grey Muse journalist named Vera Tokarev has gone quiet after publishing a pamphlet claiming that the Resonance fluctuation last month wasn't an accident — and naming a specific Korovladi family member as responsible. Her editor is asking around, quietly, for someone to find out if she's alive.
+
+3. The Ruthenian Mercenary Compact has a standing contract with a Boiler factory to provide security. The factory's owner just sold it to a Korovladi buyer. The new owner is demanding the Compact enforce the eviction of the squatter community living in the building's lower floors. The Compact's code says they don't do evictions. The new owner says the contract says otherwise. The Compact's arbitration office is backed up six weeks.

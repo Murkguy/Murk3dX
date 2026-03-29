@@ -39,19 +39,49 @@ Despite their terrifying government, the common Turci people are famously open.
 * **Hospitality:** They value knowledge above gold. A traveler who can tell a good story from the "Old Empire" will be fed and housed.
 
 ---
-## Synopsis
 
-Turcicus, a land steeped in history, has seen various forms of governance throughout its existence. From being ruled by nomadic steppe warriors to an empire with a complex social structure, it has evolved over time. In the past five centuries, Turcicus has embraced a theocratic system, with a singular figure known as the Golden Lord holding dominion over the land.
+<div class="flavor-box" markdown="1">
 
-The enigmatic presence of the Golden Lord first emerges in written records around the early 470s BBD. Unlike rulers with spouses or successors, the Golden Lord has defied mortality, remaining a solitary figure with no apparent heirs. Revered as a descendant or embodiment of the divine entity Makru, the Golden Lord has ushered in a golden age for Turcicus, coinciding with the decline and disappearance of the Vardan Empire. The favor of the gods seems to have bestowed its blessings upon the land of the Turci.
+The Gilded Citadel administrator does not look at you when she processes your entry documents. She has purple eyes. You try not to stare at them.
 
-However, unsettling rumors have started to circulate within the court, casting doubt on the fate of the Golden Lord. For over six decades, no written accounts of the Lord have been recorded, fueling speculation that he may be deceased or absent. Despite this uncertainty, Turcicus has managed to maintain internal order and even expand its borders during this time. The implications of the Lord's absence or demise remain uncertain, and Pytharis, in the neighboring Far Lands, watches with a sense of cautious optimism, grateful for the respite from potential turmoil. The fate of Turcicus hangs in the balance, awaiting the revelation of the truth and the subsequent course of events.
+"Purpose of visit," she says.
 
-The Turci at a glance
-One of the remarkable phenomena in Turcicus is the occurrence of children born with mesmerizing purple eyes. These rare individuals are believed to be blessed by Makru, the deity associated with the Golden Lord. Recognized as a sign of divine favor, these children are sought out by the servants of the Golden Lord, who take them under their wing for special training and tutelage.
+"Trade consultation. Textiles."
 
-Slavery, although legal in Turcicus, carries certain unique aspects that distinguish it from common practices elsewhere. While slaves exist within the society, they possess certain rights that allow them to purchase their own freedom. The ability to buy one's freedom is a recognized path for slaves to regain their autonomy and become free citizens. However, it is important to note that slavery is not hereditary, and the children of slaves do not inherit their parents' enslaved status. Nevertheless, familial debt can lead to the enslavement of a family, emphasizing the interconnectedness of economic and social factors in Turcicus.
+She writes something. She has written more than two words. You have no idea what she has written.
 
-In the complex tapestry of beliefs within Turcicus, there exists a cult devoted to the worship of the enigmatic Midnight Lady, regarded by its followers as the counterpart or companion of the Golden Lord. Members of this clandestine group engage in secretive practices, including assassinations and impersonations of officials to manipulate the country's affairs according to their beliefs. The influence exerted by the cult adds a layer of intrigue and unpredictability to the already intricate power dynamics within Turcicus.
+"Duration of stay."
 
-Beyond its religious and political intricacies, the Turci people themselves exhibit a distinct and endearing trait of openness and curiosity about the wider world. They eagerly welcome travelers and storytellers, valuing the exchange of knowledge and experiences. The Turci people's genuine interest prompts them to offer hospitality and often compensate individuals for sharing tales and information, further fostering a culture of dialogue and storytelling within their society.
+"One week."
+
+She stamps the document without looking up. She hands it to you. Her hand is steady. Her manner is entirely pleasant. You have the absolute certainty that she has already done something about you that you will not find out about until later.
+
+"Welcome to the Gilded City," she says. "The Golden Lord's grace be upon you."
+
+She has already moved on to the next person.
+
+</div>
+
+---
+
+## KEY FACTIONS
+
+* **The Purple-Eyed Administrators** are the functional government of Turcia — collected in childhood, trained in the Gilded Citadels, and deployed into every layer of the bureaucracy, military command, and judicial system. They are fanatically loyal to something. The question of whether it is the Golden Lord, the institution of the Citadels, or each other is one nobody has answered definitively.
+* **The Cult of the Midnight Lady** is the state's shadow arm — officially a fringe religious group, practically the intelligence and assassination apparatus. They worship the Midnight Lady as the Golden Lord's necessary counterpart. If the Golden Lord is absent, they are either managing the succession or they have been managing it all along, depending on who you ask.
+* **The Merchant Families of the Interior** are the wealthy trading dynasties who pre-date the Theocracy and have survived every regime change by being too economically necessary to eliminate. They are the only group in Turcia that operates with genuine independence from the Citadel system — and they maintain that independence by being scrupulously non-political in public while funding every faction in private.
+
+---
+
+## WHAT BRINGS YOU HERE
+
+Turcia is the Near Lands' largest trading partner and the most dangerous place to conduct business in the Far Lands. The common people are genuinely hospitable; the government infrastructure is genuinely alarming; and the Golden Lord's absence has created a power vacuum that everyone is filling as quietly and quickly as possible. You come here for the trade routes, for access to the pre-Calamity records in the Citadel libraries, or because someone has hired you to find out what actually happened to the Golden Lord.
+
+---
+
+## ADVENTURE HOOKS
+
+1. A Merchant Family factor in the border city of Kessavar has died — officially of illness, practically of an extremely specific poison. His personal records, which the Cult of the Midnight Lady is actively trying to locate, contain evidence of correspondence with someone inside the Citadel system who has been providing information to an outside party. The family wants the records before the Cult gets them. The Cult wants them gone. The outside party is unknown.
+
+2. A Purple-Eyed administrator named Celik has requested asylum in Novemgrod. He arrived with four pages of documentation that he says proves the Golden Lord has been dead for forty years and the entire Turcian government has been operating in the name of a corpse — managed by a rotating committee of senior administrators and Midnight Lady operatives who have kept the fiction going because the alternative is civil war. The Turcian government has formally denied everything and sent two agents to retrieve him. Prince Alexei's office is very quietly evaluating the documents.
+
+3. The Midnight Lady's cult has declared a specific temple of Makru Orthodoxy in the border region to be "an enemy of the Golden Lord's peace" — and begun a campaign of targeted harassment against the priests and congregation. The Orthodox Church is asking for assistance. The reason for the cult's focus on this specific temple, rather than any of the others, has not been explained. The temple's High Artificer has a locked room in the basement that he is very reluctant to discuss.

@@ -43,4 +43,19 @@ The Cult does not just kill; they erase. They particularly enjoy the destruction
 The Cult is active year-round, but they have a "High Season" known as **Brenndauer** (The Burning Time). During these months, arson attacks in Novemgrod spike by 300%.
 
 * **The Red Day (May 6th):** The anniversary of the Gavo Firestorm and the birth of their God.
-* **Herald’s Day (August 31st):** The anniversary of the Calamity (The Black Day).
+* **Herald’s Day (August 31st):** The anniversary of the Calamity (The Black Day). For the Cult, this is not a day of mourning. It is a celebration.
+
+---
+
+## THE THEORY
+
+The Black Day was not a consequence of the War. It was not an accident. It was a ritual.
+
+This is the claim that certain fringe scholars — working from pre-Calamity Charred One texts recovered from burned sites across the Near Lands — have begun quietly making to anyone who will listen. They do not publish their findings. The Makru Order of the Hammer has a specific policy about scholars who publish these findings.
+
+The theory proceeds as follows:
+
+* **The Evidence (Such As It Is):** The initial Murk surge was not uniform. The maps of the Black Day’s spread show it originating from a single point — the center of the Dorian capital Varranthal — and radiating outward in a pattern consistent with a point-source release rather than environmental collapse. The simultaneous nature of the spread, across thousands of miles, is inconsistent with any natural phenomenon that pre-Calamity scholarship documented.
+* **The Cult’s Silence:** The Charred One’s followers do not confirm or deny the theory. This is the most unsettling data point. A cult that celebrates arson and publishes its theology openly has chosen not to comment on whether their god caused the end of the old world. The silence is, as one Schola researcher noted, "suspiciously specific."
+* **The Implication:** If the Black Day was intentional — a culminating ritual by Charred One cultists embedded in the Dorian military-academic complex — then the Murk is not a disaster. It is a consecration. And whatever is in Varranthal, perfectly preserved under the fog, was the altar.
+* **What The Cult Would Say (If Asked):** They would smile. They would not answer. The Tenets of Ash say destruction is beautiful. Whether or not they started the fire, they believe the fire was the right thing.

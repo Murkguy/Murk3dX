@@ -4,7 +4,7 @@ title: Pyrthia
 permalink: /05_The_Lands_of_Tellus/01_Lands_Near/PYRTHIA/
 ---
 
-## 4. PYTHARIS (THE GILDED WEB)
+## 4. PYRTHIA (THE GILDED WEB)
 **Status:** Active / Merchant Republic.
 
 Nestled across the towering peaks of the Mavren Mountains, Pytharis stands as the cultural nucleus of the Near Lands. Historically, it was the "Breadbasket of Tellus"—an agricultural powerhouse revered for art, philosophy, and exoticism.
@@ -31,21 +31,37 @@ Pytharis boasts the finest spies in all of Tellus.
 Pytharis is home to the ancient temples of Le Vides—once vibrant centers of spiritual devotion known for their "Penitent Choirs."
 * **The Silence:** On the morning of the Black Day, the Choirs stopped singing mid-verse. Since then, the temples have fallen silent. The monks have ceased their chants, the rites are abandoned, and the doors are barred. The populace believes the monks are in mourning, but the fear in their eyes suggests something far worse.
 
-## Synopsis
+<div class="flavor-box" markdown="1">
 
-Nestled across the towering peaks of the Mavren mountains, Pytharis stands as the cultural nucleus of the Near Lands. With an air of exoticism and a penchant for philosophical pursuits, Pytharis has long been revered as the wellspring of art, culture, and intellectual exploration. While it has never sought dominance, Pytharis has consistently played a vital role as the agricultural powerhouse of Ereb throughout recorded history.
+The banquet has been running for four hours. The Golden Prince at the head of the table has smiled at everyone and said nothing of substance, which is the point. Around him, six rivals are trying to read the meaning of his seating arrangement, his wine pairings, and the order in which he refilled glasses.
 
-Situated between the ever-rivaling powers of Doria and Turcicus, Pytharis has been a coveted economic hub and a hotly contested territory for countless generations. Even during the tumultuous years of the War, Pytharis's attempts at maintaining neutrality proved futile, as armies marched across its lands, planting flags only to be displaced by the opposing forces soon after.
+You are here because someone paid to have you here. You don't know who. You don't know why. The third course arrives, and the man to your left — introduced as a Temple Scholar — leans in and murmurs: "The woman across from you has been watching your hands since you sat down."
 
-The Black Day, with its devastating effects, spared much of Pytharis from its direct wrath. This fortunate circumstance granted Pytharis a significant advantage in warding off the encroachments of Turcicus, resulting in a fragile balance that has held precariously for the past three decades."
+You put your hands in your lap. She smiles. The fourth course arrives.
 
-Pytharans at a glance
-The silence of Le Vides
-Pytharis is home to the ancient and revered temples of Le Vides, which were once vibrant centers of spiritual devotion. However, in the wake of The Black Day, these temples have fallen into a mysterious silence, their sacred rites and rituals abandoned. The profound stillness that envelops these sacred sites now hints at a forgotten legacy.
-The Network
-Renowned for their astute intelligence operations, Pytharis boasts the finest network of spies in all of Tellus. These clandestine operatives, shrouded in secrecy, gather intelligence and disseminate information with unparalleled precision. Whispers of Pytharian spies weaving their web of intrigue echo throughout the realms, their allegiances and motives remaining enigmatic to most.
-The Golden Princes
-Ruling over Pytharis are a series of merchant princes, each vying for supremacy through the art of economics. These shrewd and cunning individuals manipulate markets, amass wealth, and wield their influence to shape the destiny of Pytharis. The city-state becomes a labyrinthine arena of economic rivalries and power struggles, where fortunes are made and lost in the blink of an eye.
-Songs long sought after
-The people of Pytharis are renowned for their exceptional skills in dance and entertainment. Gifted with a natural flair for captivating performances, they captivate audiences with their grace, fluidity, and unparalleled artistry. Pytharian dancers and entertainers are highly sought after in noble courts across Ereb, their mesmerizing displays of talent adding a touch of elegance and splendor to grand festivities and celebrations."
+</div>
+
+---
+
+## KEY FACTIONS
+
+* **The Merchant Princes** are not a unified body — they are six competing families currently in a cold economic war conducted through market manipulation, strategic marriage, and the occasional assassination, each of which is plausibly deniable and privately celebrated.
+* **The Network** is Pyrthia's intelligence apparatus, nominally independent of any single Prince but functionally available to whoever can afford it. Their information is almost always accurate. Their loyalty is always temporary.
+* **The Temple Scholars of Le Vides** have not spoken publicly since the Black Day, but they still exist inside the barred temples — their food is delivered by private arrangement, their correspondence is sealed, and the Merchant Princes leave them alone with the specific nervousness of people who know what's inside and don't want to find out more.
+
+---
+
+## WHAT BRINGS YOU HERE
+
+Pyrthia is where you go when you need information, money, or something that doesn't exist on any official market. The Golden Princes buy and sell everything — favors, secrets, people, access. If a door is locked anywhere on the Shelf, someone in Pyrthia has the key and a price. The Mavren Mountains kept the worst of the Murk out, which means Pyrthia is also one of the few places on the Near Lands that still looks the way the old world looked, which makes it either a refuge or a trap, depending on who invited you.
+
+---
+
+## ADVENTURE HOOKS
+
+1. A Merchant Prince named Caello Vanthas is dead — officially of natural causes, unofficially of a very specific poison that only the Network is known to source. His seat on the trading council passes to his eldest daughter. Three other families have begun maneuvering to control her. She wants to know who actually ordered her father killed, and she's willing to pay in information that one of the other families paid significantly to keep quiet.
+
+2. A Network operative went missing six weeks ago while carrying documents from Pyrthia to a contact in Novemgrod. The documents haven't surfaced. The Network wants them back, or confirmation they were destroyed. They will not say what the documents contain. The contact in Novemgrod is dead, which is how the Network found out the operative was missing.
+
+3. The barred gates of a Le Vides temple in the Mavren foothills were found open three days ago. Nothing is missing. The monks are still inside. None of them will explain what happened, and their eyes suggest the answer is something they cannot put into words that would be understood.
 

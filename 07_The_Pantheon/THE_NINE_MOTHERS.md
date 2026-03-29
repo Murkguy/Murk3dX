@@ -25,7 +25,7 @@ The Mothers are not nurturing in the human sense. They are the "Cold Love" that 
 ---
 
 ## THE LISTENERS (THE CHILDREN OF FATE)
-While the Mothers do not interfere with man’s world, they influence those who listen.
+While the Mothers do not interfere with man's world, they influence those who listen.
 
 * **The Pilgrimage:** Those who ascend Mount Angkrebyorn do not find a temple; they find the **Whispering Winds**. The Mothers speak to their minds in a language of concepts, not words. A single message from a Mother may take years to fully articulate in the mind of a mortal.
 * **The Role:** The Listeners act as vessels of fate. They are vagabonds and drifters, often distrusted, because they operate on a timeline only they can hear. A Listener might stand motionless on a street corner for three days simply because "The Third Mother said the rain must hit my shoulder at this exact moment."
@@ -36,41 +36,12 @@ While the Mothers do not interfere with man’s world, they influence those who 
 * **Red Sunsets:** When the sky bleeds red, the veil between the Mothers and the valleys is thin. It is said that during a Red Sunset, you can ask a question to the wind and hear the answer before the sun dies.
 * **The Long Twilight (December):** The time of the "Waking." The Suomi Shamans (**Noaidi**) ascend the mountain to offer tribute, ensuring the Mothers do not cut the threads of the tribes during the harsh winter.
 
-# MAKRU (THE GOLDEN LAW)
-
-**Status:** Active / Patron of Rulers & Builders
-**Domains:** Forge, Order, Authority
-**Major Center of Worship:** Turcia (State Religion), Novemgrod (Guilds)
-
-Makru is the Eldest of the Twin Brothers, the eminent builder who constructed the eternal Towers in which his younger sibling, Xelas, rests. He is the divine patron of civilization itself—the force that separates the City from the Wild.
-
 ---
 
-## THE DIVINE RIGHT
-Makru is the god of Kings. Many Princes and Lords across the Shelf trace their right to rule back to a singular historical event called **The Dictate of Makru**.
+## IN THE SOUTH
 
-* **The Legend:** In the ancient world, Makru granted the "Right to Rule" to 12 Adventurers. The descendants of these twelve form the Great Houses that still dominate the politics of Doria, Ruthenia, and Pytharis today. To disobey a Lord is to disobey Makru.
+The Nine Mothers are not a southern faith. The jungle peoples of Khemet find them cold and alien. The merchants of Pyrthia see the Listeners as unnerving curiosities. And yet the Listeners travel.
 
----
-
-## THE TENETS OF IRON
-Makru is not a merciful deity; he is a just one. He demands diligence, and he despises entropy.
-
-* **The Forge of Will:** "We are the craftsmen of our own reality. It is the force of will that leads man to his destiny."
-* **The Static Order:** "We cannot allow the defiance of fate or the natural order."
-* **The Tool:** "As the craftsman, we must always seek out new tools in which to forge our will."
-
----
-
-## TEMPLES OF INDUSTRY
-Makru has many ornate temples, but they look more like fortresses. His followers use stone as a display of power. Every castle, bunker, and city wall in the Near Lands likely bears the Icon of Makru (The Hammer or The Gear) upon its keystone.
-
-### THE ETERNAL ENEMY
-Makru is the great enemy of **The Charred One**. One seeks to build; the other seeks to burn.
-* **The Conflict:** Makru’s followers (The Order of the Hammer) actively hunt Charred Cultists. It is a war of construction versus arson. In Novemgrod, if a factory burns down, the Makru Priesthood will hunt the culprit with terrifying efficiency.
-
----
-
-## HOLY DAYS
-* **Hammermass (April 14th):** A holy week of creation. It concludes with a celebratory display of the week's labor—parades of new machines, unveiling of statues, and demonstrations of architectural prowess.
-* **Recitation Day (November 5th):** A somber day, enforced by law in Turcia and by custom in noble houses elsewhere. All citizens must publicly recite their oaths of loyalty to their Lords and Masters.
+* **The Wandering Vessels:** A Listener who has received a message from the Mothers may be sent south, west, anywhere — the message doesn't care about borders. They arrive in Novemgrod or Caranthia or Ruthenia speaking of threads and patterns, and most people cross to the other side of the street.
+* **The Reputation:** "A Suomi Listener told me this would happen." It is either the most credible thing you can say or the most unsettling, depending entirely on whether it came true. Among mercenaries and Divers, Listeners are treated with a specific kind of wary respect — not worship, exactly, but the awareness that they have a source of information you don't have access to.
+* **The Limit:** Listeners do not proselytize. They are not trying to convert you. They are simply here because the Mothers said to be here. If you want to come north and climb the mountain, no one will stop you — but no one will invite you, either.

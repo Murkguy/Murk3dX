@@ -30,21 +30,40 @@ To play a Yoruba is to be honest, melodious, and devastatingly mobile.
 **4. THE TRUTH UNBROKEN**
 * **The Taboo:** Their legends recount dire punishments for those who deceive. To call a Yoruba a liar is to challenge them to violence.
 
-## Synopsis
+<div class="flavor-box" markdown="1">
 
-In the distant northeast reaches of Ereb, sprawling across vast flat plains, the proud Yoruba people make their home. Guided by the ebb and flow of their nomadic lifestyle, they traverse the open grasslands with their majestic herds of horses, seeking fertile pastures and new horizons. The Yoruba suB Continent extends its influence to the neighboring lands that border the remnants of old Doria and the resolute Suomi. These lands have witnessed the Yoruba's alternating fortunes, as rival powers seize the opportunities when the Yoruba are divided and suffer the consequences when they reunite under a formidable Tarkhan.
+The trade delegation arrived at dawn. The Yoruba outriders — eight of them, on Steppe Rams the size of draft horses — formed a loose perimeter without being asked. They did not speak to anyone. They watched.
 
-This age-old cycle of dominance and unity has persisted for thousands of years. A Tarkhan emerges, leading the Yoruba tribes to conquest and territorial expansion, while the border towns serve as living testament to the cyclical nature of Yoruban dominance. Their customs, traits, and even language blend seamlessly with Yoruba culture. The swift act of kneeling in reverence and submission to a newly proclaimed Tarkhan carries profound meaning, symbolizing the acknowledgment of an unstoppable force that will lay waste to all obstacles in its path.
+The Elder who handled the actual negotiation was a woman of maybe sixty, who sang the opening terms rather than speaking them. The Caranthian diplomat had been briefed on this. He still didn't know how to respond. He sat very still and waited for her to finish.
 
-For centuries, the empire played a delicate game of manipulation and appeasement with the Yoruba hordes, seeking to avoid direct conflict and instead offering incentives to maintain a semblance of stability. However, with the dissolution of the empire and the rise of the charismatic Yoruban prince, Bataar, the tides of fate have cast an unseen die. The fate of the Yoruba and their role in shaping the future of Ereb now hangs in the balance. Should Bataar successfully rally the fragmented tribes and unite their collective strength, the Yoruba will emerge as the most formidable force in the realm, potentially heralding a new era of Yoruban ascendancy and reshaping the political landscape of Ereb.
+She stopped singing. She looked at him.
 
-Yoruba at a glance
-Deep within the cultural tapestry of the Yoruba people, a profound tradition known as "memory songs" weaves the threads of their collective memory. Through the magical power of singing, the Yoruba possess the ability to transfer memories and wisdom across generations. Elder members of the community utilize their melodic voices to imbue their stories, experiences, and knowledge into the minds of the younger ones. This ancient practice serves as a bridge connecting the past with the present, preserving the ancestral heritage and ensuring that the lessons of their forebears are carried forward.
+He said: "We agree to the first four conditions."
 
-From a tender age, the Yoruba children are initiated into the art of horsemanship and the intricacies of working from the backs of their majestic Steppe Rams. These imposing creatures, adorned with magnificent horns, hold a place of utmost significance in Yoruba culture. They provide not only transportation and labor but also a deep spiritual connection between the Yoruba and the land they traverse. The symbiotic relationship between the Yoruba and their Steppe Rams is nurtured through a bond built on trust, respect, and mutual reliance.
+She nodded, and sang again. Her aide was already writing.
 
-In the realm of warfare and hunting, the Yoruba display their prowess with the atlatl—a hooked implement utilized to propel javelins across vast distances, sometimes exceeding hundreds of yards. This ancient projectile weapon, honed to perfection by generations of Yoruban warriors, serves as a testament to their precision and skill. While the Yoruba have embraced firearms in their interactions with outsiders, their traditional weapons, including the atlatl, remain the preferred choice when engaging in battles or pursuing their traditional way of life.
+</div>
 
-Integrity and honesty are held in the highest regard among the Yoruba, for their legends recount the dire consequences awaiting those who engage in deception. Their moral compass is rooted in a profound belief in justice and the afterlife, where deceptive souls are destined to face terrible punishments. This cultural ethos of unflinching honesty permeates the fabric of Yoruban society, shaping their interactions and engendering trust and transparency among their people.
+---
 
-The Yoruba, with their time-honored memory songs, mastery of horsemanship, prowess in ancient weaponry, and unwavering commitment to truth, stand as a formidable force, both revered and respected within the realm of Ereb. Their rich cultural heritage and unyielding principles continue to guide them, as they navigate the ever-shifting tides of history and strive to shape their own destiny in the vast expanse of the world.
+## KEY FACTIONS
+
+* **Bataar's Coalition** is Prince Bataar's ongoing unification campaign — currently holding allegiance from eleven of the eighteen tribes, with three more "considering" and four actively resisting. The unification is not yet complete. The clock is running.
+* **The Bribed Tribes** are the four tribes the old Empire paid off with trade access and territorial guarantees. Those guarantees are now worthless. These tribes are the most likely to join Bataar, and the most dangerous when they do, because they know exactly how to negotiate with outsiders.
+* **The Memory Keepers** are the Elder singers who hold the collective military history of the Yoruba in living memory — including every campaign against the old Empire. They do not advise Bataar openly. He consults them privately, regularly, and at length.
+
+---
+
+## WHAT BRINGS YOU HERE
+
+Beithar is where you go when the Near Lands are out of options. The vast grasslands are ungoverned, and the Yoruba respect competence above origin. A skilled fighter, a honest dealer, or someone who knows something the tribes need to know will find welcome — and work. More practically: Bataar's unification campaign is destabilizing the entire northeast. Every faction with interests in the region is paying for intelligence, and the Yoruba themselves are in the market for things they cannot make on the steppe: firearms, medical supplies, and information about the Shelf's current political fractures.
+
+---
+
+## ADVENTURE HOOKS
+
+1. A Caranthian arms dealer sold a shipment of defective rifles to one of the Bribed Tribes — three Yoruba warriors died when the weapons misfired. The tribe has named the dealer responsible and declared a blood debt. The dealer is in Iron-Port. The tribe has sent two outriders to collect. Bataar's people have quietly asked someone to resolve this before it becomes a diplomatic incident that costs him the tribe's allegiance.
+
+2. An Elder Memory Keeper is dying — she carries, in her memory, the record of a military campaign against a pre-Calamity enemy that nobody else alive remembers. The tribal shamans believe this memory contains information relevant to Bataar's current strategy. She has agreed to sing the memory once, to one witness, before she dies. She wants the witness to be an outsider — someone with no stake in how the information is used. She will not say why.
+
+3. One of the resistant tribes is in contact with the Korovladi Council in Novemgrod. The Korovladi are offering them something the tribe wants badly enough to consider betraying Bataar's coalition. Nobody knows what the offer is. Bataar knows the contact is happening. He wants to know the offer before he decides whether to match it or eliminate the problem.
