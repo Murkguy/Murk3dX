@@ -54,7 +54,7 @@ permalink: /
         * [The Suomi](05_The_Lands_of_Tellus/02_Lands_Far/SUOMI.md)
         * [Turcia](05_The_Lands_of_Tellus/02_Lands_Far/TURCIA.md)
 * [City Lore: Novemgrod](06_Novemgrod/README.md)
-* [The Pantheon]
+* **The Pantheon:**
     * [Apatur](07_The_Pantheon/APATUR.md)
     * [Larantas](07_The_Pantheon/LARANTAS.md)
     * [Makru](07_The_Pantheon/MAKRU.md)
@@ -63,6 +63,10 @@ permalink: /
     * [The Nine Mothers](07_The_Pantheon/THE_NINE_MOTHERS.md)
     * [The Penitent Choir](07_The_Pantheon/THE_PENITENT_CHOIR.md)
     * [Xelas](07_The_Pantheon/XELAS.md)
+
+## BOOK V: THE DIRECTOR'S HANDBOOK
+* [The Director's Handbook](10_Directors/README.md)
+
 ## QUICK REFERENCE
 * [Character Creation Quicksheet](14_Quick_Characters/README.md)
 * [Gameplay Cheatsheet](15_Cheatsheet/README.md)
