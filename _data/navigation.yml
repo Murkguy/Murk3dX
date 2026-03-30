@@ -36,6 +36,8 @@
       url: "/03_Esoteria/"
     - label: "Faith & Miracles"
       url: "/08_Faith/"
+    - label: "Foes & Abominations"
+      url: "/04_Foes_and_Abominations/"
 
 - title: "BOOK IV: THE WORLD"
   links:
@@ -59,8 +61,27 @@
       url: "/05_The_Lands_of_Tellus/02_Lands_Far/TURCIA/"
     - label: "Novemgrod"
       url: "/06_Novemgrod/"
-    - label: "The Pantheon"
-      url: "/07_The_Pantheon/"
+    - label: "Apatur"
+      url: "/07_The_Pantheon/APATUR/"
+    - label: "Larantas"
+      url: "/07_The_Pantheon/LARANTAS/"
+    - label: "Makru"
+      url: "/07_The_Pantheon/MAKRU/"
+    - label: "The Charred One"
+      url: "/07_The_Pantheon/THE_CHARRED_ONE/"
+    - label: "The Midnight Lady"
+      url: "/07_The_Pantheon/THE_MIDNIGHT_LADY/"
+    - label: "The Nine Mothers"
+      url: "/07_The_Pantheon/THE_NINE_MOTHERS/"
+    - label: "The Penitent Choir"
+      url: "/07_The_Pantheon/THE_PENITENT_CHOIR/"
+    - label: "Xelas"
+      url: "/07_The_Pantheon/XELAS/"
+
+- title: "BOOK V: THE DIRECTOR"
+  links:
+    - label: "Director's Handbook"
+      url: "/10_Directors/"
 
 - title: "QUICK REFERENCE"
   links:

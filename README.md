@@ -20,57 +20,41 @@ permalink: /
 ---
 
 ## BOOK I: CORE RULES
-* [Chapter 1: The World That Remains](01_Core_Rules/README.md)
-* [Chapter 3: Conflict & Hazards](11_Conflict and Hazards/README.md)
-* [Chapter 4: Health & Suffering](11_Conflict and Hazards/HAZARDS.md)
-* [Chapter 5: Social Dynamics](11_Conflict and Hazards/SOCIAL_RULES.md)
+* [The World That Remains](/01_Core_Rules/)
+* [Conflict & Hazards](/11_Conflict and Hazards/)
+* [Health & Suffering](/11_Conflict and Hazards/HAZARDS/)
+* [Social Dynamics](/11_Conflict and Hazards/SOCIAL_RULES/)
 
 ## BOOK II: CHARACTER CREATION
-* [Step-by-Step Guide](02_Character_Creation/README.md)
+* [Step-by-Step Guide](/02_Character_Creation/)
 * **Archetypes:**
-    * [The Soldier](02_Character_Creation/01_Archetypes/SOLDIER.MD)
-    * [The Esoterist](02_Character_Creation/01_Archetypes/ESOTERIST.md)
-    * [The Acolyte](02_Character_Creation/01_Archetypes/ACOLYTE.md)
-    * [The Ruffian](02_Character_Creation/01_Archetypes/RUFFIAN.md)
-* [Divergences](02_Character_Creation/Divergences/DIVERGENCES.md)
-* [Talents, Boons, and Burdens](13_Talents_Boons_and_Flaws/README.md)
-* [Skills](12_Skills/README.md)
+    * [The Soldier](/02_Character_Creation/01_Archetypes/SOLDIER/)
+    * [The Esoterist](/02_Character_Creation/01_Archetypes/ESOTERIST/)
+    * [The Acolyte](/02_Character_Creation/01_Archetypes/ACOLYTE/)
+    * [The Ruffian](/02_Character_Creation/01_Archetypes/RUFFIAN/)
+* [Divergences](/02_Character_Creation/Divergences/DIVERGENCES/)
+* [Talents, Boons, and Burdens](/13_Talents_Boons_and_Flaws/)
+* [Skills](/12_Skills/)
 
 ## BOOK III: ECONOMY & MAGIC
-* [Economy & Gear](09_Equipment/README.md)
-* [Esoteria (Magic Rules)](03_Esoteria/README.md)
-* [Faith & Miracles](08_Faith/README.md)
-* [Foes & Abominations](04_Foes_and_Abominations/README.md)
+* [Economy & Gear](/09_Equipment/)
+* [Esoteria (Magic Rules)](/03_Esoteria/)
+* [Faith & Miracles](/08_Faith/)
+* [Foes & Abominations](/04_Foes_and_Abominations/)
 
 ## BOOK IV: THE WORLD OF TELLUS
-* ### [Lands of Tellus](05_The_Lands_of_Tellus/README.md)
-    * #### The Lands Near
-        * [Ruthenia](05_The_Lands_of_Tellus/01_Lands_Near/RUTHENIA.md)
-        * [Caranthia](05_The_Lands_of_Tellus/01_Lands_Near/CARANTHIA.md)
-        * [Pyrthia](05_The_Lands_of_Tellus/01_Lands_Near/PYRTHIA.md)
-        * [Doria](05_The_Lands_of_Tellus/01_Lands_Near/DORIA.md)
-    * #### The Lands Far
-        * [Beithar](05_The_Lands_of_Tellus/02_Lands_Far/BEITHAR.md)
-        * [Kemet](05_The_Lands_of_Tellus/02_Lands_Far/KHEMET.md)
-        * [The Suomi](05_The_Lands_of_Tellus/02_Lands_Far/SUOMI.md)
-        * [Turcia](05_The_Lands_of_Tellus/02_Lands_Far/TURCIA.md)
-* [City Lore: Novemgrod](06_Novemgrod/README.md)
-* **The Pantheon:**
-    * [Apatur](07_The_Pantheon/APATUR.md)
-    * [Larantas](07_The_Pantheon/LARANTAS.md)
-    * [Makru](07_The_Pantheon/MAKRU.md)
-    * [The Charred One](07_The_Pantheon/THE_CHARRED_ONE.md)
-    * [The Midnight Lady](07_The_Pantheon/THE_MIDNIGHT_LADY.md)
-    * [The Nine Mothers](07_The_Pantheon/THE_NINE_MOTHERS.md)
-    * [The Penitent Choir](07_The_Pantheon/THE_PENITENT_CHOIR.md)
-    * [Xelas](07_The_Pantheon/XELAS.md)
+* [Lands of Tellus](/05_The_Lands_of_Tellus/)
+    * **The Lands Near:** [Ruthenia](/05_The_Lands_of_Tellus/01_Lands_Near/RUTHENIA/) · [Caranthia](/05_The_Lands_of_Tellus/01_Lands_Near/CARANTHIA/) · [Pyrthia](/05_The_Lands_of_Tellus/01_Lands_Near/PYRTHIA/) · [Doria](/05_The_Lands_of_Tellus/01_Lands_Near/DORIA/)
+    * **The Lands Far:** [Beithar](/05_The_Lands_of_Tellus/02_Lands_Far/BEITHAR/) · [Kemet](/05_The_Lands_of_Tellus/02_Lands_Far/KHEMET/) · [The Suomi](/05_The_Lands_of_Tellus/02_Lands_Far/SUOMI/) · [Turcia](/05_The_Lands_of_Tellus/02_Lands_Far/TURCIA/)
+* [City Lore: Novemgrod](/06_Novemgrod/)
+* **The Pantheon:** [Apatur](/07_The_Pantheon/APATUR/) · [Larantas](/07_The_Pantheon/LARANTAS/) · [Makru](/07_The_Pantheon/MAKRU/) · [The Charred One](/07_The_Pantheon/THE_CHARRED_ONE/) · [The Midnight Lady](/07_The_Pantheon/THE_MIDNIGHT_LADY/) · [The Nine Mothers](/07_The_Pantheon/THE_NINE_MOTHERS/) · [The Penitent Choir](/07_The_Pantheon/THE_PENITENT_CHOIR/) · [Xelas](/07_The_Pantheon/XELAS/)
 
 ## BOOK V: THE DIRECTOR'S HANDBOOK
-* [The Director's Handbook](10_Directors/README.md)
+* [The Director's Handbook](/10_Directors/)
 
 ## QUICK REFERENCE
-* [Character Creation Quicksheet](14_Quick_Characters/README.md)
-* [Gameplay Cheatsheet](15_Cheatsheet/README.md)
+* [Character Creation Quicksheet](/14_Quick_Characters/)
+* [Gameplay Cheatsheet](/15_Cheatsheet/)
 
 
 # THE WORLD THAT REMAINS
@@ -131,4 +115,3 @@ The principalities survived, but they are not healed. They are bandaged. Old gru
 Everyone is waiting for the other boot to drop.
 
 You are one of the people who goes back down into it—not out of bravery, but because the ruins of the old world are the only economy that still works.
-
