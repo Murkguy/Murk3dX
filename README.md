@@ -40,6 +40,7 @@ permalink: /
 * [Economy & Gear](09_Equipment/README.md)
 * [Esoteria (Magic Rules)](03_Esoteria/README.md)
 * [Faith & Miracles](08_Faith/README.md)
+* [Foes & Abominations](04_Foes_and_Abominations/README.md)
 
 ## BOOK IV: THE WORLD OF TELLUS
 * ### [Lands of Tellus](05_The_Lands_of_Tellus/README.md)

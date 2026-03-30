@@ -513,13 +513,20 @@ The **Potential Cap** is the maximum Potential you can hold at any time. When yo
 | Tier 1 Archetype Talent | 12 XP |
 | Tier 2 Archetype Talent | 16 XP |
 | Tier 3 Archetype Talent | 20 XP |
-| Generic Talent | 8 XP |
+| Generic Talent | 15 XP |
 | Skill: Trained → Expert | 8 XP |
-| Advance Devotion Die (Acolyte only) | 12 XP |
-
-Tier costs match the Potential cap at the Rank where they become available. If you're lucky and bank well, you might unlock a Tier 1 talent at the end of your first Episode. Most characters take two or three sessions.
+| Advance Class Die: d6 → d8 | 24 XP |
+| Advance Class Die: d8 → d10 | 30 XP |
+| Advance Class Die: d10 → d12 | 36 XP |
+| Advance Core Attribute: d6 → d8 | 32 XP |
+| Advance Core Attribute: d8 → d10 | 40 XP |
+| Advance Core Attribute: d10 → d12 | 48 XP |
 
 </div>
+
+**Class Die** is the Unique Die for any Archetype (Tactics, Arcana, Devotion, Guile). Cost is 3× the new die's face value. This works for all Archetypes — a Soldier can advance their Tactics Die just as an Acolyte can advance their Devotion Die.
+
+**Core Attribute** advancement (Body, Mind, or Spirit) costs 4× the new die's face value. Core attributes affect every check you make, which makes them commensurately expensive. A d10 Body that started as d8 represents years of brutal conditioning, not an afternoon's training. **Minimum Rank 3 (Journeyman) required** to advance a Core Attribute.
 
 You may only purchase Talents from Tiers you have unlocked via Rank. A Rank 1 character cannot buy Tier 2 talents, regardless of how much XP they have. Advancement is earned, not purchased early.
 

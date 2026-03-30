@@ -347,3 +347,275 @@ The players won the exchange — but they paid for it.
 | **The Mob** | Count (numbers) | No — cleared by DR check | Count reaches 0 | Crowds, packs, mass opposition |
 | **The Operative** | Single track | Yes — standard rolls | 1 Rank of Suffering | Named enemies, faction agents, allied NPCs |
 | **The Nemesis** | Full track + Disaster | Yes — full system | Rank 3 Suffering | Bosses, recurring antagonists, major threats |
+
+---
+
+## CHAPTER 7: FACTIONS & THE LIVING WORLD
+
+The world does not pause between sessions. Factions pursue their goals. Plans advance. The thing the players ignored last episode moved three steps closer to completion.
+
+Your job is to simulate this without a spreadsheet.
+
+### FACTION CLOCKS
+
+Every significant faction has a **Clock** — a track of 4 to 8 ticks representing how close they are to achieving their current goal. When the clock fills, they succeed. The world changes accordingly. Their goal resets to the next thing they want, and a new clock begins.
+
+<div class="rule-box" markdown="1">
+
+**CLOCK SIZES**
+- **4 ticks:** A short-term objective (intimidate a witness, acquire a weapon cache, bribe a specific official)
+- **6 ticks:** A medium-term objective (control a district, install a puppet in a position, eliminate a rival)
+- **8 ticks:** A campaign-scale objective (seize the salvage monopoly, depose the Prince, open the Palatine Regium)
+
+</div>
+
+**Advancing Clocks:** At the end of each episode, advance 1 tick on each faction clock that was relevant to the session — and 2 ticks on any faction the players actively ignored. The players are not the only people working.
+
+**Reversing Clocks:** Player actions can reverse ticks. Destroying a faction's Muscle, exposing their Information, or dismantling their Influence (see below) pushes their clock back 1–2 ticks. Doing all three at once might reset it entirely.
+
+**When a Clock Fills:** Do not hide it. Announce the consequence. The Korovladi have bought the salvage licensing board. The Charred Cultists have burned down the Penitent Choir's community kitchen. The Schola has locked down Sector 9. The world is different now. That difference is permanent — clocks that fill do not reset as if nothing happened.
+
+### FACTION RESOURCES
+
+Each faction has three resource tracks. These are Director-facing, not publicly visible — but players can discover and attack them.
+
+* **Influence** — political reach, social access, who owes them favors. Lost when their reputation takes damage or their connections are publicly exposed.
+* **Muscle** — hired Operatives, enforcers, soldiers. Lost when their people are defeated or turned.
+* **Information** — what they know about the players, rival factions, and the city's secrets. Lost when their networks are burned, their agents are identified, or their files are stolen.
+
+<div class="rule-box" markdown="1">
+
+**TARGETING FACTION RESOURCES**
+
+Players who want to weaken a faction without direct confrontation can target resources explicitly:
+
+- Destroying Muscle: defeat or recruit away an Operative-tier agent. **–1 Muscle.**
+- Exposing Information: publicly reveal one of their secrets. **–1 Information, –1 Influence.**
+- Undermining Influence: humiliate a faction publicly, flip a key ally, or disrupt a major deal. **–1 to 2 Influence.**
+
+A faction reduced to 0 in any resource cannot use that resource until they rebuild it — which costs them clock ticks elsewhere.
+
+</div>
+
+### NOVEMGROD FACTIONS: REFERENCE CLOCKS
+
+These are the starting-point clocks for the major Novemgrod factions. Adjust based on what the players do.
+
+| Faction | Current Goal | Clock Size | Advancement Trigger |
+| :--- | :--- | :--- | :--- |
+| **Korovladi Council** | Seize control of all northern descent shaft licenses | 6 | Each episode the Divers' Guild is not actively resisting |
+| **Divers' Guild** | Force Prince Alexei to formalize salvage rights in law | 8 | Each episode the players bring back significant Archeotech |
+| **Builder's Guild** | Expand factory footprint into the contested Fogline buildings | 4 | Each episode without a Larantas or civic opposition event |
+| **Schola Magisterium** | Complete Sector 9 research project without public exposure | 6 | Each episode players are not investigating Schola activity |
+| **Order of the Hammer** | Identify and eliminate the Charred One cell operating in the Boiler | 4 | Each episode after the Boiler factory fire |
+| **Penitent Choir (Flagellants)** | Sister Marek's public legitimacy reaches tipping point | 6 | Each episode the Charitable Choir fails to counter her narrative |
+| **Crescent Blade** | Locate the Novemgrod contact who received leaked Turcian documents | 4 | Each episode that Celik (the defector) remains at large |
+
+---
+
+## CHAPTER 8: DOWNTIME
+
+Between episodes, characters are not idle. Downtime is a structured turn — brief, mechanical, consequential.
+
+### THE DOWNTIME TURN
+
+Each character gets **1 Downtime Action** per episode.
+
+If the group has a **secure base** (a rented safe house, an established Guild berth, a patron's property), each character gets **2 Downtime Actions** instead.
+
+Choose one action per use:
+
+<div class="rule-box" markdown="1">
+
+**RECOVER**
+Remove 1 Rank of Suffering.
+*Requires:* Med-Kit (standard). Repair Kit (Anthroparions). Rest location — cannot Recover in the field.
+
+**EARN**
+Make a Scrounge or Parley check (DR 12). On success, gain Level 1 Barter goods. On failure, you spent the time but found nothing useful.
+
+**TRAIN**
+Spend accrued XP to purchase a Talent, Skill upgrade, or Attribute/Class Die advancement. This is the only time purchases can be made — not during play.
+
+**INVESTIGATE**
+Spend the downtime following a specific lead the players have identified. The Director provides one concrete, actionable piece of information. Not rumors — facts.
+
+**MAINTAIN RELATIONSHIP**
+Choose one NPC. Either: prevent a Friendly contact from drifting to Neutral (they needed your attention), or move a Neutral contact one step toward Friendly. Relationship maintenance requires showing up — it cannot be done remotely.
+
+**LAY LOW**
+Remove 1 Heat token. Does nothing else. Sometimes doing nothing is the move.
+
+</div>
+
+### HEAT
+
+Certain actions make the players visible to factions that would prefer they didn't exist.
+
+**Gaining Heat:** The Director assigns 1–3 Heat tokens after episodes involving:
+* Faction-confrontational action (theft, assassination, public property destruction)
+* Exposed Esoteria in a populated area
+* A failed stealth operation where witnesses survived
+* Successfully targeting a faction's resources (they noticed)
+
+**Heat Effects:**
+* **1 Heat:** The relevant faction is alert. Their Operatives ask questions in the players' usual haunts.
+* **2 Heat:** +2 DR on social checks with anyone connected to the faction. The players' names are circulating.
+* **3 Heat:** The faction assigns an Operative specifically to surveillance or interference.
+* **4+ Heat:** A Nemesis is deployed.
+
+**Removing Heat:** Each Lay Low action removes 1 token. Time alone doesn't remove Heat — you have to actively disappear.
+
+---
+
+## CHAPTER 9: BUILDING AN NPC
+
+Not every NPC needs a stat block. Not every NPC needs a name. Here is the minimum viable build for each tier.
+
+### THE ONE-LINE NPC
+
+For background contacts, guards, vendors, bystanders — anyone the players will interact with once:
+
+**One want. One fear. One tell.**
+
+* *The want* drives everything they do in this scene.
+* *The fear* is the lever you can pull if the players are smart.
+* *The tell* is the detail that makes them feel real: a nervous habit, a verbal tic, a physical quirk they don't know they have.
+
+*Example:* The checkpoint guard wants to finish his shift without incident. He fears his sergeant, who has been watching him since the last embarrassment. He taps his rifle stock with two fingers whenever he's about to ask a follow-up question.
+
+That is enough for a scene.
+
+### THE RECURRING NPC
+
+For contacts, rivals, allies, or enemies who will appear more than once:
+
+**Add: a clock, a relationship stance per PC, and one secret.**
+
+* *The clock* is their personal goal — the thing they are working toward whether the players are involved or not.
+* *The relationship stance* is simple: Friendly, Neutral, or Hostile toward each player character, and why.
+* *The secret* is the thing they haven't told anyone. It shapes how they behave under pressure.
+
+*Example:* The Divers' Guild factor Maret wants to make Ghost rank before she turns forty (clock: 6 ticks, 2 away). She is Friendly to anyone who keeps her contacts alive and Hostile to anyone who has cost her a recovery team. Her secret: she knows which Sector 9 coordinates the Schola is researching, because she processed their entry paperwork, and she hasn't decided what to do with that information yet.
+
+### THE OPERATIVE BUILD
+
+When an NPC needs to function mechanically — fight, compete, or challenge the players in a structured scene:
+
+<div class="rule-box" markdown="1">
+
+**OPERATIVE STAT BLOCK TEMPLATE**
+
+**[Name]** — [one-line description]
+- **Body** d[X] / **Mind** d[X] / **Spirit** d[X]
+- **[Specialty] Die:** d8
+- **Ability 1:** [name] — [effect]
+- **Ability 2:** [name] — [effect]
+- *Goes down at 1 Rank of Suffering.*
+- **Motivation:** [what they want right now]
+- **Secret:** [what they haven't said]
+
+</div>
+
+**Worked Example:**
+
+**Davan Kretz** — Korovladi enforcer, third-generation
+- **Body** d10 / **Mind** d6 / **Spirit** d8
+- **Intimidation Die:** d8
+- **Ability 1: Weight of the Name** — When Kretz invokes the Korovladi family in a social scene, all Parley checks against him have +2 DR. He has done this every day of his professional life and it still works.
+- **Ability 2: Corner First** — If Kretz wins Initiative, he automatically takes a flanking position. His first attack this scene has +1d6 damage.
+- *Goes down at 1 Rank of Suffering.*
+- **Motivation:** He needs the players to stop asking about the forged estate title before his employer finds out he was the one who lost the records.
+- **Secret:** He didn't lose them. He sold them to a Grey Muse journalist. He has been trying to buy them back ever since.
+
+### THE NEMESIS BUILD
+
+<div class="rule-box" markdown="1">
+
+**NEMESIS BUILD CHECKLIST**
+
+1. Define their **"if I win" statement** for this confrontation
+2. Assign **attribute dice** (d10/d10/d8 typical; d12 for apex threats)
+3. Assign a **Unique Die** (d10 or d12)
+4. Set **starting Potential** (12–20 depending on threat level)
+5. Write **Disaster Track phases** — one ability per phase, written in advance
+6. Write **3–4 total abilities** (1 passive, 1 active, 1–2 triggered)
+7. Decide what **Rank 3 Suffering looks like** — the last stand
+
+</div>
+
+**Worked Example — Human Nemesis:**
+
+**High Auditor Selva** — Schola Magisterium intelligence officer; the person who decided the players are a problem
+- **Body** d8 / **Mind** d10 / **Spirit** d8
+- **Analysis Die:** d10
+- **Starting Potential:** 16
+- **Passive — Prepared:** Selva has read the players' incident reports. She starts every confrontation knowing one specific weakness or secret for each player character (Director chooses; it should be true).
+- **Active — The Offer:** Once per scene, Selva may make a proposal that is genuinely reasonable and slightly better than the players' current situation. Refusing it costs 2 Stress (cognitive dissonance — she was right and they said no anyway).
+- **Disaster Track:**
+  - *Rank 1 (Wounded):* She stops being polite. "I was giving you the easy version."
+  - *Rank 2 (Cornered):* She activates a contingency — a previously unknown Operative enters the scene, or a door that was open closes.
+  - *Rank 3 (Final Form):* She reveals what she actually knows — something about the Resonance, about the players' past, or about the Schola's project that recontextualizes everything. She is not trying to win anymore. She is trying to make sure they understand what they've done.
+- **"If I Win":** The players are discredited, removed from Novemgrod, or co-opted. The Schola project continues undisturbed.
+
+### NPCS ACT OFF-SCREEN
+
+At the start of each session, for every recurring NPC, ask: **what did they do while the players weren't watching?**
+
+They pursued their clocks. Maret made a descent. Kretz met with his employer. Selva filed a report. These things happened. They have consequences. The players will find out — through rumor, through changed circumstances, through a contact who says "things have shifted."
+
+The world is not a waiting room.
+
+---
+
+## CHAPTER 10: CAMPAIGN STRUCTURE
+
+A session is a scene. An episode is a chapter. An arc is a season. A campaign is the whole show.
+
+### THE ARC (3–6 Episodes)
+
+An arc has a throughline — a central question or conflict that everything else orbits.
+
+* **Episode 1:** Establish the threat and what's at stake. The players should understand the shape of the problem by session's end, even if they don't have all the information.
+* **Middle Episodes:** Complicate. The plan meets reality. Allies have costs. The enemy adapts. The players learn things that change what they thought they were doing.
+* **Final Episode:** Resolution — not necessarily victory. The arc ends when the central question is answered, one way or another. A win. A loss. A compromise that costs everyone something. The world after the arc is different from the world before it.
+
+**Arc Climax:** Every arc should end with a Nemesis confrontation — not necessarily combat. A social Nemesis, a political crisis, an entity in the Sunken Districts. Something that requires everything the players have developed to address.
+
+### THE SEASON (2–4 Arcs)
+
+Stakes escalate each arc. The players are more capable. The threats are proportionally larger.
+
+**Escalation by enemy type:**
+* **Early arcs:** Mob-heavy. The players are learning who they are. Operatives occasionally. The enemies are organized but not targeting the players specifically.
+* **Mid arcs:** More Operatives. Factions have noticed the players and are responding to them. The players are no longer background noise.
+* **Late arcs:** Nemeses. The players are a variable in plans much larger than themselves. What they do has consequences at the faction-clock level.
+
+**The Season Finale:** By the end of a season, the world should be measurably different. Factions have risen or fallen. The Resonance has shifted. Someone the players cared about is gone. The city looks different from the angle of people who helped shape it.
+
+### THE BETWEEN-ARC RESET
+
+Some things recover. Some things don't.
+
+**Resets between arcs:**
+* Suffering clears (all Ranks removed — the break between arcs represents recovery time)
+* Heat tokens clear (the factions have moved on to new problems — mostly)
+* Downtime is extended — each character gets 3 Downtime Actions instead of the usual 1–2
+
+**Does not reset:**
+* Faction clock consequences — what filled stays filled
+* Relationship changes the players made — who trusts them, who doesn't
+* Deaths — they stay dead
+* Things the players learned — they know what they know
+
+### SEEDING FORWARD
+
+The best long-term campaigns are built on things planted early that pay off later.
+
+In every arc, place at least one element that has no immediate relevance — a name mentioned in a document, a mark on a map, an NPC who appears once and seems unimportant. Two arcs later, that element becomes load-bearing. The players will remember it. They will feel smart for having noticed.
+
+The Sunken Districts are the engine for this. Every descent can produce one unexplained thing — a room that shouldn't exist, a name on a pre-Calamity document, a piece of technology with a function nobody recognizes. Plant it. Let it sit. Let it become something.
+
+The defeated Nemesis had a superior. The locked door in Sector 9 leads somewhere. The Resonance fluctuation last month was not the first one.
+
+Everything connects. The players just don't know how yet.
