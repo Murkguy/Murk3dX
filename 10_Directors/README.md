@@ -619,3 +619,104 @@ The Sunken Districts are the engine for this. Every descent can produce one unex
 The defeated Nemesis had a superior. The locked door in Sector 9 leads somewhere. The Resonance fluctuation last month was not the first one.
 
 Everything connects. The players just don't know how yet.
+
+---
+
+## CHAPTER 11: BUILDING RELICS
+
+Not every object is just gear. Some things have history baked into them — and that history has weight.
+
+A relic is a named object with a specific effect, a specific origin, and a structural cost that cannot be discounted. Relics are not loot drops. They are not power rewards for completing a dungeon. They are things that someone, somewhere, needed badly enough to make — and the desperation of that need is encoded in what the object does and what it costs to use.
+
+### THE THREE PRINCIPLES
+
+**Every relic has a price.** Not a cost-per-use. A structural price built into the object's nature — it only works under specific conditions, it broadcasts its use to the wrong audiences, it degrades, it creates obligations. The cost is not a tax on using the relic. The cost *is* the relic.
+
+**Every relic has a history.** Who made it. What problem they were solving. What it's been used for since. This history is as useful as the mechanic — it gives players something to research, NPCs something to want, and factions a reason to come looking.
+
+**Every relic can go wrong.** There is always a failure mode, and it is never random. It is the logical conclusion of what the relic is pushed past, misused for, or used by someone it was not built for.
+
+### BUILDING A RELIC
+
+**Step 1 — The Effect.** One sentence. What does it do mechanically? Keep it tight. A relic that does three things is two relics wearing a coat.
+
+Examples of valid effects:
+- Once per episode, the bearer may reroll one check and take the second result.
+- Treat all Suffering from fire as one Rank lower.
+- When the bearer is at Stress 4+, their first attack each round deals +1d6 damage.
+
+**Step 2 — The Origin.** Who made it? What problem were they solving? A military Esoterist who needed soldiers to hold a line. A Cathedral artificer trying to give a dying Acolyte one more year. A Diver who found something in the Sunken Districts and figured out how to use it. The origin defines the flavor-box — the brief evocative description Directors read aloud when players first find it.
+
+**Step 3 — The Price.** Pick one structural limitation from the following categories:
+
+<div class="rule-box" markdown="1">
+
+**RELIC PRICE TYPES**
+
+*Attunement* — the relic only functions for someone of a specific faith, archetype, background, or species. Anyone else holding it gets the weight and nothing else.
+
+*Attention* — the relic broadcasts when used. Esoterists, Daemons, or a specific faction can detect its activation. Using it in the Murk is announcing your location.
+
+*Degradation* — the relic functions a fixed number of times before it becomes inert. Re-attuning it requires finding someone who knows how — and that person will have conditions.
+
+*Debt* — the relic draws on something's power. That something may call the debt in. The obligation is not specified at creation; it arrives when the Director decides the timing is right.
+
+</div>
+
+**Step 4 — The Failure Mode.** What happens when the relic is pushed past its limit, used by someone who doesn't meet its requirements, or invoked at a dramatically wrong moment? Choose one:
+- It inverts — a healing relic deals Suffering, a concealment relic broadcasts, a ward attracts.
+- It broadcasts loudly — the wrong things notice, immediately, and they are close.
+- It drains the bearer — take 1 Rank Suffering, cannot spend Potential for the remainder of the episode.
+- It calls something — a specific threat arrives within the episode. The Director should decide what before the relic is introduced.
+
+### THREE WORKED EXAMPLES
+
+<div class="flavor-box" markdown="1">
+
+**THE CARTOGRAPHER'S EYE**
+
+A pre-Calamity brass ocular instrument, roughly the size of a large monocle, with a secondary lens that slides into place with a worn thumb-wheel. The original manufacturer's mark is still visible on the brass housing, though the script is in a dialect no one currently reads. It smells faintly of machine oil that should have evaporated decades ago.
+
+*When held to the eye and focused, the Eye reveals the structural truth of any enclosed space — load-bearing points, hidden passages, stress fractures, the location of voids behind walls. In the Murk, it can detect whether a section will collapse before it does. The bearer makes any check involving structural analysis or navigation in enclosed spaces at DR-1.*
+
+**Price (Attention):** The Eye broadcasts a faint Resonance pulse while in use. Any Esoterist within 200 meters can detect the signal. Murk-creatures with supernatural senses know the general direction of the bearer.
+
+**Failure Mode:** If used anywhere in the Old City beneath the fog line, the Eye shows something that isn't there. The bearer gains 2 Stress immediately. Whatever it showed is now aware they looked.
+
+</div>
+
+<div class="flavor-box" markdown="1">
+
+**THE PENITENT'S CHAINS**
+
+A length of black iron chain, roughly three meters, with links that are too small for their weight and a clasp at each end that closes without a keyhole. The Choir's mark is stamped on every fifth link. The chains are cold regardless of ambient temperature.
+
+*When wrapped around a bound prisoner or restrained creature, the chains resist all physical force. An average person cannot break them without tools. Supernatural strength requires a DR 5 Body check. The binding holds until the Choir-marked clasp is released by someone who means it.*
+
+**Price (Attunement):** The chains only hold if the person binding believes — genuinely, not performatively — that the binding is a necessary act of mercy or justice. Binding someone to sell them fails. The chains go slack. Additionally, the Penitent Choir considers all existing Penitent's Chains to be their property and will send someone to retrieve them.
+
+**Failure Mode:** If the bound creature carries deep Murk influence or is a Daemon, the chains conduct spiritual feedback through the bearer's hands. The bearer takes 1 Rank Suffering. The creature is not bound — it is merely inconvenienced, and it now knows exactly what held it.
+
+</div>
+
+<div class="flavor-box" markdown="1">
+
+**THE WARDEN'S PISTOL**
+
+A pre-Calamity service pistol, larger than the current military standard, with a distinctive Schola Magisterium authority glyph stamped onto the barrel near the muzzle. The grip has been re-wrapped in leather at some point — the original material deteriorated. The glyph is not decorative. It was never decorative.
+
+*Fires normally (1d8 Suffering, standard pistol range). On a hit against a human target, the target must also make a DR 4 Spirit check or be compelled to stop their current action, go still, and wait. The compulsion lasts one round per point by which they failed the check. They are not unconscious — they know what is happening. They simply cannot make themselves move.*
+
+**Price (Attunement/Debt):** The authority glyph is bound to Novemgrod's institutional power. Using the pistol against a Korovladi Council member or a sanctioned city official inverts the compulsion — the bearer must make the DR 4 Spirit check instead. Additionally, the Schola Magisterium has records of this weapon and will eventually come looking for it.
+
+**Failure Mode:** If used on someone who has previously been compelled by this pistol and escaped, the compulsion fails entirely. They recognize what was done to them. They will make taking the pistol a personal priority. The Director should note who has been affected.
+
+</div>
+
+### PLACING RELICS IN THE GAME
+
+Relics work best when they solve a specific problem the players have been struggling with — but introduce a new one. When they belong to someone who will want them back. When they have obvious uses and non-obvious consequences that emerge through play.
+
+A relic found in a Murk dive should feel like it was down there for a reason. Something had it. Something wanted it. That problem is now the players' problem.
+
+One relic in play at a time is usually enough. Most sessions, none appear. The scarcity is the point — when a relic appears, it is an event, not an upgrade.

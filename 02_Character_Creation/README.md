@@ -521,6 +521,11 @@ The **Potential Cap** is the maximum Potential you can hold at any time. When yo
 | Advance Core Attribute: d6 → d8 | 32 XP |
 | Advance Core Attribute: d8 → d10 | 40 XP |
 | Advance Core Attribute: d10 → d12 | 48 XP |
+| Unlock Secondary Archetype | 40 XP |
+| Advance Secondary Die: d4 → d6 | 24 XP |
+| Advance Secondary Die: d6 → d8 | 32 XP |
+| Advance Secondary Die: d8 → d10 | 40 XP |
+| Advance Secondary Die: d10 → d12 | 48 XP |
 
 </div>
 
@@ -528,7 +533,58 @@ The **Potential Cap** is the maximum Potential you can hold at any time. When yo
 
 **Core Attribute** advancement (Body, Mind, or Spirit) costs 4× the new die's face value. Core attributes affect every check you make, which makes them commensurately expensive. A d10 Body that started as d8 represents years of brutal conditioning, not an afternoon's training. **Minimum Rank 3 (Journeyman) required** to advance a Core Attribute.
 
+**Secondary Archetype** requires Rank 2 and a primary Class Die of d8 or higher. Secondary talent tiers unlock based on secondary die level, not character Rank. Secondary Class Die advancement costs 4× the new die's face value — steeper than primary because it is supplementary training competing with your main focus.
+
 You may only purchase Talents from Tiers you have unlocked via Rank. A Rank 1 character cannot buy Tier 2 talents, regardless of how much XP they have. Advancement is earned, not purchased early.
+
+---
+
+## SECONDARY ARCHETYPE
+
+You are what you are. But survival has a way of teaching you things your original training never covered.
+
+A character who reaches Rank 2 and has advanced their primary Class Die to d8 or higher may purchase a Secondary Archetype for **40 XP**. This is not a full second class — it is a partial one. You are not starting over. You are adding a tool that doesn't quite fit your hand yet.
+
+### REQUIREMENTS
+
+- **Rank 2 (Seasoned) minimum.** You need to have survived enough that a second discipline makes sense. This is not a starting choice; it is something earned.
+- **Primary Class Die d8 or higher.** You must be a step ahead in your primary before you can begin a secondary. A Soldier whose Tactics Die is still d6 hasn't mastered their own craft enough to split their attention.
+
+### WHAT YOU GAIN AT UNLOCK
+
+- All **Intrinsic Perks** of the secondary Archetype (the three baseline abilities all members of that Archetype begin with).
+- The secondary Archetype's **Resource**, if it has one (a Soldier secondary gains Ammunition, an Acolyte secondary gains Favor, etc.). The Resource starts at its minimum value.
+- Your **Secondary Class Die** starts at **d4** — below the standard starting d6. You are a student of this discipline, not a practitioner.
+- **One Tier 1 Talent** from the secondary Archetype's talent tree, your choice.
+
+### WHAT YOU DO NOT GAIN
+
+The secondary Class Die does not inherit your primary die's level. It begins at d4 regardless of how advanced your primary is. You do not unlock secondary talent tiers based on your character Rank — secondary talent tiers unlock based on your **secondary Class Die level**:
+
+- Secondary die d6 — Tier 1 talents available
+- Secondary die d8 — Tier 2 talents available
+- Secondary die d10 or d12 — Tier 3 talents available
+
+### ADVANCING THE SECONDARY DIE
+
+The secondary Class Die costs **4× the new die's face value** to advance. Primary advancement is 3× — the difference reflects split focus.
+
+<div class="rule-box" markdown="1">
+
+| Secondary Die Advancement | XP Cost |
+|:--|:--|
+| d4 → d6 | 24 XP |
+| d6 → d8 | 32 XP |
+| d8 → d10 | 40 XP |
+| d10 → d12 | 48 XP |
+
+</div>
+
+### THE INTENT
+
+A character who invests heavily in a Secondary Archetype becomes genuinely hybrid — expensive to build, but capable of things no single-Archetype character can do. A Soldier with an Acolyte secondary who has advanced their Devotion Die to d8 is something factions will notice and something enemies will not expect. That versatility has a price, and the price is paid in XP that didn't go into advancing your primary.
+
+This is a long arc choice. Decide early, or decide never. The costs compound.
 
 ---
 

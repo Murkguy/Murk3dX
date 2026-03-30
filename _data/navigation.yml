@@ -82,6 +82,8 @@
   links:
     - label: "Director's Handbook"
       url: "/10_Directors/"
+    - label: "Sample Adventure: The Quiet Street"
+      url: "/10_Directors/SAMPLE_ADVENTURE/"
 
 - title: "QUICK REFERENCE"
   links:
