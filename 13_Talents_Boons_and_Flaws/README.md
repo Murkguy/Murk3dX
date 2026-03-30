@@ -78,5 +78,5 @@ At Character Creation, choose **1 Talent from your Archetype's Tier 1 tree**. Ge
 13. **ILLITERATE:** You cannot read or write. Auto-Fail checks to decipher text.
 14. **MONOCULAR (Missing Eye):** You suffer **-2** on ranged attacks beyond Close range.
 15. **HOT HEADED (Impulsive):** If you are insulted or challenged, you must make a Spirit Save (DR 13) to avoid attacking immediately.
-16. **GOLD FEVER (Greedy):** When you encounter visible treasure that no one is claiming, make a **Spirit Save (DR 14)**. On failure, you cannot willingly leave it — you must take it, or spend your Action each round arguing with yourself. On success, you may walk away; the struggle earns you **1d6 Potential**.
+16. **GOLD FEVER (Greedy):** When you encounter visible treasure that no one is claiming, make a **Spirit Save (DR 13)**. On failure, you cannot willingly leave it — you must take it, or spend your Action each round arguing with yourself. On success, you may walk away; the struggle earns you **1d6 Potential**.
 17. **LOUD (Clumsy):** You suffer **-2** on all Stealth checks.

@@ -46,7 +46,7 @@ Body d10 / Mind d8 / Spirit d6 | Tactics d8
 
 </div>
 
-The Quiet Street has 6–8 additional members. They function as a Mob (size 6, DR 4 per target) in open combat. Halver operates as an Operative.
+The Quiet Street has 6–8 additional members. They function as a Mob (size 6, DR 5 per target) in open combat. Halver operates as an Operative.
 
 ---
 
@@ -82,7 +82,7 @@ The players have a name, a badge, and the knowledge that Vren was going north at
 
 <div class="rule-box" markdown="1">
 
-**DIVERS' GUILD CONTACT** — Parley DR 3 (or a favor owed)
+**DIVERS' GUILD CONTACT** — Parley DR 8 (or a favor owed)
 
 Vren filed an unauthorized survey form three weeks ago. The Guild pulled it and sent him a warning notice — standard procedure for small operators going off the books. The form referenced a street address in the Northern Ruins, Block 14. The Guild did not follow up because Vren is small-time and the fee for the fine is more effort than it's worth.
 
@@ -90,7 +90,7 @@ Vren filed an unauthorized survey form three weeks ago. The Guild pulled it and 
 
 <div class="rule-box" markdown="1">
 
-**SHORE-MAN (any mid-rank)** — Parley DR 4, or Barter 1 payment
+**SHORE-MAN (any mid-rank)** — Parley DR 10, or Barter 1 payment
 
 The copper-coin badge belongs to the Quiet Street — a mercenary outfit that moved into the Northern Ruins about six months ago. Professional operation. They don't cause trouble on the Shelf. They take contracts that other outfits won't ask questions about. The Shore-Men leave them alone because the Shore-Men have enough problems in the parts of the city they actually patrol.
 
@@ -100,7 +100,7 @@ The copper-coin badge belongs to the Quiet Street — a mercenary outfit that mo
 
 <div class="rule-box" markdown="1">
 
-**KOROVLADI GUARD** — Parley DR 5
+**KOROVLADI GUARD** — Parley DR 13
 
 There have been three formal complaints filed about the Quiet Street. All three were dismissed as unverifiable. The Council's position is that the Northern Ruins are outside their operational priority. What happens north of the cable district is not the Council's problem until it is.
 
@@ -122,7 +122,7 @@ The Quiet Street has sentries. They're good at their jobs.
 
 </div>
 
-If the players try to approach without being seen: Stealth check, DR 3. Success means they reach the counting house perimeter unannounced. Failure means Halver knows company is coming — not who or why, just that someone is moving toward his position.
+If the players try to approach without being seen: Stealth check, DR 10. Success means they reach the counting house perimeter unannounced. Failure means Halver knows company is coming — not who or why, just that someone is moving toward his position.
 
 ### THE COUNTING HOUSE
 
@@ -134,9 +134,9 @@ Halver is on the second floor. Vren is in the basement.
 
 **Negotiate** — Halver will talk. If the players announce themselves at a distance and make clear they want a conversation, Halver will agree to one. He is not stupid enough to turn down information. He wants to know who sent them and what they know. He will trade Vren for access to the tunnel — specifically, for a Guild survey pass that makes the descent legal. If the players can arrange that, he will shake on it and mean it. He does not kill people he doesn't need to kill.
 
-**Deceive** — Players can claim to be Guild representatives investigating Vren's disappearance. Parley + Mind, DR 4. Success buys one scene — Halver will cooperate long enough to assess whether they're legitimate. He will see through the deception before the scene ends unless the players have compelling cover (Guild documentation, Kael's stolen contract notes, a credible story about the unauthorized survey). Failure means Halver knows immediately and the situation shifts to negotiation under tension or combat.
+**Deceive** — Players can claim to be Guild representatives investigating Vren's disappearance. Parley + Mind, DR 13. Success buys one scene — Halver will cooperate long enough to assess whether they're legitimate. He will see through the deception before the scene ends unless the players have compelling cover (Guild documentation, Kael's stolen contract notes, a credible story about the unauthorized survey). Failure means Halver knows immediately and the situation shifts to negotiation under tension or combat.
 
-**Force** — The counting house is Halver's turf. *Prepared Ground* applies throughout the ground floor. The Mob of six mercenaries occupies the building; Halver holds the second floor. This is winnable but it will cost Stress. The basement door is locked (Body DR 3 to force, or find the key on a mercenary).
+**Force** — The counting house is Halver's turf. *Prepared Ground* applies throughout the ground floor. The Mob of six mercenaries occupies the building; Halver holds the second floor. This is winnable but it will cost Stress. The basement door is locked (Body DR 8 to force, or find the key on a mercenary).
 
 ### WHAT VREN TELLS THEM
 
@@ -209,7 +209,7 @@ There is no Murk down here. The fog does not reach this deep. You do not need yo
 
 Vren's map leads them to a corridor ending in a heavy pre-Calamity door. The door is not locked. It is held shut by four wooden beams wedged against the inside — visible through a small gap at the top of the frame, placed by someone who knew the door opened inward, who wanted to ensure it stayed closed from within, and who did not plan on leaving.
 
-Opening the door requires removing the beams. This takes approximately two minutes of careful work through the gap, or a Body DR 4 check to force it (the beams hold but the frame can be bent enough to clear them).
+Opening the door requires removing the beams. This takes approximately two minutes of careful work through the gap, or a Body DR 13 check to force it (the beams hold but the frame can be bent enough to clear them).
 
 <div class="flavor-box" markdown="1">
 
@@ -227,7 +227,7 @@ Whoever this is has been in this room for thirty-two years. They are alive.
 
 Do not explain who or what this person is. The Director should not decide before running the adventure. Let the players theorize. Their theories will be better than anything written in advance, and the best answer is always the one they arrived at themselves.
 
-**The documents on the desk** are in pre-Calamity cipher. A Scholar check at DR 5 identifies the script as administrative — record-keeping, not personal correspondence. Full translation requires specialized tools and time. The players can take them.
+**The documents on the desk** are in pre-Calamity cipher. A Scholar check at DR 13 identifies the script as administrative — record-keeping, not personal correspondence. Full translation requires specialized tools and time. The players can take them.
 
 ### THE COMPLICATION
 
@@ -245,7 +245,7 @@ The players decide what to do with the room, the documents, and the person on th
 
 **TAKING THE PERSON OUT**
 
-They cannot walk unassisted. They react badly to Mirestone exposure in the upper levels — treat this as Seam-sickness accelerated (every scene in a Mirestone section causes 1 Stress). Getting them to the surface without killing them requires a Medic check at DR 4 and active assistance from at least one other character. What happens when they reach the surface is the beginning of the next arc, not the end of this one.
+They cannot walk unassisted. They react badly to Mirestone exposure in the upper levels — treat this as Seam-sickness accelerated (every scene in a Mirestone section causes 1 Stress). Getting them to the surface without killing them requires a Medic check at DR 10 and active assistance from at least one other character. What happens when they reach the surface is the beginning of the next arc, not the end of this one.
 
 **DOCUMENTING AND LEAVING**
 

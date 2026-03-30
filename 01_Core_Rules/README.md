@@ -127,7 +127,9 @@ Compare your Result to the **Difficulty Rating (DR)** set by the Director.
 
 | DR | Name | What It Represents |
 |:--|:--|:--|
-| **10** | Standard | Challenging but expected for a professional. Shooting a moving target, climbing a wet wall under fire, decoding a cipher in dim light. |
+| **8** | Easy | Something a professional handles without thinking. Under pressure, still manageable. |
+| **10** | Standard | Competent performance under real pressure. A trained character succeeds most of the time. |
+| **13** | Elevated | A meaningful challenge. Untrained characters fail more often than not. |
 | **15** | Hard | A genuine feat of expertise. Picking a guild-vault lock, resisting a magical compulsion, tracking a target through a crowd in the rain. |
 | **20** | Impossible | A feat of legend. Surviving a fall from a watchtower, convincing a Murk-beast to hesitate, holding a door against twelve armed men. |
 

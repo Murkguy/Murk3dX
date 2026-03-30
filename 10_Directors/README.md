@@ -691,7 +691,7 @@ A pre-Calamity brass ocular instrument, roughly the size of a large monocle, wit
 
 A length of black iron chain, roughly three meters, with links that are too small for their weight and a clasp at each end that closes without a keyhole. The Choir's mark is stamped on every fifth link. The chains are cold regardless of ambient temperature.
 
-*When wrapped around a bound prisoner or restrained creature, the chains resist all physical force. An average person cannot break them without tools. Supernatural strength requires a DR 5 Body check. The binding holds until the Choir-marked clasp is released by someone who means it.*
+*When wrapped around a bound prisoner or restrained creature, the chains resist all physical force. An average person cannot break them without tools. Supernatural strength requires a DR 15 Body check. The binding holds until the Choir-marked clasp is released by someone who means it.*
 
 **Price (Attunement):** The chains only hold if the person binding believes — genuinely, not performatively — that the binding is a necessary act of mercy or justice. Binding someone to sell them fails. The chains go slack. Additionally, the Penitent Choir considers all existing Penitent's Chains to be their property and will send someone to retrieve them.
 
@@ -705,7 +705,7 @@ A length of black iron chain, roughly three meters, with links that are too smal
 
 A pre-Calamity service pistol, larger than the current military standard, with a distinctive Schola Magisterium authority glyph stamped onto the barrel near the muzzle. The grip has been re-wrapped in leather at some point — the original material deteriorated. The glyph is not decorative. It was never decorative.
 
-*Fires normally (1d8 Suffering, standard pistol range). On a hit against a human target, the target must also make a DR 4 Spirit check or be compelled to stop their current action, go still, and wait. The compulsion lasts one round per point by which they failed the check. They are not unconscious — they know what is happening. They simply cannot make themselves move.*
+*Fires normally (1d8 Suffering, standard pistol range). On a hit against a human target, the target must also make a DR 13 Spirit check or be compelled to stop their current action, go still, and wait. The compulsion lasts one round per point by which they failed the check. They are not unconscious — they know what is happening. They simply cannot make themselves move.*
 
 **Price (Attunement/Debt):** The authority glyph is bound to Novemgrod's institutional power. Using the pistol against a Korovladi Council member or a sanctioned city official inverts the compulsion — the bearer must make the DR 4 Spirit check instead. Additionally, the Schola Magisterium has records of this weapon and will eventually come looking for it.
 

@@ -159,7 +159,7 @@ Not one creature. A distributed organism that has colonized several blocks of th
 **DISASTER TRACK:**
 
 *Rank 1 — It Organizes:*
-The fragments stop behaving independently. They move in deliberate patterns, cutting off exits and herding players toward each other. Players who attempt to retreat must make an Athletics check (DR 14) to successfully create distance.
+The fragments stop behaving independently. They move in deliberate patterns, cutting off exits and herding players toward each other. Players who attempt to retreat must make an Athletics check (DR 13) to successfully create distance.
 
 *Rank 2 — One Initiative:*
 The Congregation acts as a single entity. All fragments act on the same Initiative count as the Congregation itself, not scattered across the round. It is no longer a swarm. It is one thing with many hands.

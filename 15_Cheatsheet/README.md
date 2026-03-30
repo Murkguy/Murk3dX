@@ -9,9 +9,11 @@ permalink: /15_Cheatsheet/
 ## THE CORE MECHANIC
 **Roll:** `2d6 + Attribute Die` (+ Skill Bonus if Trained)
 * **Target:** Beat the Difficulty Rating (DR).
-    * **DR 10:** Standard (Under pressure, untrained).
-    * **DR 15:** Hard (Requires training or luck).
-    * **DR 20:** Extreme (Requires mastery).
+    * **DR 8:** Easy (Professional standard, minimal pressure).
+    * **DR 10:** Standard (Competent under real pressure — the average challenge).
+    * **DR 13:** Elevated (Meaningful difficulty; untrained fail more often than not).
+    * **DR 15:** Hard (Requires training *and* luck).
+    * **DR 20:** Extreme (Requires mastery or exceptional circumstances).
 * **Botch:** Natural "1" on the Attribute Die + Failure = Catastrophe.
 * **Crushing Success:** Beat DR by 10+ = Critical Effect (+1d4 Potential).
 
