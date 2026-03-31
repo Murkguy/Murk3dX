@@ -1019,20 +1019,18 @@
           setVal('gear-notes-'+i, g.notes||'');
         }
 
-        // Skills
-        setTimeout(function(){
-          if(ch.skills){
-            SKILLS.forEach(function(s){
-              var val = ch.skills[s[0]]||'untrained';
-              document.querySelectorAll('input[name="skill-'+s[0]+'"]').forEach(function(r){
-                r.checked=(r.value===val);
-                var lbl=r.closest('label');
-                if(lbl) lbl.classList.toggle('selected',r.checked);
-              });
+        // Skills — set synchronously so readForm() never races ahead of this
+        if(ch.skills){
+          SKILLS.forEach(function(s){
+            var val = ch.skills[s[0]]||'untrained';
+            document.querySelectorAll('input[name="skill-'+s[0]+'"]').forEach(function(r){
+              r.checked=(r.value===val);
+              var lbl=r.closest('label');
+              if(lbl) lbl.classList.toggle('selected',r.checked);
             });
-          }
-          countSkillSlots();
-        },0);
+          });
+        }
+        countSkillSlots();
 
         setVal('f-connections',ch.connections); setVal('f-notes',ch.notes);
         updateGearSlots();
