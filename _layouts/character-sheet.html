@@ -60,9 +60,8 @@
       .char-card .card-name { font-size: 1.2em; font-weight: bold; color: #fff; margin-bottom: 6px; }
       .char-card .card-meta { font-size: 0.78em; color: #888; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 0.05em; }
       .card-badge { display: inline-block; background: #252525; border: 1px solid #444; border-radius: 2px; font-size: 0.72em; padding: 2px 7px; color: #b5e853; margin-right: 4px; margin-bottom: 4px; letter-spacing: 0.06em; }
-      .card-stress { display: flex; gap: 3px; margin-top: 10px; flex-wrap: wrap; }
-      .card-stress-box { width: 14px; height: 14px; border: 1px solid #444; border-radius: 2px; background: #111; }
-      .card-stress-box.filled { background: #b5e853; border-color: #b5e853; }
+      .card-stress { margin-top: 8px; font-size: 0.78em; color: #666; }
+      .card-stress span { color: #b5e853; font-weight: bold; }
       .lib-empty { grid-column: 1/-1; text-align: center; padding: 60px 20px; color: #555; font-style: italic; }
       #import-file { display: none; }
 
@@ -103,14 +102,12 @@
       .resource-row { display: grid; grid-template-columns: 1fr 60px 60px; align-items: end; gap: 10px; margin-bottom: 10px; }
       .resource-label { font-size: 0.75em; color: #888; text-transform: uppercase; letter-spacing: 0.1em; padding-bottom: 4px; }
 
-      /* Stress track — capped at 10, no overflow */
-      .stress-track { display: flex; gap: 5px; flex-wrap: nowrap; margin-bottom: 6px; }
-      .stress-box { width: 28px; height: 28px; border: 1px solid #444; border-radius: 3px; background: #111; cursor: pointer; transition: background 0.1s, border-color 0.1s; flex-shrink: 0; }
-      .stress-box.filled { background: #b5e853; border-color: #b5e853; }
-      .stress-box.danger { background: #7a1a1a; border-color: #c03030; }
-      .stress-count { font-size: 0.78em; color: #666; margin-top: 4px; }
-      .stress-count span { color: #b5e853; font-weight: bold; }
-      .stress-count span.maxed { color: #e05050; }
+      /* Stress input */
+      .stress-input-wrap { display: flex; align-items: center; gap: 10px; }
+      .stress-input-wrap input[type="number"] { width: 72px; font-size: 1.8em; font-weight: bold; text-align: center; background: #111; border: 1px solid #444; color: #b5e853; border-radius: 3px; padding: 4px; -moz-appearance: textfield; }
+      .stress-input-wrap input[type="number"]::-webkit-outer-spin-button,
+      .stress-input-wrap input[type="number"]::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+      .stress-input-wrap .stress-label { font-size: 0.78em; color: #666; }
 
       /* Suffering with injury picklist */
       .suffering-list { list-style: none; margin: 0; padding: 0; }
@@ -367,9 +364,11 @@
 
             <!-- RIGHT: Stress & Suffering -->
             <div>
-              <div class="cs-sub-title">Stress Track (max 10)</div>
-              <div class="stress-track" id="stress-track"></div>
-              <div class="stress-count">Stress: <span id="stress-num">0</span> / 10</div>
+              <div class="cs-sub-title">Stress</div>
+              <div class="stress-input-wrap">
+                <input type="number" id="f-stress" min="0" max="99" value="0">
+                <span class="stress-label">Current Stress</span>
+              </div>
 
               <hr class="section-div">
               <div class="cs-sub-title">Suffering &amp; Injuries</div>
@@ -715,9 +714,7 @@
           var card = document.createElement('div');
           card.className = 'char-card';
           card.setAttribute('data-id', ch.id);
-          var stressHtml = '<div class="card-stress">';
-          for (var i=0;i<10;i++) stressHtml += '<div class="card-stress-box'+(i<ch.stress?' filled':'')+'"></div>';
-          stressHtml += '</div>';
+          var stressHtml = '<div class="card-stress">Stress: <span>'+(ch.stress||0)+'</span></div>';
           var rankLabels = ['','Neophyte','Apprentice','Journeyman','Master'];
           card.innerHTML =
             '<div class="card-name">'+(ch.name||'Unnamed Character')+'</div>'+
@@ -745,7 +742,7 @@
         document.getElementById('view-library').style.display = 'none';
         document.getElementById('view-sheet').style.display = 'block';
         buildSkillsGrid();
-        buildStressTrack();
+        bindStressInput();
         buildInjurySelects();
         buildTalentRows();
         buildBoonBurdenSelects();
@@ -777,10 +774,8 @@
         setVal('f-pot-cur',ch.potentialCurrent); setVal('f-pot-max',ch.potentialMax);
         setVal('f-xp',ch.xp);
 
-        // Stress — clamp to 10
-        var stress = Math.min(ch.stress||0, 10);
-        document.querySelectorAll('.stress-box').forEach(function(b,i){ b.classList.toggle('filled', i<stress); });
-        updateStressNum();
+        // Stress
+        setVal('f-stress', ch.stress||0);
 
         // Suffering
         document.querySelectorAll('.suffering-list li').forEach(function(li){
@@ -876,7 +871,7 @@
         ch.resourceCurrent=getInt('f-res-cur'); ch.resourceMax=getInt('f-res-max');
         ch.potentialCurrent=getInt('f-pot-cur'); ch.potentialMax=getInt('f-pot-max');
         ch.xp=getInt('f-xp');
-        ch.stress=Math.min(document.querySelectorAll('.stress-box.filled').length, 10);
+        ch.stress=Math.min(getInt('f-stress'), 99);
         var maxS=0;
         document.querySelectorAll('.suffering-list li').forEach(function(li){
           if(li.querySelector('input[type="checkbox"]').checked){
@@ -1009,35 +1004,10 @@
         countSkillSlots();
       };
 
-      /* ── Stress track (hard cap 10) ── */
-      function buildStressTrack() {
-        var track=document.getElementById('stress-track');
-        track.innerHTML='';
-        for(var i=0;i<10;i++){
-          var box=document.createElement('div');
-          box.className='stress-box'; box.setAttribute('data-idx',i);
-          box.addEventListener('click', onStressClick);
-          track.appendChild(box);
-        }
-      }
-      function onStressClick() {
-        var idx=parseInt(this.getAttribute('data-idx'));
-        var boxes=document.querySelectorAll('.stress-box');
-        var cur=document.querySelectorAll('.stress-box.filled').length;
-        // Click on last filled = unfill it; otherwise fill up to idx
-        if(idx===cur-1){
-          boxes[idx].classList.remove('filled');
-        } else {
-          for(var i=0;i<=idx;i++) boxes[i].classList.add('filled');
-          for(var j=idx+1;j<10;j++) boxes[j].classList.remove('filled');
-        }
-        updateStressNum(); autoSave();
-      }
-      function updateStressNum() {
-        var n=document.querySelectorAll('.stress-box.filled').length;
-        var span=document.getElementById('stress-num');
-        span.textContent=n;
-        span.className=(n>=10)?'maxed':'';
+      /* ── Stress input auto-save ── */
+      function bindStressInput() {
+        var inp=document.getElementById('f-stress');
+        if(inp){ inp.addEventListener('change', function(){ if(parseInt(this.value)>99)this.value=99; autoSave(); }); }
       }
 
       /* ── Suffering toggles ── */
