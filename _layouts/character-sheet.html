@@ -757,6 +757,8 @@
         if (!ch) return;
         document.getElementById('view-library').style.display = 'none';
         document.getElementById('view-sheet').style.display = 'block';
+        // Set archetype before buildTalentRows so it generates the correct options
+        setVal('f-archetype', ch.archetype || 'soldier');
         buildSkillsGrid();
         bindStressInput();
         buildInjurySelects();
