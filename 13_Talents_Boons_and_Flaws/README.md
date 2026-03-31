@@ -72,7 +72,10 @@ At Character Creation, choose **1 Talent from your Archetype's Tier 1 tree**. Ge
 7.  **THE SHAKES (Addiction):** -2 to Body/Mind rolls if you go 24 hours without your fix.
 8.  **DISTINCTIVE STYLE:** You cannot blend in. Auto-Fail Stealth in crowds.
 9.  **GLASS JAW (Frail):** When you take Physical Suffering, you are instantly **Stunned** (Lose Turn).
-10. **MURK-MAGNET:** The DR for all Murk Exposure checks and Lung Rot saves is increased by **+4**.
+10. **MURK-MAGNET:** The fog clings to you like a second skin — something in your scent, your aura, or your blood marks you as belonging to it.
+    * **Standard effect:** The DR for all Murk Exposure checks and Lung Rot saves is increased by **+4**.
+    * **Murkborn alternative:** If you are Murkborn and already immune to Murk toxicity, the mechanical penalty has no target — instead the *behavioural* effect dominates. Natural animals (dogs, horses, rats, birds) detect something wrong in you and start any unscripted encounter **one step more hostile** than they otherwise would. Murk-creatures and fog-touched entities are drawn to you; they will investigate or follow you rather than ignoring you, and may delay attacking as they attempt to communicate or claim you as kin.
+    * **Both versions share:** When the party tries to move quietly through the deep Murk, your presence is a liability — Murk-entities that would have ignored the group will notice and track you specifically.
 11. **INFAMOUS:** -3 Penalty to Barter/Scrounge. Honest folk won't trade with you.
 12. **BLEEDING HEART:** You cannot ignore a plea for help without passing a Spirit Save (DR 15).
 13. **ILLITERATE:** You cannot read or write. Auto-Fail checks to decipher text.

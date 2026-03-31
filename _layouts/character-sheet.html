@@ -100,9 +100,10 @@
       .field-group { margin-bottom: 12px; }
       .field-note { font-size: 0.72em; color: #555; margin-top: 3px; font-style: italic; }
 
-      .identity-grid { display: grid; grid-template-columns: 2fr 1.5fr 1fr 1fr 1fr 1.2fr; gap: 12px; }
-      @media (max-width: 860px) { .identity-grid { grid-template-columns: 1fr 1fr 1fr; } }
-      @media (max-width: 540px) { .identity-grid { grid-template-columns: 1fr 1fr; } }
+      .identity-grid { display: grid; grid-template-columns: 2fr 1.5fr 1fr 1fr 1fr 1.2fr 1.2fr 2fr; gap: 12px; }
+      .identity-grid .fg-wide { grid-column: span 2; }
+      @media (max-width: 860px) { .identity-grid { grid-template-columns: 1fr 1fr 1fr; } .identity-grid .fg-wide { grid-column: span 3; } }
+      @media (max-width: 540px) { .identity-grid { grid-template-columns: 1fr 1fr; } .identity-grid .fg-wide { grid-column: span 2; } }
 
       .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
       @media (max-width: 680px) { .two-col { grid-template-columns: 1fr; } }
@@ -277,6 +278,14 @@
             <div class="field-group" id="patron-field">
               <label class="field-label">Patron</label>
               <input type="text" id="f-patron" placeholder="Deity...">
+            </div>
+            <div class="field-group">
+              <label class="field-label">Nationality</label>
+              <input type="text" id="f-nationality" placeholder="e.g. Ruthenian, Carantha...">
+            </div>
+            <div class="field-group fg-wide">
+              <label class="field-label">Background</label>
+              <input type="text" id="f-background" placeholder="Who were you before...">
             </div>
           </div>
 
@@ -695,7 +704,7 @@
         for(var i=0;i<4;i++) secondaryTalents.push('');
         return {
           id:genId(), name:'', player:'', archetype:'soldier', species:'human',
-          rank:1, patron:'',
+          rank:1, patron:'', nationality:'', background:'',
           body:8, mind:8, spirit:6, classdie:8, classdie2:4,
           resourceCurrent:0, resourceMax:0, potentialCurrent:0, potentialMax:12,
           xp:0, stress:0, suffering:0, injuries:injuries,
@@ -787,6 +796,7 @@
         setVal('f-name',ch.name); setVal('f-player',ch.player);
         setVal('f-archetype',ch.archetype); setVal('f-species',ch.species);
         setVal('f-rank',ch.rank); setVal('f-patron',ch.patron);
+        setVal('f-nationality',ch.nationality); setVal('f-background',ch.background);
         setVal('f-body',ch.body); setVal('f-mind',ch.mind); setVal('f-spirit',ch.spirit);
         setVal('f-classdie',ch.classdie); setVal('f-classdie2',ch.classdie2);
         setVal('f-res-cur',ch.resourceCurrent); setVal('f-res-max',ch.resourceMax);
@@ -885,6 +895,7 @@
         ch.name=getVal('f-name'); ch.player=getVal('f-player');
         ch.archetype=getVal('f-archetype'); ch.species=getVal('f-species');
         ch.rank=getInt('f-rank'); ch.patron=getVal('f-patron');
+        ch.nationality=getVal('f-nationality'); ch.background=getVal('f-background');
         ch.body=getInt('f-body'); ch.mind=getInt('f-mind'); ch.spirit=getInt('f-spirit');
         ch.classdie=getInt('f-classdie'); ch.classdie2=getInt('f-classdie2');
         ch.resourceCurrent=getInt('f-res-cur'); ch.resourceMax=getInt('f-res-max');
