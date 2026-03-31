@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
     <title>Character Sheet — {{ site.title }}</title>
     <style>
-      /* ── Reset & base ── */
       *, *::before, *::after { box-sizing: border-box; }
       body {
         background: #111 !important;
@@ -21,7 +20,6 @@
       h1,h2,h3,h4 { color: #b5e853 !important; margin: 0; }
       strong, b { color: #fff !important; }
 
-      /* ── Site header bar ── */
       .site-topbar {
         background: #1a1a1a;
         border-bottom: 1px solid #333;
@@ -30,450 +28,167 @@
         align-items: center;
         justify-content: space-between;
       }
-      .site-topbar .site-name {
-        font-size: 0.9em;
-        color: #b5e853 !important;
-        font-weight: bold;
-        letter-spacing: 0.08em;
-      }
-      .site-topbar .page-title {
-        font-size: 0.75em;
-        color: #555;
-        letter-spacing: 0.15em;
-        text-transform: uppercase;
-      }
+      .site-topbar .site-name { font-size: 0.9em; color: #b5e853 !important; font-weight: bold; letter-spacing: 0.08em; }
+      .site-topbar .page-title { font-size: 0.75em; color: #555; letter-spacing: 0.15em; text-transform: uppercase; }
 
-      /* ── Main wrapper ── */
-      .cs-wrap {
-        max-width: 1100px;
-        margin: 0 auto;
-        padding: 24px 20px 60px 20px;
-      }
+      .cs-wrap { max-width: 1100px; margin: 0 auto; padding: 24px 20px 60px 20px; }
 
-      /* ── Buttons ── */
+      /* Buttons */
       .btn {
-        display: inline-block;
-        background: #1e1e1e;
-        border: 1px solid #444;
-        color: #d0d0d0 !important;
-        padding: 7px 16px;
-        border-radius: 3px;
-        font-size: 0.85em;
-        cursor: pointer;
-        transition: border-color 0.15s, color 0.15s;
+        display: inline-block; background: #1e1e1e; border: 1px solid #444;
+        color: #d0d0d0 !important; padding: 7px 16px; border-radius: 3px;
+        font-size: 0.85em; cursor: pointer; transition: border-color 0.15s, color 0.15s;
         text-decoration: none !important;
       }
       .btn:hover { border-color: #b5e853; color: #b5e853 !important; }
-      .btn-primary {
-        background: #b5e853;
-        border-color: #b5e853;
-        color: #111 !important;
-        font-weight: bold;
-      }
-      .btn-primary:hover { background: #c8f570; border-color: #c8f570; color: #111 !important; }
+      .btn-primary { background: #b5e853; border-color: #b5e853; color: #111 !important; font-weight: bold; }
+      .btn-primary:hover { background: #c8f570; color: #111 !important; }
       .btn-danger { border-color: #7a2020; color: #e05050 !important; }
       .btn-danger:hover { border-color: #e05050; color: #ff6666 !important; }
 
-      /* ────────────────────────────────────────────
-         LIBRARY VIEW
-      ──────────────────────────────────────────── */
+      /* ── LIBRARY ── */
       #view-library { display: block; }
       #view-sheet   { display: none; }
 
-      .lib-header {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        margin-bottom: 24px;
-        padding-bottom: 16px;
-        border-bottom: 1px solid #333;
-      }
-      .lib-header h2 {
-        font-size: 1.4em;
-        letter-spacing: 0.1em;
-        text-transform: uppercase;
-      }
+      .lib-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 24px; padding-bottom: 16px; border-bottom: 1px solid #333; }
+      .lib-header h2 { font-size: 1.4em; letter-spacing: 0.1em; text-transform: uppercase; }
       .lib-actions { display: flex; gap: 10px; align-items: center; }
 
-      .char-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-        gap: 16px;
-      }
-      .char-card {
-        background: #1a1a1a;
-        border: 1px solid #333;
-        border-radius: 4px;
-        padding: 18px;
-        cursor: pointer;
-        transition: border-color 0.15s, transform 0.1s;
-      }
-      .char-card:hover {
-        border-color: #b5e853;
-        transform: translateY(-2px);
-      }
-      .char-card .card-name {
-        font-size: 1.2em;
-        font-weight: bold;
-        color: #fff;
-        margin-bottom: 6px;
-      }
-      .char-card .card-meta {
-        font-size: 0.78em;
-        color: #888;
-        margin-bottom: 10px;
-        text-transform: uppercase;
-        letter-spacing: 0.05em;
-      }
-      .card-badge {
-        display: inline-block;
-        background: #252525;
-        border: 1px solid #444;
-        border-radius: 2px;
-        font-size: 0.72em;
-        padding: 2px 7px;
-        color: #b5e853;
-        margin-right: 4px;
-        margin-bottom: 4px;
-        letter-spacing: 0.06em;
-      }
-      .card-stress {
-        display: flex;
-        gap: 3px;
-        margin-top: 10px;
-      }
-      .card-stress-box {
-        width: 14px; height: 14px;
-        border: 1px solid #444;
-        border-radius: 2px;
-        background: #111;
-      }
+      .char-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px; }
+      .char-card { background: #1a1a1a; border: 1px solid #333; border-radius: 4px; padding: 18px; cursor: pointer; transition: border-color 0.15s, transform 0.1s; }
+      .char-card:hover { border-color: #b5e853; transform: translateY(-2px); }
+      .char-card .card-name { font-size: 1.2em; font-weight: bold; color: #fff; margin-bottom: 6px; }
+      .char-card .card-meta { font-size: 0.78em; color: #888; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 0.05em; }
+      .card-badge { display: inline-block; background: #252525; border: 1px solid #444; border-radius: 2px; font-size: 0.72em; padding: 2px 7px; color: #b5e853; margin-right: 4px; margin-bottom: 4px; letter-spacing: 0.06em; }
+      .card-stress { display: flex; gap: 3px; margin-top: 10px; flex-wrap: wrap; }
+      .card-stress-box { width: 14px; height: 14px; border: 1px solid #444; border-radius: 2px; background: #111; }
       .card-stress-box.filled { background: #b5e853; border-color: #b5e853; }
-
-      .lib-empty {
-        grid-column: 1/-1;
-        text-align: center;
-        padding: 60px 20px;
-        color: #555;
-        font-style: italic;
-        font-size: 1em;
-      }
-
-      /* hidden file input */
+      .lib-empty { grid-column: 1/-1; text-align: center; padding: 60px 20px; color: #555; font-style: italic; }
       #import-file { display: none; }
 
-      /* ────────────────────────────────────────────
-         SHEET VIEW
-      ──────────────────────────────────────────── */
-      .sheet-topbar {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        margin-bottom: 24px;
-        padding-bottom: 14px;
-        border-bottom: 2px solid #333;
-        gap: 12px;
-        flex-wrap: wrap;
-      }
-      .sheet-topbar .sheet-title {
-        font-size: 1.3em;
-        font-weight: bold;
-        color: #fff;
-        flex: 1;
-        min-width: 120px;
-      }
-      .sheet-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+      /* ── SHEET ── */
+      .sheet-topbar { display: flex; align-items: center; justify-content: space-between; margin-bottom: 24px; padding-bottom: 14px; border-bottom: 2px solid #333; gap: 12px; flex-wrap: wrap; }
+      .sheet-topbar .sheet-title { font-size: 1.3em; font-weight: bold; color: #fff; flex: 1; min-width: 120px; }
+      .sheet-actions { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
 
-      /* ── Section headings ── */
-      .cs-section {
-        margin-bottom: 28px;
-      }
-      .cs-section-title {
-        font-size: 0.72em;
-        font-weight: bold;
-        letter-spacing: 0.18em;
-        text-transform: uppercase;
-        color: #b5e853 !important;
-        border-bottom: 1px solid #2a2a2a;
-        padding-bottom: 6px;
-        margin-bottom: 14px;
-      }
+      .cs-section { margin-bottom: 28px; }
+      .cs-section-title { font-size: 0.72em; font-weight: bold; letter-spacing: 0.18em; text-transform: uppercase; color: #b5e853 !important; border-bottom: 1px solid #2a2a2a; padding-bottom: 6px; margin-bottom: 14px; }
+      .cs-sub-title { font-size: 0.6em; font-weight: bold; letter-spacing: 0.12em; text-transform: uppercase; color: #555; padding: 0; margin: 0 0 8px 0; border: none; }
 
-      /* ── Form fields ── */
-      label.field-label {
-        display: block;
-        font-size: 0.68em;
-        letter-spacing: 0.12em;
-        text-transform: uppercase;
-        color: #666;
-        margin-bottom: 4px;
+      label.field-label { display: block; font-size: 0.68em; letter-spacing: 0.12em; text-transform: uppercase; color: #666; margin-bottom: 4px; }
+      input[type="text"], input[type="number"], select, textarea {
+        background: #1e1e1e; border: 1px solid #333; color: #d0d0d0; border-radius: 3px;
+        padding: 7px 10px; font-size: 0.9em; width: 100%; transition: border-color 0.15s; font-family: inherit;
       }
-      input[type="text"],
-      input[type="number"],
-      select,
-      textarea {
-        background: #1e1e1e;
-        border: 1px solid #333;
-        color: #d0d0d0;
-        border-radius: 3px;
-        padding: 7px 10px;
-        font-size: 0.9em;
-        width: 100%;
-        transition: border-color 0.15s;
-        font-family: inherit;
-      }
-      input[type="text"]:focus,
-      input[type="number"]:focus,
-      select:focus,
-      textarea:focus {
-        outline: none;
-        border-color: #b5e853;
-      }
+      input[type="text"]:focus, input[type="number"]:focus, select:focus, textarea:focus { outline: none; border-color: #b5e853; }
       select option { background: #1e1e1e; }
       input[type="number"] { -moz-appearance: textfield; }
-      input[type="number"]::-webkit-outer-spin-button,
-      input[type="number"]::-webkit-inner-spin-button { -webkit-appearance: none; }
+      input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button { -webkit-appearance: none; }
       textarea { resize: vertical; min-height: 90px; }
-
       .field-group { margin-bottom: 12px; }
-      .field-note {
-        font-size: 0.72em;
-        color: #555;
-        margin-top: 3px;
-        font-style: italic;
-      }
+      .field-note { font-size: 0.72em; color: #555; margin-top: 3px; font-style: italic; }
 
-      /* ── Identity row ── */
-      .identity-grid {
-        display: grid;
-        grid-template-columns: 2fr 1.5fr 1fr 1fr 1fr 1.2fr;
-        gap: 12px;
-      }
-      @media (max-width: 860px) {
-        .identity-grid { grid-template-columns: 1fr 1fr 1fr; }
-      }
-      @media (max-width: 540px) {
-        .identity-grid { grid-template-columns: 1fr 1fr; }
-      }
+      .identity-grid { display: grid; grid-template-columns: 2fr 1.5fr 1fr 1fr 1fr 1.2fr; gap: 12px; }
+      @media (max-width: 860px) { .identity-grid { grid-template-columns: 1fr 1fr 1fr; } }
+      @media (max-width: 540px) { .identity-grid { grid-template-columns: 1fr 1fr; } }
 
-      /* ── Two column layout ── */
-      .two-col {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 24px;
-      }
-      @media (max-width: 680px) {
-        .two-col { grid-template-columns: 1fr; }
-      }
+      .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+      @media (max-width: 680px) { .two-col { grid-template-columns: 1fr; } }
 
-      /* ── Attribute row ── */
-      .attr-row {
-        display: grid;
-        grid-template-columns: 80px 90px 1fr;
-        align-items: center;
-        gap: 10px;
-        margin-bottom: 10px;
-      }
-      .attr-label {
-        font-size: 0.8em;
-        font-weight: bold;
-        letter-spacing: 0.08em;
-        text-transform: uppercase;
-        color: #b5e853;
-      }
-      .attr-derived {
-        font-size: 0.75em;
-        color: #666;
-      }
+      .attr-row { display: grid; grid-template-columns: 80px 90px 1fr; align-items: center; gap: 10px; margin-bottom: 10px; }
+      .attr-label { font-size: 0.8em; font-weight: bold; letter-spacing: 0.08em; text-transform: uppercase; color: #b5e853; }
+      .attr-derived { font-size: 0.75em; color: #666; }
       .attr-derived span { color: #aaa; font-weight: bold; }
 
-      /* ── Resource / pool row ── */
-      .resource-row {
-        display: grid;
-        grid-template-columns: 1fr 60px 60px;
-        align-items: end;
-        gap: 10px;
-        margin-bottom: 10px;
-      }
+      .resource-row { display: grid; grid-template-columns: 1fr 60px 60px; align-items: end; gap: 10px; margin-bottom: 10px; }
       .resource-label { font-size: 0.75em; color: #888; text-transform: uppercase; letter-spacing: 0.1em; padding-bottom: 4px; }
 
-      /* ── Stress track ── */
-      .stress-track {
-        display: flex;
-        gap: 5px;
-        flex-wrap: wrap;
-        margin-bottom: 6px;
-      }
-      .stress-box {
-        width: 28px; height: 28px;
-        border: 1px solid #444;
-        border-radius: 3px;
-        background: #111;
-        cursor: pointer;
-        transition: background 0.1s, border-color 0.1s;
-      }
+      /* Stress track — capped at 10, no overflow */
+      .stress-track { display: flex; gap: 5px; flex-wrap: nowrap; margin-bottom: 6px; }
+      .stress-box { width: 28px; height: 28px; border: 1px solid #444; border-radius: 3px; background: #111; cursor: pointer; transition: background 0.1s, border-color 0.1s; flex-shrink: 0; }
       .stress-box.filled { background: #b5e853; border-color: #b5e853; }
+      .stress-box.danger { background: #7a1a1a; border-color: #c03030; }
       .stress-count { font-size: 0.78em; color: #666; margin-top: 4px; }
       .stress-count span { color: #b5e853; font-weight: bold; }
+      .stress-count span.maxed { color: #e05050; }
 
-      /* ── Suffering ── */
+      /* Suffering with injury picklist */
       .suffering-list { list-style: none; margin: 0; padding: 0; }
-      .suffering-list li {
-        display: flex;
-        align-items: flex-start;
-        gap: 10px;
-        padding: 8px 10px;
-        border-bottom: 1px solid #222;
-        cursor: pointer;
-      }
+      .suffering-list li { padding: 8px 10px; border-bottom: 1px solid #222; }
       .suffering-list li:last-child { border-bottom: none; }
-      .suffering-list li input[type="checkbox"] { margin-top: 2px; accent-color: #b5e853; cursor: pointer; flex-shrink: 0; }
-      .suffering-list li.active .suffer-name { color: #e05050; }
+      .suffer-row { display: flex; align-items: center; gap: 10px; cursor: pointer; }
+      .suffer-row input[type="checkbox"] { margin: 0; accent-color: #b5e853; cursor: pointer; flex-shrink: 0; }
       .suffer-name { font-weight: bold; font-size: 0.85em; color: #aaa; }
-      .suffer-effect { font-size: 0.75em; color: #555; margin-top: 2px; }
+      .suffer-effect { font-size: 0.72em; color: #555; margin-top: 1px; }
+      .suffering-list li.active .suffer-name { color: #e05050; }
+      .injury-picks { display: none; margin-top: 8px; padding-left: 24px; }
+      .suffering-list li.active .injury-picks { display: block; }
+      .injury-row { display: flex; gap: 8px; align-items: center; margin-bottom: 6px; }
+      .injury-row label { font-size: 0.68em; color: #666; letter-spacing: 0.08em; text-transform: uppercase; min-width: 70px; }
+      .injury-row select { flex: 1; font-size: 0.8em; padding: 4px 8px; }
 
-      /* ── Skills ── */
-      .skills-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-        gap: 0;
-      }
-      .skill-group-title {
-        grid-column: 1/-1;
-        font-size: 0.65em;
-        letter-spacing: 0.15em;
-        text-transform: uppercase;
-        color: #555;
-        padding: 10px 0 4px 0;
-        border-top: 1px solid #222;
-        margin-top: 4px;
-      }
-      .skill-row {
-        display: flex;
-        align-items: center;
-        padding: 5px 8px;
-        border-bottom: 1px solid #1e1e1e;
-        gap: 8px;
-      }
+      /* Skills */
+      .skills-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 0; }
+      .skill-group-title { grid-column: 1/-1; font-size: 0.65em; letter-spacing: 0.15em; text-transform: uppercase; color: #555; padding: 10px 0 4px 0; border-top: 1px solid #222; margin-top: 4px; }
+      .skill-row { display: flex; align-items: center; padding: 5px 8px; border-bottom: 1px solid #1e1e1e; gap: 8px; }
       .skill-row:hover { background: #1a1a1a; }
       .skill-name { flex: 1; font-size: 0.85em; color: #ccc; }
       .skill-attr-tag { font-size: 0.68em; color: #555; letter-spacing: 0.06em; min-width: 40px; text-align: right; }
-      .skill-radios { display: flex; gap: 0; }
-      .skill-radios label {
-        font-size: 0.7em;
-        color: #666;
-        padding: 3px 7px;
-        cursor: pointer;
-        border: 1px solid #2a2a2a;
-        margin-left: -1px;
-        transition: background 0.1s, color 0.1s;
-        white-space: nowrap;
-        display: flex;
-        align-items: center;
-        gap: 3px;
-      }
+      .skill-radios { display: flex; }
+      .skill-radios label { font-size: 0.7em; color: #666; padding: 3px 7px; cursor: pointer; border: 1px solid #2a2a2a; margin-left: -1px; transition: background 0.1s, color 0.1s; white-space: nowrap; display: flex; align-items: center; gap: 3px; }
       .skill-radios label:first-child { border-radius: 3px 0 0 3px; }
       .skill-radios label:last-child { border-radius: 0 3px 3px 0; }
       .skill-radios input[type="radio"] { display: none; }
-      .skill-radios input[type="radio"]:checked + span { /* handled via label */ }
       .skill-radios label.sel-untrained.selected { background: #252525; color: #888; border-color: #444; }
       .skill-radios label.sel-trained.selected { background: #1e3a1e; color: #b5e853; border-color: #4a7a2a; }
       .skill-radios label.sel-expert.selected { background: #2a2a1e; color: #f0d060; border-color: #6a6020; }
-
-      .skill-unique {
-        display: flex;
-        align-items: center;
-        padding: 5px 8px;
-        background: #181818;
-        border-bottom: 1px solid #1e1e1e;
-        gap: 8px;
-      }
+      .skill-unique { display: flex; align-items: center; padding: 5px 8px; background: #181818; border-bottom: 1px solid #1e1e1e; gap: 8px; }
       .skill-unique .skill-name { color: #b5e853; font-style: italic; }
-      .skill-unique .skill-trained-badge {
-        font-size: 0.68em;
-        background: #1e3a1e;
-        color: #b5e853;
-        border: 1px solid #4a7a2a;
-        border-radius: 3px;
-        padding: 2px 7px;
-      }
-
-      .skill-counter {
-        font-size: 0.8em;
-        margin-bottom: 10px;
-        color: #777;
-      }
+      .skill-unique .skill-trained-badge { font-size: 0.68em; background: #1e3a1e; color: #b5e853; border: 1px solid #4a7a2a; border-radius: 3px; padding: 2px 7px; }
+      .skill-counter { font-size: 0.8em; margin-bottom: 10px; color: #777; }
       .skill-counter span { font-weight: bold; }
       .skill-counter.over span { color: #e05050; }
       .skill-counter.ok span { color: #b5e853; }
 
-      /* ── Talents / boons ── */
-      .intrinsic-field {
-        background: #181820 !important;
-        border-color: #2a2a44 !important;
-        color: #a0b0d0 !important;
-      }
+      /* Talent picklist rows */
+      .talent-pick-row { display: flex; gap: 8px; align-items: center; margin-bottom: 8px; }
+      .talent-pick-row select { flex: 1; }
+      .talent-pick-row .talent-tier-tag { font-size: 0.65em; color: #555; text-transform: uppercase; letter-spacing: 0.08em; min-width: 44px; text-align: right; flex-shrink: 0; }
+      .talent-section-label { font-size: 0.65em; color: #555; text-transform: uppercase; letter-spacing: 0.1em; margin: 12px 0 6px 0; border-top: 1px solid #222; padding-top: 8px; }
 
-      /* ── Gear table ── */
-      .gear-header, .gear-row {
+      /* Weapons & Armor */
+      .equip-header, .equip-row {
         display: grid;
-        grid-template-columns: 3fr 70px 2fr;
-        gap: 8px;
-        align-items: center;
-        padding: 4px 0;
+        grid-template-columns: 2.5fr 1fr 1fr 2fr;
+        gap: 8px; align-items: center; padding: 4px 0;
       }
-      .gear-header {
-        font-size: 0.68em;
-        color: #555;
-        letter-spacing: 0.1em;
-        text-transform: uppercase;
-        border-bottom: 1px solid #333;
-        padding-bottom: 6px;
-        margin-bottom: 4px;
+      .armor-header, .armor-row {
+        display: grid;
+        grid-template-columns: 2fr 80px 80px 2fr;
+        gap: 8px; align-items: center; padding: 4px 0;
       }
-      .gear-slots-display {
-        font-size: 0.82em;
-        margin-bottom: 10px;
-      }
+      .equip-header, .armor-header { font-size: 0.68em; color: #555; letter-spacing: 0.1em; text-transform: uppercase; border-bottom: 1px solid #333; padding-bottom: 6px; margin-bottom: 4px; }
+
+      /* Gear */
+      .gear-header, .gear-row { display: grid; grid-template-columns: 3fr 70px 2fr; gap: 8px; align-items: center; padding: 4px 0; }
+      .gear-header { font-size: 0.68em; color: #555; letter-spacing: 0.1em; text-transform: uppercase; border-bottom: 1px solid #333; padding-bottom: 6px; margin-bottom: 4px; }
+      .gear-slots-display { font-size: 0.82em; margin-bottom: 10px; }
       .gear-slots-display span { font-weight: bold; color: #b5e853; }
-      .gear-base-note {
-        font-size: 0.75em;
-        color: #555;
-        font-style: italic;
-        margin-bottom: 12px;
-      }
+      .gear-base-note { font-size: 0.75em; color: #555; font-style: italic; margin-bottom: 12px; }
 
-      /* ── Notes ── */
-      .notes-grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 20px;
-      }
+      .notes-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
       @media (max-width: 600px) { .notes-grid { grid-template-columns: 1fr; } }
 
-      /* ── Save feedback ── */
-      .save-feedback {
-        font-size: 0.78em;
-        color: #b5e853;
-        opacity: 0;
-        transition: opacity 0.3s;
-        margin-left: 8px;
-      }
+      .save-feedback { font-size: 0.78em; color: #b5e853; opacity: 0; transition: opacity 0.3s; }
       .save-feedback.visible { opacity: 1; }
 
-      /* ── Disabled/grayed fields ── */
-      .field-disabled input,
-      .field-disabled select,
-      .field-disabled textarea {
-        opacity: 0.4;
-        pointer-events: none;
-      }
-      .field-disabled .field-label { opacity: 0.4; }
+      .intrinsic-field { background: #181820 !important; border-color: #2a2a44 !important; color: #a0b0d0 !important; }
+
+      hr.section-div { border: none; border-top: 1px solid #222; margin: 14px 0; }
     </style>
   </head>
   <body>
 
-    <!-- Site top bar -->
     <div class="site-topbar">
       <a class="site-name" href="{{ '/' | relative_url }}">{{ site.title | default: "THE MURK" }}</a>
       <span class="page-title">Character Sheets</span>
@@ -481,14 +196,12 @@
 
     <div class="cs-wrap">
 
-      <!-- ══════════════════════════════════════════
-           LIBRARY VIEW
-      ══════════════════════════════════════════ -->
+      <!-- ══ LIBRARY VIEW ══ -->
       <div id="view-library">
         <div class="lib-header">
           <h2>Your Characters</h2>
           <div class="lib-actions">
-            <label class="btn" for="import-file" title="Import a character from JSON file">Import JSON</label>
+            <label class="btn" for="import-file">Import JSON</label>
             <input type="file" id="import-file" accept=".json">
             <button class="btn btn-primary" onclick="newCharacter()">+ New Character</button>
           </div>
@@ -498,9 +211,7 @@
         </div>
       </div>
 
-      <!-- ══════════════════════════════════════════
-           SHEET VIEW
-      ══════════════════════════════════════════ -->
+      <!-- ══ SHEET VIEW ══ -->
       <div id="view-sheet">
 
         <div class="sheet-topbar">
@@ -514,20 +225,20 @@
           </div>
         </div>
 
-        <!-- ── SECTION 1: IDENTITY ── -->
+        <!-- SECTION 1: IDENTITY -->
         <div class="cs-section">
           <div class="cs-section-title">Identity</div>
           <div class="identity-grid">
             <div class="field-group">
-              <label class="field-label" for="f-name">Character Name</label>
+              <label class="field-label">Character Name</label>
               <input type="text" id="f-name" placeholder="Enter name..." oninput="updateSheetTitle()">
             </div>
             <div class="field-group">
-              <label class="field-label" for="f-player">Player Name</label>
+              <label class="field-label">Player Name</label>
               <input type="text" id="f-player" placeholder="Player...">
             </div>
             <div class="field-group">
-              <label class="field-label" for="f-archetype">Archetype</label>
+              <label class="field-label">Archetype</label>
               <select id="f-archetype" onchange="onArchetypeChange()">
                 <option value="soldier">Soldier</option>
                 <option value="esoterist">Esoterist</option>
@@ -536,7 +247,7 @@
               </select>
             </div>
             <div class="field-group">
-              <label class="field-label" for="f-species">Species</label>
+              <label class="field-label">Species</label>
               <select id="f-species">
                 <option value="human">Human</option>
                 <option value="murkborn">Murkborn</option>
@@ -545,7 +256,7 @@
               </select>
             </div>
             <div class="field-group">
-              <label class="field-label" for="f-rank">Rank</label>
+              <label class="field-label">Rank</label>
               <select id="f-rank" onchange="onRankChange()">
                 <option value="1">Rank 1 — Neophyte</option>
                 <option value="2">Rank 2 — Apprentice</option>
@@ -554,21 +265,20 @@
               </select>
             </div>
             <div class="field-group" id="patron-field">
-              <label class="field-label" for="f-patron">Patron</label>
+              <label class="field-label">Patron</label>
               <input type="text" id="f-patron" placeholder="Deity...">
             </div>
           </div>
         </div>
 
-        <!-- ── SECTION 2: ATTRIBUTES + STRESS ── -->
+        <!-- SECTION 2: ATTRIBUTES & CONDITION -->
         <div class="cs-section">
           <div class="cs-section-title">Attributes &amp; Condition</div>
           <div class="two-col">
 
             <!-- LEFT: Attributes & Resources -->
             <div>
-              <div class="cs-section-title" style="font-size:0.6em; color:#555; border:none; padding:0; margin-bottom:10px;">Core Attributes</div>
-
+              <div class="cs-sub-title">Core Attributes</div>
               <div class="attr-row">
                 <div class="attr-label">Body</div>
                 <select id="f-body" onchange="onDieChange()">
@@ -579,7 +289,6 @@
                 </select>
                 <div class="attr-derived">DR <span id="d-defense">14</span> &nbsp;·&nbsp; <span id="d-load">8</span> Load Slots</div>
               </div>
-
               <div class="attr-row">
                 <div class="attr-label">Mind</div>
                 <select id="f-mind" onchange="onDieChange()">
@@ -590,7 +299,6 @@
                 </select>
                 <div class="attr-derived">Skill slots: <span id="d-skillslots">5</span></div>
               </div>
-
               <div class="attr-row">
                 <div class="attr-label">Spirit</div>
                 <select id="f-spirit">
@@ -602,10 +310,8 @@
                 <div class="attr-derived"></div>
               </div>
 
-              <hr style="border-color:#222; margin: 14px 0;">
-
-              <div class="cs-section-title" style="font-size:0.6em; color:#555; border:none; padding:0; margin-bottom:10px;">Unique Attribute</div>
-
+              <hr class="section-div">
+              <div class="cs-sub-title">Unique Attribute</div>
               <div class="attr-row">
                 <div class="attr-label" id="classdie-label" style="font-size:0.72em;">Tactics</div>
                 <select id="f-classdie">
@@ -617,8 +323,7 @@
                 </select>
                 <div class="attr-derived" style="font-size:0.72em;">Primary class die</div>
               </div>
-
-              <div class="attr-row" id="secondary-die-row">
+              <div class="attr-row">
                 <div class="attr-label" style="font-size:0.65em; color:#555;">Secondary</div>
                 <select id="f-classdie2" style="opacity:0.5;">
                   <option value="4" selected>d4</option>
@@ -630,14 +335,10 @@
                 <div class="attr-derived" style="font-size:0.65em; color:#555;">Requires Rank 2 + primary d8</div>
               </div>
 
-              <hr style="border-color:#222; margin: 14px 0;">
-
-              <div class="cs-section-title" style="font-size:0.6em; color:#555; border:none; padding:0; margin-bottom:10px;">Resources &amp; Progression</div>
-
+              <hr class="section-div">
+              <div class="cs-sub-title">Resources &amp; Progression</div>
               <div class="resource-row">
-                <div>
-                  <div class="resource-label" id="resource-label">Command Points</div>
-                </div>
+                <div><div class="resource-label" id="resource-label">Command Points</div></div>
                 <div class="field-group" style="margin:0;">
                   <label class="field-label">Cur</label>
                   <input type="number" id="f-res-cur" value="0" min="0" max="99">
@@ -647,11 +348,8 @@
                   <input type="number" id="f-res-max" value="0" min="0" max="99">
                 </div>
               </div>
-
               <div class="resource-row">
-                <div>
-                  <div class="resource-label">Potential</div>
-                </div>
+                <div><div class="resource-label">Potential</div></div>
                 <div class="field-group" style="margin:0;">
                   <label class="field-label">Cur</label>
                   <input type="number" id="f-pot-cur" value="0" min="0" max="24">
@@ -661,158 +359,201 @@
                   <input type="number" id="f-pot-max" value="12" min="0" max="24">
                 </div>
               </div>
-
-              <div class="field-group" style="max-width: 120px; margin-top: 8px;">
-                <label class="field-label" for="f-xp">XP Total</label>
+              <div class="field-group" style="max-width:120px; margin-top:8px;">
+                <label class="field-label">XP Total</label>
                 <input type="number" id="f-xp" value="0" min="0">
               </div>
             </div>
 
             <!-- RIGHT: Stress & Suffering -->
             <div>
-              <div class="cs-section-title" style="font-size:0.6em; color:#555; border:none; padding:0; margin-bottom:10px;">Stress Track</div>
+              <div class="cs-sub-title">Stress Track (max 10)</div>
               <div class="stress-track" id="stress-track"></div>
               <div class="stress-count">Stress: <span id="stress-num">0</span> / 10</div>
 
-              <hr style="border-color:#222; margin: 16px 0;">
-
-              <div class="cs-section-title" style="font-size:0.6em; color:#555; border:none; padding:0; margin-bottom:10px;">Suffering</div>
+              <hr class="section-div">
+              <div class="cs-sub-title">Suffering &amp; Injuries</div>
               <ul class="suffering-list" id="suffering-list">
-                <li onclick="toggleSuffering(this, 1)">
-                  <input type="checkbox" data-rank="1">
-                  <div>
-                    <div class="suffer-name">Rank 1 — Wounded</div>
-                    <div class="suffer-effect">-1 to all checks</div>
+
+                <li>
+                  <div class="suffer-row" onclick="toggleSuffering(this.closest('li'), 1)">
+                    <input type="checkbox" data-rank="1">
+                    <div>
+                      <div class="suffer-name">Rank 1 — Wounded</div>
+                      <div class="suffer-effect">-1 to all checks</div>
+                    </div>
+                  </div>
+                  <div class="injury-picks">
+                    <div class="injury-row">
+                      <label>Physical</label>
+                      <select id="inj-1-phys"><option value="">— pick injury —</option></select>
+                    </div>
+                    <div class="injury-row">
+                      <label>Mental</label>
+                      <select id="inj-1-ment"><option value="">— pick injury —</option></select>
+                    </div>
                   </div>
                 </li>
-                <li onclick="toggleSuffering(this, 2)">
-                  <input type="checkbox" data-rank="2">
-                  <div>
-                    <div class="suffer-name">Rank 2 — Bloodied</div>
-                    <div class="suffer-effect">-2 to all checks, movement impaired</div>
+
+                <li>
+                  <div class="suffer-row" onclick="toggleSuffering(this.closest('li'), 2)">
+                    <input type="checkbox" data-rank="2">
+                    <div>
+                      <div class="suffer-name">Rank 2 — Bloodied</div>
+                      <div class="suffer-effect">-2 to all checks, movement impaired</div>
+                    </div>
+                  </div>
+                  <div class="injury-picks">
+                    <div class="injury-row">
+                      <label>Physical</label>
+                      <select id="inj-2-phys"><option value="">— pick injury —</option></select>
+                    </div>
+                    <div class="injury-row">
+                      <label>Mental</label>
+                      <select id="inj-2-ment"><option value="">— pick injury —</option></select>
+                    </div>
                   </div>
                 </li>
-                <li onclick="toggleSuffering(this, 3)">
-                  <input type="checkbox" data-rank="3">
-                  <div>
-                    <div class="suffer-name">Rank 3 — Breaking</div>
-                    <div class="suffer-effect">-3 to all checks, Spirit save to act offensively</div>
+
+                <li>
+                  <div class="suffer-row" onclick="toggleSuffering(this.closest('li'), 3)">
+                    <input type="checkbox" data-rank="3">
+                    <div>
+                      <div class="suffer-name">Rank 3 — Breaking</div>
+                      <div class="suffer-effect">-3 to all checks, Spirit save to act offensively</div>
+                    </div>
+                  </div>
+                  <div class="injury-picks">
+                    <div class="injury-row">
+                      <label>Physical</label>
+                      <select id="inj-3-phys"><option value="">— pick injury —</option></select>
+                    </div>
+                    <div class="injury-row">
+                      <label>Mental</label>
+                      <select id="inj-3-ment"><option value="">— pick injury —</option></select>
+                    </div>
                   </div>
                 </li>
-                <li onclick="toggleSuffering(this, 4)">
-                  <input type="checkbox" data-rank="4">
-                  <div>
-                    <div class="suffer-name">Rank 4 — Broken</div>
-                    <div class="suffer-effect">Incapacitated</div>
+
+                <li>
+                  <div class="suffer-row" onclick="toggleSuffering(this.closest('li'), 4)">
+                    <input type="checkbox" data-rank="4">
+                    <div>
+                      <div class="suffer-name">Rank 4 — Broken</div>
+                      <div class="suffer-effect">Incapacitated</div>
+                    </div>
+                  </div>
+                  <div class="injury-picks">
+                    <div class="injury-row">
+                      <label>Physical</label>
+                      <select id="inj-4-phys"><option value="">— pick injury —</option></select>
+                    </div>
+                    <div class="injury-row">
+                      <label>Mental</label>
+                      <select id="inj-4-ment"><option value="">— pick injury —</option></select>
+                    </div>
                   </div>
                 </li>
+
               </ul>
             </div>
           </div>
         </div>
 
-        <!-- ── SECTION 3: SKILLS ── -->
+        <!-- SECTION 3: SKILLS -->
         <div class="cs-section">
           <div class="cs-section-title">Skills</div>
           <div class="skill-counter" id="skill-counter">Trained slots used: <span>0</span> / <span>5</span></div>
-
           <div class="skill-unique">
             <div class="skill-name" id="unique-skill-label">Tactics</div>
             <div style="flex:1"></div>
             <div class="skill-trained-badge">Always Trained</div>
             <div class="skill-attr-tag" style="color:#b5e853; min-width:50px;">UNIQUE</div>
           </div>
-
           <div class="skills-grid" id="skills-grid"></div>
         </div>
 
-        <!-- ── SECTION 4: TALENTS, BOONS & BURDENS ── -->
+        <!-- SECTION 4: TALENTS, BOONS & BURDENS -->
         <div class="cs-section">
           <div class="cs-section-title">Talents, Boons &amp; Burdens</div>
           <div class="two-col">
+
+            <!-- LEFT: Talents -->
             <div>
-              <div class="cs-section-title" style="font-size:0.6em; color:#555; border:none; padding:0; margin-bottom:8px;">Intrinsic Perks <span style="color:#333; font-weight:normal;">(auto-filled by archetype)</span></div>
-              <div class="field-group">
-                <label class="field-label">Perk 1</label>
-                <input type="text" id="f-intrinsic-0" class="intrinsic-field">
-              </div>
-              <div class="field-group">
-                <label class="field-label">Perk 2</label>
-                <input type="text" id="f-intrinsic-1" class="intrinsic-field">
-              </div>
-              <div class="field-group">
-                <label class="field-label">Perk 3</label>
-                <input type="text" id="f-intrinsic-2" class="intrinsic-field">
-              </div>
+              <div class="cs-sub-title">Intrinsic Perks <span style="color:#333; font-weight:normal;">(auto-filled)</span></div>
+              <div class="field-group"><label class="field-label">Perk 1</label><input type="text" id="f-intrinsic-0" class="intrinsic-field"></div>
+              <div class="field-group"><label class="field-label">Perk 2</label><input type="text" id="f-intrinsic-1" class="intrinsic-field"></div>
+              <div class="field-group"><label class="field-label">Perk 3</label><input type="text" id="f-intrinsic-2" class="intrinsic-field"></div>
 
-              <hr style="border-color:#222; margin:14px 0 10px;">
+              <div class="talent-section-label">Archetype Talents (up to 12)</div>
+              <div id="archetype-talents-list"></div>
 
-              <div class="field-group">
-                <label class="field-label">Archetype Talent (Tier 1)</label>
-                <input type="text" id="f-talent-0" placeholder="Talent name...">
-              </div>
-              <div class="field-group">
-                <label class="field-label">Archetype Talent (Tier 2)</label>
-                <input type="text" id="f-talent-1" placeholder="Talent name...">
-              </div>
-              <div class="field-group">
-                <label class="field-label">Archetype Talent (Tier 3)</label>
-                <input type="text" id="f-talent-2" placeholder="Talent name...">
-              </div>
-              <div class="field-group">
-                <label class="field-label">Generic Talent</label>
-                <input type="text" id="f-generic-talent" placeholder="Generic talent...">
-              </div>
+              <div class="talent-section-label">Generic Talents (up to 8)</div>
+              <div id="generic-talents-list"></div>
             </div>
 
+            <!-- RIGHT: Boons, Burdens, Secondary -->
             <div>
+              <div class="cs-sub-title">Boon</div>
               <div class="field-group">
-                <label class="field-label">Boon</label>
-                <input type="text" id="f-boon" placeholder="Boon name...">
+                <select id="f-boon">
+                  <option value="">— select boon —</option>
+                </select>
               </div>
+
+              <div class="cs-sub-title" style="margin-top:12px;">Burden</div>
               <div class="field-group">
-                <label class="field-label">Burden</label>
-                <input type="text" id="f-burden" placeholder="Burden name...">
+                <select id="f-burden">
+                  <option value="">— select burden —</option>
+                </select>
                 <div class="field-note">Triggers for +1d6 Potential when invoked in play.</div>
               </div>
 
-              <hr style="border-color:#222; margin:14px 0 10px;">
-
-              <div class="cs-section-title" style="font-size:0.6em; color:#555; border:none; padding:0; margin-bottom:8px;">Secondary Archetype</div>
+              <hr class="section-div">
+              <div class="cs-sub-title">Secondary Archetype</div>
               <div class="field-group">
-                <label class="field-label">Secondary Archetype</label>
+                <label class="field-label">Archetype</label>
                 <input type="text" id="f-secondary-archetype" placeholder="Archetype name...">
-                <div class="field-note">Requires Rank 2 + primary class die d8. Unlocks for 40 XP.</div>
+                <div class="field-note">Requires Rank 2 + primary d8. Unlocks for 40 XP.</div>
               </div>
-              <div class="field-group">
-                <label class="field-label">Secondary Talent (Tier 1)</label>
-                <input type="text" id="f-secondary-talent" placeholder="Talent name...">
-              </div>
+              <div class="talent-section-label">Secondary Talents (up to 4)</div>
+              <div id="secondary-talents-list"></div>
             </div>
           </div>
         </div>
 
-        <!-- ── SECTION 5: GEAR ── -->
+        <!-- SECTION 5: WEAPONS, ARMOR & GEAR -->
         <div class="cs-section">
-          <div class="cs-section-title">Gear &amp; Inventory</div>
-          <div class="gear-slots-display">Load Slots: <span id="gear-used">0</span> / <span id="gear-max">8</span></div>
-          <div class="gear-base-note">Base kit (all characters): Gas Mask (1 slot) · 3 Days Rations (1 slot) · Water Skin (1 slot)</div>
-          <div class="gear-header">
-            <span>Item</span><span>Slots</span><span>Notes</span>
-          </div>
+          <div class="cs-section-title">Weapons, Armor &amp; Gear</div>
+          <div class="gear-slots-display">Total Load Slots: <span id="gear-used">0</span> / <span id="gear-max">8</span></div>
+          <div class="gear-base-note">All characters begin with: Gas Mask (1 slot) · 3 Days Rations (1 slot) · Water Skin (1 slot)</div>
+
+          <!-- Weapons -->
+          <div class="cs-sub-title" style="margin-bottom:8px;">Weapons</div>
+          <div class="equip-header"><span>Weapon</span><span>Damage</span><span>Slots</span><span>Notes / Tags</span></div>
+          <div id="weapon-rows"></div>
+
+          <!-- Armor -->
+          <div class="cs-sub-title" style="margin-top:16px; margin-bottom:8px;">Armor &amp; Protection</div>
+          <div class="armor-header"><span>Armor</span><span>Threshold</span><span>Slots</span><span>Notes</span></div>
+          <div id="armor-rows"></div>
+
+          <!-- General Gear -->
+          <div class="cs-sub-title" style="margin-top:16px; margin-bottom:8px;">General Inventory</div>
+          <div class="gear-header"><span>Item</span><span>Slots</span><span>Notes</span></div>
           <div id="gear-rows"></div>
         </div>
 
-        <!-- ── SECTION 6: NOTES ── -->
+        <!-- SECTION 6: NOTES -->
         <div class="cs-section">
           <div class="cs-section-title">Notes</div>
           <div class="notes-grid">
             <div class="field-group">
-              <label class="field-label" for="f-connections">Connections &amp; Allies</label>
+              <label class="field-label">Connections &amp; Allies</label>
               <textarea id="f-connections" rows="5" placeholder="Key NPCs, contacts, faction relationships..."></textarea>
             </div>
             <div class="field-group">
-              <label class="field-label" for="f-notes">Personal Notes</label>
+              <label class="field-label">Personal Notes</label>
               <textarea id="f-notes" rows="5" placeholder="Backstory, goals, debts, secrets..."></textarea>
             </div>
           </div>
@@ -825,96 +566,137 @@
     (function() {
       'use strict';
 
-      /* ═══════════════════════════════════════
-         DATA
-      ═══════════════════════════════════════ */
       var KEY = 'murk_characters';
       var characters = [];
       var currentId = null;
 
+      /* ── Static data ── */
       var INTRINSICS = {
         soldier:   ['Standard Issue: Ignore Clumsy on Heavy Armor & Heavy Weapons', 'Grit: Roll 4 Body dice on Physical Saves', 'The Bandolier: Spend 1 CP/scene to produce a combat consumable'],
         esoterist: ['The Sight: Perceive Resonance and Esoteric phenomena without a check', 'Mental Fortress: Immune to mind-reading; +2 on saves vs. mental compulsion', 'The Conduit: Can spend Agony to add +1d6 to any Arcana roll'],
         acolyte:   ['The Covenant: Roll Devotion die at session start to generate Favor pool', 'Shepherd of the Lost: Spend Favor to stabilize a dying ally (free action)', 'Confessor: Once/session, ask one NPC a direct question; they answer honestly'],
         ruffian:   ['Streetwise: Never lost in a city; always know a fence, a contact, a back route', 'Slippery: Once/scene, disengage from melee without triggering a free attack', 'Deep Pockets: Start each scene with 1d4 Trick Tokens regardless of episode total']
       };
-      var RESOURCE_LABELS = {
-        soldier: 'Command Points', esoterist: 'Agony', acolyte: 'Favor', ruffian: 'Trick Tokens'
-      };
-      var CLASSDIE_LABELS = {
-        soldier: 'Tactics', esoterist: 'Arcana', acolyte: 'Devotion', ruffian: 'Guile'
-      };
+      var RESOURCE_LABELS = { soldier: 'Command Points', esoterist: 'Agony', acolyte: 'Favor', ruffian: 'Trick Tokens' };
+      var CLASSDIE_LABELS = { soldier: 'Tactics', esoterist: 'Arcana', acolyte: 'Devotion', ruffian: 'Guile' };
       var POTENTIAL_MAX = { 1: 12, 2: 16, 3: 20, 4: 24 };
 
-      var SKILLS = [
-        // [key, label, attr, group]
-        ['brawl',        'Brawl',         'Body',   'combat'],
-        ['melee',        'Melee',         'Body',   'combat'],
-        ['smallarms',    'Small Arms',    'Body/Mind','combat'],
-        ['longguns',     'Long Guns',     'Body/Mind','combat'],
-        ['heavyweapons', 'Heavy Weapons', 'Body',   'combat'],
-        ['athletics',    'Athletics',     'Body',   'physical'],
-        ['pilot',        'Pilot',         'Body',   'physical'],
-        ['stealth',      'Stealth',       'Body',   'physical'],
-        ['physique',     'Physique',      'Body',   'physical'],
-        ['investigation','Investigation', 'Mind',   'mental'],
-        ['lore',         'Lore',          'Mind',   'mental'],
-        ['medicine',     'Medicine',      'Mind',   'mental'],
-        ['scrounge',     'Scrounge',      'Mind',   'mental'],
-        ['survival',     'Survival',      'Mind',   'mental'],
-        ['tech',         'Tech',          'Mind',   'mental'],
-        ['insight',      'Insight',       'Spirit', 'social'],
-        ['intimidation', 'Intimidation',  'Spirit', 'social'],
-        ['parley',       'Parley',        'Spirit', 'social'],
-        ['willpower',    'Willpower',     'Spirit', 'social']
-      ];
-      var GROUP_LABELS = { combat: 'Combat', physical: 'Physical', mental: 'Mental', social: 'Social' };
+      var ARCHETYPE_TALENTS = {
+        soldier: [
+          {tier:'T1', name:'Suppressing Fire'}, {tier:'T1', name:'Quartermaster'}, {tier:'T1', name:'Sentry'},
+          {tier:'T2', name:'Overwatch'}, {tier:'T2', name:'Combat Drill'}, {tier:'T2', name:'Urban Tracker'},
+          {tier:'T3', name:'The Old Guard'}, {tier:'T3', name:'Breach and Clear'}, {tier:'T3', name:'Scorched Earth'}
+        ],
+        esoterist: [
+          {tier:'T1', name:'Ritualist'}, {tier:'T1', name:'Artificer'}, {tier:'T1', name:'Soul Sight'},
+          {tier:'T2', name:'Matter Transmutation'}, {tier:'T2', name:'The Puppeteer'}, {tier:'T2', name:'Weight of the World'},
+          {tier:'T3', name:'Remote Viewing'}, {tier:'T3', name:'Sympathetic Magic'}, {tier:'T3', name:'The Grand Rite'}, {tier:'T3', name:'Daemonologist'}
+        ],
+        acolyte: [
+          {tier:'T1', name:'Soothing Words'}, {tier:'T1', name:'Guidance'}, {tier:'T1', name:'Sanctuary'},
+          {tier:'T2', name:'Unshakable'}, {tier:'T2', name:'Divine Clarity'}, {tier:'T2', name:'Martyr\'s Blood'},
+          {tier:'T3', name:'Intercession'}, {tier:'T3', name:'Wrath of the Just'}, {tier:'T3', name:'Absolution'}
+        ],
+        ruffian: [
+          {tier:'T1', name:'Pocket Sand'}, {tier:'T1', name:'Gutter Runner'}, {tier:'T1', name:'Sticky Fingers'},
+          {tier:'T2', name:'The Shiv'}, {tier:'T2', name:'Sucker Punch'}, {tier:'T2', name:'Silver Tongue'},
+          {tier:'T3', name:'The Master Plan'}, {tier:'T3', name:'Ghost in the Fog'}, {tier:'T3', name:'Cheat Death'}
+        ]
+      };
 
-      /* ═══════════════════════════════════════
-         PERSISTENCE
-      ═══════════════════════════════════════ */
+      var GENERIC_TALENTS = ['Hard to Kill','Indomitable','Gunslinger','Field Chirurgeon','Danger Sense','Mule','Pugilist','Silver Tongue','Tinkerer','Iron Nerves'];
+
+      var BOONS = ['Friends in Low Places','Noble Regalia','The Fixer','Legendary Reputation','Veteran\'s Eye','Old Money','Iron Stomach','Jury Rigger','Ghost in the Machine','Beast Whisperer','Sixth Sense','Scholar','Lightfoot','Die Hard','Dirty Fighting','Linguist','Heavy Lifter','Devil\'s Luck'];
+
+      var BURDENS = ['Vendetta','Debt','Haunted','Oathbound','Tech-Cursed','Jinxed','The Shakes','Distinctive Style','Glass Jaw','Murk-Magnet','Infamous','Bleeding Heart','Illiterate','Monocular','Hot Headed','Gold Fever','Loud'];
+
+      var MINOR_PHYSICAL = ['Concussed','Weak Grip','Bad Leg','Winded','Bleeding','Swollen Eye'];
+      var MINOR_MENTAL   = ['The Shakes','Tunnel Vision','Hesitation','Paranoia','Mute','Shadow-Blight'];
+      var MAJOR_PHYSICAL = ['Useless Limb','Coughing Blood','Deep Shock','Ruptured Ear','Tremors','Horrific'];
+      var MAJOR_MENTAL   = ['Death Wish','Manic','Triggered','Hollow','Murk-Touched','Incoherent'];
+
+      var WEAPONS = [
+        {name:'Unarmed',        damage:'1d4', slots:0, tags:'Non-Lethal (unless Pugilist)'},
+        {name:'Knife / Shiv',   damage:'1d6', slots:0, tags:'Hidden, Thrown (Near)'},
+        {name:'Club / Baton',   damage:'1d8', slots:1, tags:'Non-Lethal option'},
+        {name:'Sword / Machete',damage:'2d6', slots:1, tags:'Reliable'},
+        {name:'Great-Axe / Sledge', damage:'3d6', slots:2, tags:'2-Handed, Breaching'},
+        {name:'Pistol / Revolver',  damage:'1d8', slots:1, tags:'Quick Draw — can fire in melee'},
+        {name:'Rifle / Musket', damage:'2d8', slots:2, tags:'2-Handed, Far range'},
+        {name:'Shotgun',        damage:'2d8', slots:2, tags:'Blast — hits 2 adjacent targets'},
+        {name:'Machine Gun',    damage:'3d8', slots:3, tags:'Heavy, Auto-Fire — cannot move & fire'},
+        {name:'Cannon / Launcher', damage:'4d8', slots:4, tags:'Heavy, Explosive — zone damage'}
+      ];
+
+      var ARMORS = [
+        {name:'Clothing',              threshold:0,  slots:0, tags:'No protection — always full damage'},
+        {name:'Light (Leather / Flak)',threshold:6,  slots:1, tags:'No penalty'},
+        {name:'Heavy (Plate / Hazmat)',threshold:12, slots:2, tags:'Clumsy penalty'},
+        {name:'Shield',                threshold:0,  slots:1, tags:'+1 Defense Rating (harder to hit)'}
+      ];
+
+      var SKILLS = [
+        ['brawl','Brawl','Body','combat'],
+        ['melee','Melee','Body','combat'],
+        ['smallarms','Small Arms','Body/Mind','combat'],
+        ['longguns','Long Guns','Body/Mind','combat'],
+        ['heavyweapons','Heavy Weapons','Body','combat'],
+        ['athletics','Athletics','Body','physical'],
+        ['pilot','Pilot','Body','physical'],
+        ['stealth','Stealth','Body','physical'],
+        ['physique','Physique','Body','physical'],
+        ['investigation','Investigation','Mind','mental'],
+        ['lore','Lore','Mind','mental'],
+        ['medicine','Medicine','Mind','mental'],
+        ['scrounge','Scrounge','Mind','mental'],
+        ['survival','Survival','Mind','mental'],
+        ['tech','Tech','Mind','mental'],
+        ['insight','Insight','Spirit','social'],
+        ['intimidation','Intimidation','Spirit','social'],
+        ['parley','Parley','Spirit','social'],
+        ['willpower','Willpower','Spirit','social']
+      ];
+      var GROUP_LABELS = {combat:'Combat', physical:'Physical', mental:'Mental', social:'Social'};
+
+      /* ── Persistence ── */
       function loadStorage() {
         try { characters = JSON.parse(localStorage.getItem(KEY)) || []; }
         catch(e) { characters = []; }
       }
-      function saveStorage() {
-        localStorage.setItem(KEY, JSON.stringify(characters));
-      }
-      function genId() {
-        return 'c' + Date.now() + Math.floor(Math.random()*1000);
-      }
+      function saveStorage() { localStorage.setItem(KEY, JSON.stringify(characters)); }
+      function genId() { return 'c' + Date.now() + Math.floor(Math.random()*1000); }
 
-      /* ═══════════════════════════════════════
-         BLANK CHARACTER
-      ═══════════════════════════════════════ */
       function blankChar() {
-        var gear = [];
-        for (var i = 0; i < 12; i++) gear.push({name:'', slots:1, notes:''});
+        var gear = [], weapons = [], armors = [];
+        for (var i=0;i<12;i++) gear.push({name:'',slots:1,notes:''});
+        for (var i=0;i<4;i++) weapons.push({name:'',damage:'',slots:1,notes:''});
+        for (var i=0;i<3;i++) armors.push({name:'',threshold:'',slots:1,notes:''});
         var skills = {};
-        SKILLS.forEach(function(s) { skills[s[0]] = 'untrained'; });
+        SKILLS.forEach(function(s){ skills[s[0]]='untrained'; });
+        var injuries = {1:{phys:'',ment:''},2:{phys:'',ment:''},3:{phys:'',ment:''},4:{phys:'',ment:''}};
+        var archetypeTalents = [], genericTalents = [], secondaryTalents = [];
+        for(var i=0;i<12;i++) archetypeTalents.push('');
+        for(var i=0;i<8;i++) genericTalents.push('');
+        for(var i=0;i<4;i++) secondaryTalents.push('');
         return {
-          id: genId(),
-          name: '', player: '', archetype: 'soldier', species: 'human',
-          rank: 1, patron: '',
-          body: 8, mind: 8, spirit: 6,
-          classdie: 8, classdie2: 4,
-          resourceCurrent: 0, resourceMax: 0,
-          potentialCurrent: 0, potentialMax: 12,
-          xp: 0, stress: 0, suffering: 0,
-          skills: skills,
-          intrinsics: ['', '', ''],
-          talents: ['', '', ''],
-          genericTalent: '', boon: '', burden: '',
-          secondaryArchetype: '', secondaryTalent: '',
-          gear: gear,
-          connections: '', notes: '',
-          updatedAt: ''
+          id:genId(), name:'', player:'', archetype:'soldier', species:'human',
+          rank:1, patron:'',
+          body:8, mind:8, spirit:6, classdie:8, classdie2:4,
+          resourceCurrent:0, resourceMax:0, potentialCurrent:0, potentialMax:12,
+          xp:0, stress:0, suffering:0, injuries:injuries,
+          skills:skills,
+          intrinsics:['','',''],
+          archetypeTalents:archetypeTalents,
+          genericTalents:genericTalents,
+          secondaryTalents:secondaryTalents,
+          boon:'', burden:'',
+          secondaryArchetype:'',
+          weapons:weapons, armors:armors, gear:gear,
+          connections:'', notes:'', updatedAt:''
         };
       }
 
-      /* ═══════════════════════════════════════
-         LIBRARY VIEW
-      ═══════════════════════════════════════ */
+      /* ── Library ── */
       function showLibrary() {
         document.getElementById('view-library').style.display = 'block';
         document.getElementById('view-sheet').style.display = 'none';
@@ -933,36 +715,22 @@
           var card = document.createElement('div');
           card.className = 'char-card';
           card.setAttribute('data-id', ch.id);
-
-          // Stress track
           var stressHtml = '<div class="card-stress">';
-          for (var i = 0; i < 10; i++) {
-            stressHtml += '<div class="card-stress-box' + (i < ch.stress ? ' filled' : '') + '"></div>';
-          }
+          for (var i=0;i<10;i++) stressHtml += '<div class="card-stress-box'+(i<ch.stress?' filled':'')+'"></div>';
           stressHtml += '</div>';
-
-          var archLabel = ch.archetype ? (ch.archetype.charAt(0).toUpperCase() + ch.archetype.slice(1)) : '—';
-          var speciesLabel = ch.species ? (ch.species.charAt(0).toUpperCase() + ch.species.slice(1)) : '—';
-          var rankLabels = ['', 'Neophyte', 'Apprentice', 'Journeyman', 'Master'];
-          var rankLabel = rankLabels[ch.rank] || 'Rank ' + ch.rank;
-
+          var rankLabels = ['','Neophyte','Apprentice','Journeyman','Master'];
           card.innerHTML =
-            '<div class="card-name">' + (ch.name || 'Unnamed Character') + '</div>' +
-            '<div class="card-meta">' + (ch.player ? ch.player + ' · ' : '') + rankLabel + '</div>' +
-            '<span class="card-badge">' + archLabel + '</span>' +
-            '<span class="card-badge">' + speciesLabel + '</span>' +
+            '<div class="card-name">'+(ch.name||'Unnamed Character')+'</div>'+
+            '<div class="card-meta">'+(ch.player?ch.player+' · ':'')+( rankLabels[ch.rank]||'Rank '+ch.rank)+'</div>'+
+            '<span class="card-badge">'+(ch.archetype?ch.archetype.charAt(0).toUpperCase()+ch.archetype.slice(1):'—')+'</span>'+
+            '<span class="card-badge">'+(ch.species?ch.species.charAt(0).toUpperCase()+ch.species.slice(1):'—')+'</span>'+
             stressHtml;
-
-          card.addEventListener('click', function() {
-            openSheet(this.getAttribute('data-id'));
-          });
+          card.addEventListener('click', function() { openSheet(this.getAttribute('data-id')); });
           grid.appendChild(card);
         });
       }
 
-      /* ═══════════════════════════════════════
-         SHEET VIEW
-      ═══════════════════════════════════════ */
+      /* ── Sheet open ── */
       window.newCharacter = function() {
         var ch = blankChar();
         characters.push(ch);
@@ -972,14 +740,19 @@
 
       function openSheet(id) {
         currentId = id;
-        var ch = characters.find(function(c) { return c.id === id; });
+        var ch = characters.find(function(c){return c.id===id;});
         if (!ch) return;
         document.getElementById('view-library').style.display = 'none';
         document.getElementById('view-sheet').style.display = 'block';
-        populateForm(ch);
         buildSkillsGrid();
-        buildGearRows();
         buildStressTrack();
+        buildInjurySelects();
+        buildTalentRows();
+        buildBoonBurdenSelects();
+        buildWeaponRows();
+        buildArmorRows();
+        buildGearRows();
+        populateForm(ch);
         onArchetypeChange(true);
         onDieChange();
         updateSheetTitle();
@@ -987,491 +760,535 @@
         updateGearSlots();
       }
 
-      window.backToLibrary = function() {
-        saveSheet();
-        showLibrary();
-      };
+      window.backToLibrary = function() { saveSheet(); showLibrary(); };
 
-      /* ═══════════════════════════════════════
-         POPULATE / READ FORM
-      ═══════════════════════════════════════ */
-      function setVal(id, val) {
-        var el = document.getElementById(id);
-        if (!el) return;
-        el.value = (val !== undefined && val !== null) ? val : '';
-      }
-      function getVal(id) {
-        var el = document.getElementById(id);
-        return el ? el.value : '';
-      }
-      function getInt(id) {
-        return parseInt(getVal(id), 10) || 0;
-      }
+      /* ── Populate form ── */
+      function setVal(id,val) { var el=document.getElementById(id); if(el) el.value=(val!==undefined&&val!==null)?val:''; }
+      function getVal(id) { var el=document.getElementById(id); return el?el.value:''; }
+      function getInt(id) { return parseInt(getVal(id),10)||0; }
 
       function populateForm(ch) {
-        setVal('f-name', ch.name);
-        setVal('f-player', ch.player);
-        setVal('f-archetype', ch.archetype);
-        setVal('f-species', ch.species);
-        setVal('f-rank', ch.rank);
-        setVal('f-patron', ch.patron);
-        setVal('f-body', ch.body);
-        setVal('f-mind', ch.mind);
-        setVal('f-spirit', ch.spirit);
-        setVal('f-classdie', ch.classdie);
-        setVal('f-classdie2', ch.classdie2);
-        setVal('f-res-cur', ch.resourceCurrent);
-        setVal('f-res-max', ch.resourceMax);
-        setVal('f-pot-cur', ch.potentialCurrent);
-        setVal('f-pot-max', ch.potentialMax);
-        setVal('f-xp', ch.xp);
+        setVal('f-name',ch.name); setVal('f-player',ch.player);
+        setVal('f-archetype',ch.archetype); setVal('f-species',ch.species);
+        setVal('f-rank',ch.rank); setVal('f-patron',ch.patron);
+        setVal('f-body',ch.body); setVal('f-mind',ch.mind); setVal('f-spirit',ch.spirit);
+        setVal('f-classdie',ch.classdie); setVal('f-classdie2',ch.classdie2);
+        setVal('f-res-cur',ch.resourceCurrent); setVal('f-res-max',ch.resourceMax);
+        setVal('f-pot-cur',ch.potentialCurrent); setVal('f-pot-max',ch.potentialMax);
+        setVal('f-xp',ch.xp);
 
-        // Stress
-        var stressBoxes = document.querySelectorAll('.stress-box');
-        stressBoxes.forEach(function(box, i) {
-          box.classList.toggle('filled', i < ch.stress);
-        });
+        // Stress — clamp to 10
+        var stress = Math.min(ch.stress||0, 10);
+        document.querySelectorAll('.stress-box').forEach(function(b,i){ b.classList.toggle('filled', i<stress); });
         updateStressNum();
 
         // Suffering
-        document.querySelectorAll('.suffering-list li').forEach(function(li) {
-          var rank = parseInt(li.querySelector('input').getAttribute('data-rank'));
+        document.querySelectorAll('.suffering-list li').forEach(function(li){
+          var rank = parseInt(li.querySelector('input[data-rank]').getAttribute('data-rank'));
           var checked = (ch.suffering >= rank);
-          li.querySelector('input').checked = checked;
+          li.querySelector('input[type="checkbox"]').checked = checked;
           li.classList.toggle('active', checked);
         });
 
-        // Intrinsics
-        for (var i = 0; i < 3; i++) {
-          setVal('f-intrinsic-' + i, (ch.intrinsics && ch.intrinsics[i]) || '');
-        }
-        // Talents
-        for (var j = 0; j < 3; j++) {
-          setVal('f-talent-' + j, (ch.talents && ch.talents[j]) || '');
-        }
-        setVal('f-generic-talent', ch.genericTalent);
-        setVal('f-boon', ch.boon);
-        setVal('f-burden', ch.burden);
-        setVal('f-secondary-archetype', ch.secondaryArchetype);
-        setVal('f-secondary-talent', ch.secondaryTalent);
+        // Injuries
+        var inj = ch.injuries || {};
+        [1,2,3,4].forEach(function(r){
+          var ri = inj[r] || {};
+          setVal('inj-'+r+'-phys', ri.phys||'');
+          setVal('inj-'+r+'-ment', ri.ment||'');
+        });
 
-        // Skills (set after grid is built)
-        setTimeout(function() {
-          if (ch.skills) {
-            SKILLS.forEach(function(s) {
-              var key = s[0];
-              var val = ch.skills[key] || 'untrained';
-              var radios = document.querySelectorAll('input[name="skill-' + key + '"]');
-              radios.forEach(function(r) {
-                r.checked = (r.value === val);
-                var lbl = r.closest('label');
-                if (lbl) lbl.classList.toggle('selected', r.checked);
+        // Intrinsics
+        for(var i=0;i<3;i++) setVal('f-intrinsic-'+i,(ch.intrinsics&&ch.intrinsics[i])||'');
+
+        // Archetype talents
+        var at = ch.archetypeTalents || [];
+        for(var i=0;i<12;i++) setVal('arch-talent-'+i, at[i]||'');
+
+        // Generic talents
+        var gt = ch.genericTalents || [];
+        for(var i=0;i<8;i++) setVal('gen-talent-'+i, gt[i]||'');
+
+        // Secondary talents
+        var st = ch.secondaryTalents || [];
+        for(var i=0;i<4;i++) setVal('sec-talent-'+i, st[i]||'');
+
+        setVal('f-boon', ch.boon||'');
+        setVal('f-burden', ch.burden||'');
+        setVal('f-secondary-archetype', ch.secondaryArchetype||'');
+
+        // Weapons
+        var ww = ch.weapons || [];
+        for(var i=0;i<4;i++){
+          var w = ww[i]||{};
+          setVal('wpn-name-'+i, w.name||'');
+          setVal('wpn-dmg-'+i, w.damage||'');
+          setVal('wpn-slots-'+i, w.slots!==undefined?w.slots:1);
+          setVal('wpn-notes-'+i, w.notes||'');
+        }
+
+        // Armor
+        var aa = ch.armors || [];
+        for(var i=0;i<3;i++){
+          var a = aa[i]||{};
+          setVal('arm-name-'+i, a.name||'');
+          setVal('arm-thr-'+i, a.threshold!==undefined?a.threshold:'');
+          setVal('arm-slots-'+i, a.slots!==undefined?a.slots:1);
+          setVal('arm-notes-'+i, a.notes||'');
+        }
+
+        // Gear
+        var gg = ch.gear || [];
+        for(var i=0;i<12;i++){
+          var g = gg[i]||{};
+          setVal('gear-name-'+i, g.name||'');
+          setVal('gear-slots-'+i, g.slots!==undefined?g.slots:1);
+          setVal('gear-notes-'+i, g.notes||'');
+        }
+
+        // Skills
+        setTimeout(function(){
+          if(ch.skills){
+            SKILLS.forEach(function(s){
+              var val = ch.skills[s[0]]||'untrained';
+              document.querySelectorAll('input[name="skill-'+s[0]+'"]').forEach(function(r){
+                r.checked=(r.value===val);
+                var lbl=r.closest('label');
+                if(lbl) lbl.classList.toggle('selected',r.checked);
               });
             });
           }
           countSkillSlots();
-        }, 0);
+        },0);
 
-        // Gear
-        if (ch.gear) {
-          ch.gear.forEach(function(item, i) {
-            setVal('gear-name-' + i, item.name);
-            setVal('gear-slots-' + i, item.slots);
-            setVal('gear-notes-' + i, item.notes);
-          });
-        }
+        setVal('f-connections',ch.connections); setVal('f-notes',ch.notes);
         updateGearSlots();
-
-        setVal('f-connections', ch.connections);
-        setVal('f-notes', ch.notes);
       }
 
       function readForm() {
-        var ch = characters.find(function(c) { return c.id === currentId; });
-        if (!ch) return null;
-
-        ch.name = getVal('f-name');
-        ch.player = getVal('f-player');
-        ch.archetype = getVal('f-archetype');
-        ch.species = getVal('f-species');
-        ch.rank = getInt('f-rank');
-        ch.patron = getVal('f-patron');
-        ch.body = getInt('f-body');
-        ch.mind = getInt('f-mind');
-        ch.spirit = getInt('f-spirit');
-        ch.classdie = getInt('f-classdie');
-        ch.classdie2 = getInt('f-classdie2');
-        ch.resourceCurrent = getInt('f-res-cur');
-        ch.resourceMax = getInt('f-res-max');
-        ch.potentialCurrent = getInt('f-pot-cur');
-        ch.potentialMax = getInt('f-pot-max');
-        ch.xp = getInt('f-xp');
-
-        // Stress
-        ch.stress = document.querySelectorAll('.stress-box.filled').length;
-
-        // Suffering: highest active rank
-        var maxSuffer = 0;
-        document.querySelectorAll('.suffering-list li').forEach(function(li) {
-          if (li.querySelector('input').checked) {
-            var r = parseInt(li.querySelector('input').getAttribute('data-rank'));
-            if (r > maxSuffer) maxSuffer = r;
+        var ch = characters.find(function(c){return c.id===currentId;});
+        if(!ch) return null;
+        ch.name=getVal('f-name'); ch.player=getVal('f-player');
+        ch.archetype=getVal('f-archetype'); ch.species=getVal('f-species');
+        ch.rank=getInt('f-rank'); ch.patron=getVal('f-patron');
+        ch.body=getInt('f-body'); ch.mind=getInt('f-mind'); ch.spirit=getInt('f-spirit');
+        ch.classdie=getInt('f-classdie'); ch.classdie2=getInt('f-classdie2');
+        ch.resourceCurrent=getInt('f-res-cur'); ch.resourceMax=getInt('f-res-max');
+        ch.potentialCurrent=getInt('f-pot-cur'); ch.potentialMax=getInt('f-pot-max');
+        ch.xp=getInt('f-xp');
+        ch.stress=Math.min(document.querySelectorAll('.stress-box.filled').length, 10);
+        var maxS=0;
+        document.querySelectorAll('.suffering-list li').forEach(function(li){
+          if(li.querySelector('input[type="checkbox"]').checked){
+            var r=parseInt(li.querySelector('input[data-rank]').getAttribute('data-rank'));
+            if(r>maxS) maxS=r;
           }
         });
-        ch.suffering = maxSuffer;
-
-        // Intrinsics
-        ch.intrinsics = [
-          getVal('f-intrinsic-0'),
-          getVal('f-intrinsic-1'),
-          getVal('f-intrinsic-2')
-        ];
-        // Talents
-        ch.talents = [
-          getVal('f-talent-0'),
-          getVal('f-talent-1'),
-          getVal('f-talent-2')
-        ];
-        ch.genericTalent = getVal('f-generic-talent');
-        ch.boon = getVal('f-boon');
-        ch.burden = getVal('f-burden');
-        ch.secondaryArchetype = getVal('f-secondary-archetype');
-        ch.secondaryTalent = getVal('f-secondary-talent');
-
-        // Skills
-        ch.skills = {};
-        SKILLS.forEach(function(s) {
-          var key = s[0];
-          var checked = document.querySelector('input[name="skill-' + key + '"]:checked');
-          ch.skills[key] = checked ? checked.value : 'untrained';
+        ch.suffering=maxS;
+        ch.injuries={};
+        [1,2,3,4].forEach(function(r){ ch.injuries[r]={phys:getVal('inj-'+r+'-phys'),ment:getVal('inj-'+r+'-ment')}; });
+        ch.intrinsics=[getVal('f-intrinsic-0'),getVal('f-intrinsic-1'),getVal('f-intrinsic-2')];
+        ch.archetypeTalents=[];
+        for(var i=0;i<12;i++) ch.archetypeTalents.push(getVal('arch-talent-'+i));
+        ch.genericTalents=[];
+        for(var i=0;i<8;i++) ch.genericTalents.push(getVal('gen-talent-'+i));
+        ch.secondaryTalents=[];
+        for(var i=0;i<4;i++) ch.secondaryTalents.push(getVal('sec-talent-'+i));
+        ch.boon=getVal('f-boon'); ch.burden=getVal('f-burden');
+        ch.secondaryArchetype=getVal('f-secondary-archetype');
+        ch.skills={};
+        SKILLS.forEach(function(s){
+          var checked=document.querySelector('input[name="skill-'+s[0]+'"]:checked');
+          ch.skills[s[0]]=checked?checked.value:'untrained';
         });
-
-        // Gear
-        ch.gear = [];
-        for (var i = 0; i < 12; i++) {
-          ch.gear.push({
-            name: getVal('gear-name-' + i),
-            slots: getInt('gear-slots-' + i) || 1,
-            notes: getVal('gear-notes-' + i)
-          });
-        }
-
-        ch.connections = getVal('f-connections');
-        ch.notes = getVal('f-notes');
-        ch.updatedAt = new Date().toISOString();
+        ch.weapons=[];
+        for(var i=0;i<4;i++) ch.weapons.push({name:getVal('wpn-name-'+i),damage:getVal('wpn-dmg-'+i),slots:getInt('wpn-slots-'+i),notes:getVal('wpn-notes-'+i)});
+        ch.armors=[];
+        for(var i=0;i<3;i++) ch.armors.push({name:getVal('arm-name-'+i),threshold:getVal('arm-thr-'+i),slots:getInt('arm-slots-'+i),notes:getVal('arm-notes-'+i)});
+        ch.gear=[];
+        for(var i=0;i<12;i++) ch.gear.push({name:getVal('gear-name-'+i),slots:getInt('gear-slots-'+i)||1,notes:getVal('gear-notes-'+i)});
+        ch.connections=getVal('f-connections'); ch.notes=getVal('f-notes');
+        ch.updatedAt=new Date().toISOString();
         return ch;
       }
 
-      /* ═══════════════════════════════════════
-         SAVE / EXPORT / DELETE
-      ═══════════════════════════════════════ */
+      /* ── Save / Export / Delete ── */
       window.saveSheet = function() {
-        if (!currentId) return;
-        readForm();
-        saveStorage();
-        var fb = document.getElementById('save-feedback');
+        if(!currentId) return;
+        readForm(); saveStorage();
+        var fb=document.getElementById('save-feedback');
         fb.classList.add('visible');
-        setTimeout(function() { fb.classList.remove('visible'); }, 1800);
+        setTimeout(function(){ fb.classList.remove('visible'); },1800);
       };
 
       window.exportSheet = function() {
-        if (!currentId) return;
+        if(!currentId) return;
         readForm();
-        var ch = characters.find(function(c) { return c.id === currentId; });
-        if (!ch) return;
-        var blob = new Blob([JSON.stringify(ch, null, 2)], {type: 'application/json'});
-        var url = URL.createObjectURL(blob);
-        var a = document.createElement('a');
-        a.href = url;
-        a.download = (ch.name || 'character').replace(/\s+/g, '_') + '.json';
-        a.click();
-        URL.revokeObjectURL(url);
+        var ch=characters.find(function(c){return c.id===currentId;});
+        if(!ch) return;
+        var blob=new Blob([JSON.stringify(ch,null,2)],{type:'application/json'});
+        var url=URL.createObjectURL(blob);
+        var a=document.createElement('a'); a.href=url;
+        a.download=(ch.name||'character').replace(/\s+/g,'_')+'.json';
+        a.click(); URL.revokeObjectURL(url);
       };
 
       window.deleteSheet = function() {
-        if (!currentId) return;
-        var ch = characters.find(function(c) { return c.id === currentId; });
-        var name = (ch && ch.name) ? ch.name : 'this character';
-        if (!confirm('Delete ' + name + '? This cannot be undone.')) return;
-        characters = characters.filter(function(c) { return c.id !== currentId; });
-        saveStorage();
-        showLibrary();
+        if(!currentId) return;
+        var ch=characters.find(function(c){return c.id===currentId;});
+        if(!confirm('Delete '+(ch&&ch.name?ch.name:'this character')+'?')) return;
+        characters=characters.filter(function(c){return c.id!==currentId;});
+        saveStorage(); showLibrary();
       };
 
-      /* Import */
-      document.getElementById('import-file').addEventListener('change', function(e) {
-        var file = e.target.files[0];
-        if (!file) return;
-        var reader = new FileReader();
-        reader.onload = function(ev) {
+      document.getElementById('import-file').addEventListener('change',function(e){
+        var file=e.target.files[0]; if(!file) return;
+        var reader=new FileReader();
+        reader.onload=function(ev){
           try {
-            var ch = JSON.parse(ev.target.result);
-            if (!ch.id) ch.id = genId();
-            // Check for duplicate id
-            if (characters.find(function(c) { return c.id === ch.id; })) {
-              ch.id = genId();
-            }
-            characters.push(ch);
-            saveStorage();
-            renderLibrary();
-          } catch(err) {
-            alert('Could not import: invalid JSON file.');
-          }
+            var ch=JSON.parse(ev.target.result);
+            if(!ch.id) ch.id=genId();
+            if(characters.find(function(c){return c.id===ch.id;})) ch.id=genId();
+            characters.push(ch); saveStorage(); renderLibrary();
+          } catch(err){ alert('Could not import: invalid JSON.'); }
         };
-        reader.readAsText(file);
-        this.value = '';
+        reader.readAsText(file); this.value='';
       });
 
-      /* ═══════════════════════════════════════
-         ARCHETYPE CHANGE
-      ═══════════════════════════════════════ */
+      /* ── Archetype change ── */
       window.onArchetypeChange = function(skipGuard) {
-        var arch = getVal('f-archetype') || 'soldier';
-        // Labels
-        document.getElementById('resource-label').textContent = RESOURCE_LABELS[arch] || 'Resource';
-        document.getElementById('classdie-label').textContent = CLASSDIE_LABELS[arch] || 'Class Die';
-        document.getElementById('unique-skill-label').textContent = CLASSDIE_LABELS[arch] || 'Class Die';
+        var arch=getVal('f-archetype')||'soldier';
+        document.getElementById('resource-label').textContent=RESOURCE_LABELS[arch]||'Resource';
+        document.getElementById('classdie-label').textContent=CLASSDIE_LABELS[arch]||'Class Die';
+        document.getElementById('unique-skill-label').textContent=CLASSDIE_LABELS[arch]||'Class Die';
+        document.getElementById('patron-field').style.visibility=(arch==='acolyte')?'visible':'hidden';
 
-        // Patron field visibility
-        document.getElementById('patron-field').style.visibility = (arch === 'acolyte') ? 'visible' : 'hidden';
+        // Repopulate archetype talent dropdown options
+        var talents = ARCHETYPE_TALENTS[arch] || [];
+        for(var i=0;i<12;i++){
+          var sel=document.getElementById('arch-talent-'+i);
+          if(!sel) continue;
+          var cur=sel.value;
+          sel.innerHTML='<option value="">— select —</option>';
+          talents.forEach(function(t){
+            var opt=document.createElement('option');
+            opt.value=t.name; opt.textContent='['+t.tier+'] '+t.name;
+            sel.appendChild(opt);
+          });
+          sel.value=cur;
+        }
 
-        // Auto-fill intrinsics
-        if (!skipGuard) {
-          var perks = INTRINSICS[arch] || ['', '', ''];
-          var anyFilled = (getVal('f-intrinsic-0') || getVal('f-intrinsic-1') || getVal('f-intrinsic-2'));
-          if (anyFilled) {
-            if (!confirm('Overwrite intrinsic perks with defaults for ' + arch + '?')) return;
-          }
-          for (var i = 0; i < 3; i++) {
-            document.getElementById('f-intrinsic-' + i).value = perks[i] || '';
-          }
+        if(!skipGuard){
+          var perks=INTRINSICS[arch]||['','',''];
+          var anyFilled=(getVal('f-intrinsic-0')||getVal('f-intrinsic-1')||getVal('f-intrinsic-2'));
+          if(anyFilled && !confirm('Overwrite intrinsic perks for '+arch+'?')) return;
+          for(var i=0;i<3;i++) document.getElementById('f-intrinsic-'+i).value=perks[i]||'';
         } else {
-          // Only fill if blank
-          var perks = INTRINSICS[arch] || ['', '', ''];
-          for (var i = 0; i < 3; i++) {
-            var el = document.getElementById('f-intrinsic-' + i);
-            if (!el.value) el.value = perks[i] || '';
-          }
+          var perks=INTRINSICS[arch]||['','',''];
+          for(var i=0;i<3;i++){ var el=document.getElementById('f-intrinsic-'+i); if(!el.value) el.value=perks[i]||''; }
         }
       };
 
-      /* ═══════════════════════════════════════
-         RANK CHANGE
-      ═══════════════════════════════════════ */
+      /* ── Rank change ── */
       window.onRankChange = function() {
-        var rank = getInt('f-rank') || 1;
-        var potMax = POTENTIAL_MAX[rank] || 12;
-        setVal('f-pot-max', potMax);
-        // Enable/disable secondary die
-        var secDie = document.getElementById('f-classdie2');
-        if (rank >= 2) { secDie.style.opacity = '1'; secDie.style.pointerEvents = 'auto'; }
-        else { secDie.style.opacity = '0.4'; secDie.style.pointerEvents = 'none'; }
+        var rank=getInt('f-rank')||1;
+        setVal('f-pot-max', POTENTIAL_MAX[rank]||12);
+        var secDie=document.getElementById('f-classdie2');
+        if(rank>=2){ secDie.style.opacity='1'; secDie.style.pointerEvents='auto'; }
+        else { secDie.style.opacity='0.4'; secDie.style.pointerEvents='none'; }
       };
 
-      /* ═══════════════════════════════════════
-         DIE CHANGE → DERIVED STATS
-      ═══════════════════════════════════════ */
+      /* ── Die change ── */
       window.onDieChange = function() {
-        var body = getInt('f-body') || 8;
-        var mind = getInt('f-mind') || 8;
-        var defense = 10 + Math.floor(body / 2);
-        var loadSlots = body;
-        var skillLimit = (mind <= 6) ? 4 : (mind <= 10) ? 5 : 6;
-        document.getElementById('d-defense').textContent = defense;
-        document.getElementById('d-load').textContent = loadSlots;
-        document.getElementById('d-skillslots').textContent = skillLimit;
-        document.getElementById('gear-max').textContent = loadSlots;
-        countSkillSlots();
+        var body=getInt('f-body')||8;
+        var mind=getInt('f-mind')||8;
+        document.getElementById('d-defense').textContent=10+Math.floor(body/2);
+        document.getElementById('d-load').textContent=body;
+        document.getElementById('d-skillslots').textContent=(mind<=6)?4:(mind<=10)?5:6;
         updateGearSlots();
-      };
-
-      /* ═══════════════════════════════════════
-         SKILLS GRID
-      ═══════════════════════════════════════ */
-      function buildSkillsGrid() {
-        var grid = document.getElementById('skills-grid');
-        grid.innerHTML = '';
-        var lastGroup = null;
-        SKILLS.forEach(function(s) {
-          var key = s[0], label = s[1], attr = s[2], group = s[3];
-          if (group !== lastGroup) {
-            var gt = document.createElement('div');
-            gt.className = 'skill-group-title';
-            gt.textContent = GROUP_LABELS[group] || group;
-            grid.appendChild(gt);
-            lastGroup = group;
-          }
-          var row = document.createElement('div');
-          row.className = 'skill-row';
-          row.innerHTML =
-            '<div class="skill-name">' + label + '</div>' +
-            '<div class="skill-radios">' +
-              makeRadio(key, 'untrained', 'Untrained', 'sel-untrained') +
-              makeRadio(key, 'trained',   'Trained',   'sel-trained') +
-              makeRadio(key, 'expert',    'Expert',    'sel-expert') +
-            '</div>' +
-            '<div class="skill-attr-tag">' + attr + '</div>';
-          grid.appendChild(row);
-        });
-      }
-
-      function makeRadio(key, value, labelText, cls) {
-        var id = 'skill-' + key + '-' + value;
-        return '<label class="' + cls + '" id="lbl-' + id + '" onclick="onSkillClick(this, \'' + key + '\', \'' + value + '\')">' +
-          '<input type="radio" name="skill-' + key + '" id="' + id + '" value="' + value + '">' +
-          '<span>' + labelText + '</span>' +
-        '</label>';
-      }
-
-      window.onSkillClick = function(lbl, key, value) {
-        // Update radio
-        var radios = document.querySelectorAll('input[name="skill-' + key + '"]');
-        radios.forEach(function(r) {
-          r.checked = (r.value === value);
-          var l = r.closest('label');
-          if (l) l.classList.toggle('selected', r.checked);
-        });
         countSkillSlots();
-        autoSave();
       };
 
-      function countSkillSlots() {
-        var mind = getInt('f-mind') || 8;
-        var limit = (mind <= 6) ? 4 : (mind <= 10) ? 5 : 6;
-        var used = 0;
-        SKILLS.forEach(function(s) {
-          var checked = document.querySelector('input[name="skill-' + s[0] + '"]:checked');
-          if (checked && (checked.value === 'trained' || checked.value === 'expert')) used++;
-        });
-        var counter = document.getElementById('skill-counter');
-        counter.innerHTML = 'Trained slots used: <span>' + used + '</span> / <span>' + limit + '</span>';
-        counter.className = 'skill-counter ' + (used > limit ? 'over' : 'ok');
-        document.getElementById('d-skillslots').textContent = limit;
-      }
-
-      /* ═══════════════════════════════════════
-         STRESS TRACK
-      ═══════════════════════════════════════ */
+      /* ── Stress track (hard cap 10) ── */
       function buildStressTrack() {
-        var track = document.getElementById('stress-track');
-        track.innerHTML = '';
-        for (var i = 0; i < 10; i++) {
-          var box = document.createElement('div');
-          box.className = 'stress-box';
-          box.setAttribute('data-idx', i);
+        var track=document.getElementById('stress-track');
+        track.innerHTML='';
+        for(var i=0;i<10;i++){
+          var box=document.createElement('div');
+          box.className='stress-box'; box.setAttribute('data-idx',i);
           box.addEventListener('click', onStressClick);
           track.appendChild(box);
         }
       }
-
-      function onStressClick(e) {
-        var idx = parseInt(this.getAttribute('data-idx'));
-        var boxes = document.querySelectorAll('.stress-box');
-        var currentStress = document.querySelectorAll('.stress-box.filled').length;
-        // Toggle: if clicking last filled, unfill it; otherwise fill up to this
-        if (idx === currentStress - 1) {
+      function onStressClick() {
+        var idx=parseInt(this.getAttribute('data-idx'));
+        var boxes=document.querySelectorAll('.stress-box');
+        var cur=document.querySelectorAll('.stress-box.filled').length;
+        // Click on last filled = unfill it; otherwise fill up to idx
+        if(idx===cur-1){
           boxes[idx].classList.remove('filled');
         } else {
-          for (var i = 0; i <= idx; i++) boxes[i].classList.add('filled');
-          for (var j = idx + 1; j < 10; j++) boxes[j].classList.remove('filled');
+          for(var i=0;i<=idx;i++) boxes[i].classList.add('filled');
+          for(var j=idx+1;j<10;j++) boxes[j].classList.remove('filled');
         }
-        updateStressNum();
-        autoSave();
+        updateStressNum(); autoSave();
       }
-
       function updateStressNum() {
-        var n = document.querySelectorAll('.stress-box.filled').length;
-        document.getElementById('stress-num').textContent = n;
+        var n=document.querySelectorAll('.stress-box.filled').length;
+        var span=document.getElementById('stress-num');
+        span.textContent=n;
+        span.className=(n>=10)?'maxed':'';
       }
 
-      /* ═══════════════════════════════════════
-         SUFFERING
-      ═══════════════════════════════════════ */
+      /* ── Suffering toggles ── */
       window.toggleSuffering = function(li, rank) {
-        var cb = li.querySelector('input[type="checkbox"]');
-        cb.checked = !cb.checked;
-        li.classList.toggle('active', cb.checked);
-        // If unchecking, uncheck all higher ranks too
-        if (!cb.checked) {
-          document.querySelectorAll('.suffering-list li').forEach(function(item) {
-            var r = parseInt(item.querySelector('input').getAttribute('data-rank'));
-            if (r >= rank) {
-              item.querySelector('input').checked = false;
-              item.classList.remove('active');
-            }
+        var cb=li.querySelector('input[type="checkbox"]');
+        var nowChecked=!cb.checked;
+        if(nowChecked){
+          // Check this and all lower
+          document.querySelectorAll('.suffering-list li').forEach(function(item){
+            var r=parseInt(item.querySelector('input[data-rank]').getAttribute('data-rank'));
+            if(r<=rank){ item.querySelector('input[type="checkbox"]').checked=true; item.classList.add('active'); }
           });
         } else {
-          // If checking, also check all lower ranks
-          document.querySelectorAll('.suffering-list li').forEach(function(item) {
-            var r = parseInt(item.querySelector('input').getAttribute('data-rank'));
-            if (r <= rank) {
-              item.querySelector('input').checked = true;
-              item.classList.add('active');
-            }
+          // Uncheck this and all higher
+          document.querySelectorAll('.suffering-list li').forEach(function(item){
+            var r=parseInt(item.querySelector('input[data-rank]').getAttribute('data-rank'));
+            if(r>=rank){ item.querySelector('input[type="checkbox"]').checked=false; item.classList.remove('active'); }
           });
         }
         autoSave();
       };
 
-      /* ═══════════════════════════════════════
-         GEAR ROWS
-      ═══════════════════════════════════════ */
-      function buildGearRows() {
-        var container = document.getElementById('gear-rows');
-        container.innerHTML = '';
-        for (var i = 0; i < 12; i++) {
-          var row = document.createElement('div');
-          row.className = 'gear-row';
-          var idx = i;
-          row.innerHTML =
-            '<input type="text" id="gear-name-' + i + '" placeholder="Item name..." oninput="updateGearSlots()">' +
-            '<input type="number" id="gear-slots-' + i + '" value="1" min="0" max="10" oninput="updateGearSlots()">' +
-            '<input type="text" id="gear-notes-' + i + '" placeholder="Notes...">';
+      /* ── Injury selects ── */
+      function buildInjurySelects() {
+        function fill(id, opts) {
+          var sel=document.getElementById(id); if(!sel) return;
+          var cur=sel.value;
+          sel.innerHTML='<option value="">— pick injury —</option>';
+          opts.forEach(function(o){ var opt=document.createElement('option'); opt.value=o; opt.textContent=o; sel.appendChild(opt); });
+          sel.value=cur;
+        }
+        // Ranks 1-2: minor injuries
+        fill('inj-1-phys', MINOR_PHYSICAL); fill('inj-1-ment', MINOR_MENTAL);
+        fill('inj-2-phys', MINOR_PHYSICAL); fill('inj-2-ment', MINOR_MENTAL);
+        // Ranks 3-4: major injuries
+        fill('inj-3-phys', MAJOR_PHYSICAL); fill('inj-3-ment', MAJOR_MENTAL);
+        fill('inj-4-phys', MAJOR_PHYSICAL); fill('inj-4-ment', MAJOR_MENTAL);
+      }
+
+      /* ── Talent rows ── */
+      function buildTalentRows() {
+        var arch=getVal('f-archetype')||'soldier';
+        var talents=ARCHETYPE_TALENTS[arch]||[];
+
+        // Archetype talents (12 slots)
+        var atList=document.getElementById('archetype-talents-list');
+        atList.innerHTML='';
+        for(var i=0;i<12;i++){
+          var row=document.createElement('div'); row.className='talent-pick-row';
+          var sel=document.createElement('select'); sel.id='arch-talent-'+i;
+          sel.innerHTML='<option value="">— select —</option>';
+          talents.forEach(function(t){
+            var opt=document.createElement('option'); opt.value=t.name; opt.textContent='['+t.tier+'] '+t.name;
+            sel.appendChild(opt);
+          });
+          var tag=document.createElement('span'); tag.className='talent-tier-tag'; tag.textContent='Slot '+(i+1);
+          row.appendChild(sel); row.appendChild(tag);
+          atList.appendChild(row);
+        }
+
+        // Generic talents (8 slots)
+        var gtList=document.getElementById('generic-talents-list');
+        gtList.innerHTML='';
+        for(var i=0;i<8;i++){
+          var row=document.createElement('div'); row.className='talent-pick-row';
+          var sel=document.createElement('select'); sel.id='gen-talent-'+i;
+          sel.innerHTML='<option value="">— select —</option>';
+          GENERIC_TALENTS.forEach(function(t){
+            var opt=document.createElement('option'); opt.value=t; opt.textContent=t;
+            sel.appendChild(opt);
+          });
+          row.appendChild(sel);
+          gtList.appendChild(row);
+        }
+
+        // Secondary talents (4 slots)
+        var stList=document.getElementById('secondary-talents-list');
+        stList.innerHTML='';
+        for(var i=0;i<4;i++){
+          var row=document.createElement('div'); row.className='talent-pick-row';
+          var sel=document.createElement('select'); sel.id='sec-talent-'+i;
+          sel.innerHTML='<option value="">— select —</option>';
+          // Populate all archetypes' talents for secondary
+          ['soldier','esoterist','acolyte','ruffian'].forEach(function(a){
+            var grp=document.createElement('optgroup'); grp.label=a.charAt(0).toUpperCase()+a.slice(1);
+            (ARCHETYPE_TALENTS[a]||[]).forEach(function(t){
+              var opt=document.createElement('option'); opt.value=t.name; opt.textContent='['+t.tier+'] '+t.name;
+              grp.appendChild(opt);
+            });
+            sel.appendChild(grp);
+          });
+          row.appendChild(sel);
+          stList.appendChild(row);
+        }
+      }
+
+      /* ── Boon / Burden selects ── */
+      function buildBoonBurdenSelects() {
+        function fill(id, arr) {
+          var sel=document.getElementById(id); if(!sel) return;
+          var cur=sel.value;
+          sel.innerHTML='<option value="">— select —</option>';
+          arr.forEach(function(v){ var opt=document.createElement('option'); opt.value=v; opt.textContent=v; sel.appendChild(opt); });
+          sel.value=cur;
+        }
+        fill('f-boon', BOONS);
+        fill('f-burden', BURDENS);
+      }
+
+      /* ── Skills grid ── */
+      function buildSkillsGrid() {
+        var grid=document.getElementById('skills-grid'); grid.innerHTML='';
+        var lastGroup=null;
+        SKILLS.forEach(function(s){
+          var key=s[0],label=s[1],attr=s[2],group=s[3];
+          if(group!==lastGroup){
+            var gt=document.createElement('div'); gt.className='skill-group-title'; gt.textContent=GROUP_LABELS[group]||group;
+            grid.appendChild(gt); lastGroup=group;
+          }
+          var row=document.createElement('div'); row.className='skill-row';
+          row.innerHTML='<div class="skill-name">'+label+'</div>'+
+            '<div class="skill-radios">'+mkR(key,'untrained','Untrained','sel-untrained')+mkR(key,'trained','Trained','sel-trained')+mkR(key,'expert','Expert','sel-expert')+'</div>'+
+            '<div class="skill-attr-tag">'+attr+'</div>';
+          grid.appendChild(row);
+        });
+      }
+      function mkR(key,value,lbl,cls){
+        var id='skill-'+key+'-'+value;
+        return '<label class="'+cls+'" id="lbl-'+id+'" onclick="onSkillClick(this,\''+key+'\',\''+value+'\')">'+
+          '<input type="radio" name="skill-'+key+'" id="'+id+'" value="'+value+'"><span>'+lbl+'</span></label>';
+      }
+      window.onSkillClick=function(lbl,key,value){
+        document.querySelectorAll('input[name="skill-'+key+'"]').forEach(function(r){
+          r.checked=(r.value===value);
+          var l=r.closest('label'); if(l) l.classList.toggle('selected',r.checked);
+        });
+        countSkillSlots(); autoSave();
+      };
+      function countSkillSlots(){
+        var mind=getInt('f-mind')||8;
+        var limit=(mind<=6)?4:(mind<=10)?5:6;
+        var used=0;
+        SKILLS.forEach(function(s){
+          var c=document.querySelector('input[name="skill-'+s[0]+'"]:checked');
+          if(c&&(c.value==='trained'||c.value==='expert')) used++;
+        });
+        var counter=document.getElementById('skill-counter');
+        counter.innerHTML='Trained slots used: <span>'+used+'</span> / <span>'+limit+'</span>';
+        counter.className='skill-counter '+(used>limit?'over':'ok');
+        document.getElementById('d-skillslots').textContent=limit;
+      }
+
+      /* ── Weapon rows ── */
+      function buildWeaponRows(){
+        var container=document.getElementById('weapon-rows'); container.innerHTML='';
+        for(var i=0;i<4;i++){
+          var row=document.createElement('div'); row.className='equip-row';
+          row.innerHTML=
+            '<select id="wpn-name-'+i+'" onchange="onWeaponPick('+i+')"><option value="">— select or type —</option></select>'+
+            '<input type="text" id="wpn-dmg-'+i+'" placeholder="e.g. 2d8">'+
+            '<input type="number" id="wpn-slots-'+i+'" value="1" min="0" max="10" oninput="updateGearSlots()">'+
+            '<input type="text" id="wpn-notes-'+i+'" placeholder="Tags / notes...">';
+          // Fill weapon options
+          var sel=row.querySelector('select');
+          WEAPONS.forEach(function(w){
+            var opt=document.createElement('option'); opt.value=w.name;
+            opt.textContent=w.name+' ('+w.damage+')'; opt.setAttribute('data-dmg',w.damage);
+            opt.setAttribute('data-slots',w.slots); opt.setAttribute('data-tags',w.tags);
+            sel.appendChild(opt);
+          });
+          container.appendChild(row);
+        }
+      }
+      window.onWeaponPick=function(i){
+        var sel=document.getElementById('wpn-name-'+i);
+        var opt=sel.options[sel.selectedIndex];
+        if(opt&&opt.value){
+          setVal('wpn-dmg-'+i, opt.getAttribute('data-dmg')||'');
+          setVal('wpn-slots-'+i, opt.getAttribute('data-slots')||1);
+          setVal('wpn-notes-'+i, opt.getAttribute('data-tags')||'');
+        }
+        updateGearSlots();
+      };
+
+      /* ── Armor rows ── */
+      function buildArmorRows(){
+        var container=document.getElementById('armor-rows'); container.innerHTML='';
+        for(var i=0;i<3;i++){
+          var row=document.createElement('div'); row.className='armor-row';
+          row.innerHTML=
+            '<select id="arm-name-'+i+'" onchange="onArmorPick('+i+')"><option value="">— select or type —</option></select>'+
+            '<input type="text" id="arm-thr-'+i+'" placeholder="e.g. 6">'+
+            '<input type="number" id="arm-slots-'+i+'" value="1" min="0" max="10" oninput="updateGearSlots()">'+
+            '<input type="text" id="arm-notes-'+i+'" placeholder="Notes...">';
+          var sel=row.querySelector('select');
+          ARMORS.forEach(function(a){
+            var opt=document.createElement('option'); opt.value=a.name;
+            opt.textContent=a.name+(a.threshold?' ('+a.threshold+')':'');
+            opt.setAttribute('data-thr',a.threshold); opt.setAttribute('data-slots',a.slots);
+            opt.setAttribute('data-tags',a.tags);
+            sel.appendChild(opt);
+          });
+          container.appendChild(row);
+        }
+      }
+      window.onArmorPick=function(i){
+        var sel=document.getElementById('arm-name-'+i);
+        var opt=sel.options[sel.selectedIndex];
+        if(opt&&opt.value){
+          setVal('arm-thr-'+i, opt.getAttribute('data-thr')||'');
+          setVal('arm-slots-'+i, opt.getAttribute('data-slots')||1);
+          setVal('arm-notes-'+i, opt.getAttribute('data-tags')||'');
+        }
+        updateGearSlots();
+      };
+
+      /* ── Gear rows ── */
+      function buildGearRows(){
+        var container=document.getElementById('gear-rows'); container.innerHTML='';
+        for(var i=0;i<12;i++){
+          var row=document.createElement('div'); row.className='gear-row';
+          row.innerHTML=
+            '<input type="text" id="gear-name-'+i+'" placeholder="Item name..." oninput="updateGearSlots()">'+
+            '<input type="number" id="gear-slots-'+i+'" value="1" min="0" max="10" oninput="updateGearSlots()">'+
+            '<input type="text" id="gear-notes-'+i+'" placeholder="Notes...">';
           container.appendChild(row);
         }
       }
 
-      function updateGearSlots() {
-        var used = 0;
-        for (var i = 0; i < 12; i++) {
-          var name = getVal('gear-name-' + i);
-          if (name) used += (getInt('gear-slots-' + i) || 0);
-        }
-        document.getElementById('gear-used').textContent = used;
-        var body = getInt('f-body') || 8;
-        document.getElementById('gear-max').textContent = body;
+      function updateGearSlots(){
+        var used=0;
+        for(var i=0;i<4;i++){ if(getVal('wpn-name-'+i)) used+=getInt('wpn-slots-'+i)||0; }
+        for(var i=0;i<3;i++){ if(getVal('arm-name-'+i)) used+=getInt('arm-slots-'+i)||0; }
+        for(var i=0;i<12;i++){ if(getVal('gear-name-'+i)) used+=getInt('gear-slots-'+i)||0; }
+        document.getElementById('gear-used').textContent=used;
+        document.getElementById('gear-max').textContent=getInt('f-body')||8;
       }
-      window.updateGearSlots = updateGearSlots;
+      window.updateGearSlots=updateGearSlots;
 
-      /* ═══════════════════════════════════════
-         SHEET TITLE
-      ═══════════════════════════════════════ */
-      window.updateSheetTitle = function() {
-        var name = getVal('f-name') || 'New Character';
-        document.getElementById('sheet-title-display').textContent = name;
-      };
+      /* ── Sheet title ── */
+      window.updateSheetTitle=function(){ document.getElementById('sheet-title-display').textContent=getVal('f-name')||'New Character'; };
 
-      /* ═══════════════════════════════════════
-         AUTO-SAVE ON BLUR
-      ═══════════════════════════════════════ */
-      function autoSave() {
-        if (!currentId) return;
-        readForm();
-        saveStorage();
-      }
+      /* ── Auto-save ── */
+      function autoSave(){ if(!currentId) return; readForm(); saveStorage(); }
+      document.getElementById('view-sheet').addEventListener('blur',function(e){
+        if(e.target.tagName==='INPUT'||e.target.tagName==='SELECT'||e.target.tagName==='TEXTAREA') autoSave();
+      },true);
 
-      document.getElementById('view-sheet').addEventListener('blur', function(e) {
-        if (e.target.tagName === 'INPUT' || e.target.tagName === 'SELECT' || e.target.tagName === 'TEXTAREA') {
-          autoSave();
-        }
-      }, true);
-
-      /* ═══════════════════════════════════════
-         INIT
-      ═══════════════════════════════════════ */
+      /* ── Init ── */
       loadStorage();
       showLibrary();
-
     })();
     </script>
   </body>
