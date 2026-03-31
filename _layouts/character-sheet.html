@@ -71,6 +71,19 @@
       .sheet-actions { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
 
       .cs-section { margin-bottom: 28px; }
+
+      /* Species info panel */
+      .species-info { display: none; margin-top: 14px; padding: 12px 14px; background: #161616; border: 1px solid #2a2a2a; border-left: 3px solid #b5e853; border-radius: 2px; }
+      .species-info.active { display: flex; gap: 24px; flex-wrap: wrap; }
+      .species-info-name { font-size: 0.8em; font-weight: bold; color: #b5e853; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 8px; }
+      .species-info-col { flex: 1; min-width: 180px; }
+      .species-trait { margin-bottom: 8px; }
+      .species-trait-title { font-size: 0.68em; font-weight: bold; letter-spacing: 0.08em; text-transform: uppercase; color: #888; margin-bottom: 2px; }
+      .species-trait-body { font-size: 0.72em; color: #aaa; line-height: 1.5; }
+      .species-trait-body em { color: #666; font-style: italic; }
+      .species-chimera-pick { margin-top: 6px; }
+      .species-chimera-pick label { font-size: 0.68em; color: #666; display: block; margin-bottom: 4px; }
+
       .cs-section-title { font-size: 0.72em; font-weight: bold; letter-spacing: 0.18em; text-transform: uppercase; color: #b5e853 !important; border-bottom: 1px solid #2a2a2a; padding-bottom: 6px; margin-bottom: 14px; }
       .cs-sub-title { font-size: 0.6em; font-weight: bold; letter-spacing: 0.12em; text-transform: uppercase; color: #555; padding: 0; margin: 0 0 8px 0; border: none; }
 
@@ -245,7 +258,7 @@
             </div>
             <div class="field-group">
               <label class="field-label">Species</label>
-              <select id="f-species">
+              <select id="f-species" onchange="onSpeciesChange()">
                 <option value="human">Human</option>
                 <option value="murkborn">Murkborn</option>
                 <option value="anthroparion">Anthroparion</option>
@@ -266,6 +279,9 @@
               <input type="text" id="f-patron" placeholder="Deity...">
             </div>
           </div>
+
+          <!-- Species info panel -->
+          <div id="species-info" class="species-info"></div>
         </div>
 
         <!-- SECTION 2: ATTRIBUTES & CONDITION -->
@@ -751,6 +767,7 @@
         buildGearRows();
         populateForm(ch);
         onArchetypeChange(true);
+        onSpeciesChange();
         onDieChange();
         updateSheetTitle();
         countSkillSlots();
@@ -949,6 +966,54 @@
         };
         reader.readAsText(file); this.value='';
       });
+
+      /* ── Species data & change ── */
+      var SPECIES_DATA = {
+        human: {
+          name: 'Human — The Desperate Majority',
+          traits: [
+            { title: 'The Spark (Ambition)', body: 'Gain +1 to your Maximum Resource Cap (Command Points, Agony, Favor, or Tokens).' },
+            { title: 'Social Baseline', body: 'Humans move through most social situations without friction. They are the baseline all other species are measured against.' }
+          ]
+        },
+        murkborn: {
+          name: 'Murkborn — Children of the Fog',
+          traits: [
+            { title: 'Fog-Lung (Immunity)', body: 'Immune to the environmental toxicity of the Murk. No Body Saves for breathing the fog. No Lung Rot. The psychological effects and The Whisper still apply.' },
+            { title: 'Stigma (The Outsider)', body: 'Increase the Difficulty of all Social checks with Civilised NPCs (Nobles, Merchants, Guards) by +2.' }
+          ]
+        },
+        anthroparion: {
+          name: 'Anthroparion — The Souls in Iron',
+          traits: [
+            { title: 'Plating (Iron Skin)', body: 'Natural Armor 1 — reduce all Physical Stress taken by 1, minimum 0.' },
+            { title: 'Inorganic (Scarcity)', body: 'Med-Kits and Potions have no effect. To remove Stress or Suffering you need a Repair Kit and an ally with Trained Tech or Medicine.' }
+          ]
+        },
+        chimera: {
+          name: 'Chimera — The Wildtouched',
+          traits: [
+            { title: 'Beast Blood (Adaptation)', body: 'Choose one mutation: <em>Predator</em> — Unarmed attacks deal d6 (Claws/Fangs). <em>Night-Eyes</em> — No penalties in dim light or starlight. <em>Thick Hide</em> — Ignore extreme Cold/Heat; temperature Stress halved.' },
+            { title: 'Beacon (Magical Resonance)', body: 'Spirits, Murk-Entities, and supernatural enemies always prioritise you as a target. You cannot hide from magical detection.' }
+          ]
+        }
+      };
+
+      window.onSpeciesChange = function() {
+        var sp = getVal('f-species') || 'human';
+        var data = SPECIES_DATA[sp];
+        var panel = document.getElementById('species-info');
+        if (!data || !panel) return;
+        panel.innerHTML = '<div class="species-info-name">' + data.name + '</div>' +
+          data.traits.map(function(t) {
+            return '<div class="species-info-col"><div class="species-trait">' +
+              '<div class="species-trait-title">' + t.title + '</div>' +
+              '<div class="species-trait-body">' + t.body + '</div>' +
+              '</div></div>';
+          }).join('');
+        panel.classList.add('active');
+        autoSave();
+      };
 
       /* ── Archetype change ── */
       window.onArchetypeChange = function(skipGuard) {

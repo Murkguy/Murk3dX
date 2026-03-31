@@ -81,6 +81,7 @@ Spirit governs your force of personality, your connection to the divine, and you
 
 * **Used for:** Insight, Intimidation, Parley, Willpower, and resisting corruption.
 * **Save Dice:** When you take **Spiritual Stress** (corruption, demoralization, soul damage), you roll **3 Spirit Dice** to resist it.
+* **First Impressions:** When meeting an NPC for the first time, the Director may call for a **Spirit check** to determine how they initially react to you — with suspicion, neutrality, or openness. A higher Spirit die gives you a wider range of outcomes to work with before words are even exchanged.
 
 ---
 
@@ -182,11 +183,11 @@ Each Archetype modifies this baseline. A Soldier rolls 4 Body Dice on Physical S
 
 *Honor is a luxury for the rich; you prefer survival. You fight dirty because there is no prize for dying fair.*
 
-* **Attributes:** Guile (d8) + Agility (d6)
+* **Attributes:** Guile (d8) + Body (d6)
 * **Resource:** **Trick Tokens** — Rolled from your Guile Die at episode start. Gained from Botches and optional Scene-start gambling. Spent to cheat fate, re-roll, and produce items from thin air.
 * **Intrinsic Perks:**
   * **Streetwise** — Instantly locate Black Markets, Fences, or Safehouses in any settlement with a Guile check.
-  * **Slippery** — Spend 1 Token to re-roll any failed Body or Agility Save (must keep the second result).
+  * **Slippery** — Spend 1 Token to re-roll any failed Body or Mind Save (must keep the second result).
   * **Deep Pockets** — Spend 1 Token to produce a common utility item retroactively, once per Scene.
 
 **How the Ruffian works:** Trick Tokens are a chaos engine. Every other Archetype loses when they Botch. The Ruffian *gains* — a Botch hands you a Token. This creates a perverse incentive where bad luck is not something to dread but something to *almost enjoy*. A Ruffian who hits a string of bad rolls still has more options than one who plays it safe. Deep Pockets and Slippery mean you can survive situations that would hard-stop anyone else. The Ruffian scales with *clever play* more than raw stats. A mediocre Ruffian is a liability. A creative one is the reason the party is still alive.
