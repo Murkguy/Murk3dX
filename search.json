@@ -1,0 +1,6 @@
+---
+layout: null
+---
+[{% assign first_item = true %}{% for p in site.pages %}{% if p.title and p.title != "" and p.layout != "character-sheet" and p.layout != null %}{% unless first_item %},{% endunless %}{% assign first_item = false %}
+{"title":{{ p.title | jsonify }},"url":{{ p.url | relative_url | jsonify }},"content":{{ p.content | strip_html | normalize_whitespace | truncatewords: 120 | jsonify }}}{% endif %}{% endfor %}
+]
